@@ -1,0 +1,703 @@
+
+PUNE VIDHYARTHI GRIHA'S
+COLLEGE OF ENGINEERING AND TECHNOLGY, PUNE-09.
+DEPARTMENT OF INFORMATION TECHNOLOGY
+
+A
+PROJECT REPORT
+ON
+
+“FEEDBACK SYSTEM”
+
+
+Under the Guidance of
+Prof.N.R.SONAWANE
+
+Submitted By
+JanhaviBahaley
+ShekharChavan
+Sheetal Rani Prasad
+SwapnaliSuryawanshi
+Academic Year:  2015 - 2016   
+
+
+PUNE VIDHYARTHI GRIHA'S
+COLLEGE OF ENGINEERING AND TECHNOLGY, PUNE-09.
+CERTIFICATE
+
+This is to certify that, the project entitled as
+“FEEDBACK SYSTEM “
+is a bonafide work done by 
+
+1)JanhaviBahaley
+2)ShekharChavan
+3)Sheetal Rani Prasad
+4)SwapnaliSuryawanshi
+                Submitted in the partial fulfillment for the award of Third Year Engineering in Information Technology as prescribed by SavitribaiPhule Pune University, Pune as a record of students own work carried out under the guidance of Prof. N. R. Sonawane during academic year 2015-2016.
+
+
+
+Prof.N.R.Sonawane					Dr.G.V.Garje
+Project  Guide			H.O.D Comp/IT Department
+ACKNOWLEDGEMENT
+
+      With immense pleasure, we are presenting this project report as a part of the curriculum of Information Technology. We wish to thank all the people who gave us unending support right from the stage the idea was conceived.
+      We take this opportunity to convey our sincere thanks to our beloved Principal Dr.Y.P.Nerkar for his continual support and encouragement that made this project a great success.
+      We express our profound thanks to our respected   Head of Department	 Dr. G.V.Garje, whose advice and valuable guidance helped us in making this project interesting and successful one.
+      We are also grateful to our Internal guide Prof.N.R.Sonawane, whose valuable guidance helped us in making this project interesting and successful one by providing us with immense support and guidance throughout the project.
+      We also thank all those who have directly or indirectly guided and helped us in preparation of this project.
+      Last but not the least we thank our beloved Parents, Friends and our well-wishers who helped us to do this project by their kind help and assistance.
+1)JanhaviBahaley
+2)ShekharChavan
+	3)Sheetal Rani Prasad
+      4)SwapnaliSuryawanshi
+     
+
+
+ABSTRACT
+
+The Feedback System for ‘Third year project assignment’ of student of BE. 
+This system will get feedback from the students, parents and staff.This will help centralized generation of quick reports (in a few minutes) which presently takes a lot of efforts, money and time. This project will make it easier for the management to see the feedback about staff and college amenities. This will also help us to know the trends of the previous years’ feedback. It tracks the student’s performance for the full year and also stores the data related to them and their parents, it also stores data of the faculty.
+ This system will ultimately allow you to better manage resources. Thisautomates many functionalities of the existing manual system. One of the main features is better feedback and increased participation by people. The perfect way to get the truth about performance from someone: feedback is anonymous, so no one needs to worry about not giving their honest opinion about everything.
+The system being developed is Feedback System using MongoDB and Java Application at its front end. It is real time developed software for personal computers in an organization with centralized database an assigned server. 
+
+INDEX
+Sr.No.TitlePage No1.Introduction62.Feasibility Study83.Requirement Analysis104.MongoDB and Java Application115.Conceptual & Logical Designs146.Database Normalization157.Hardware & Software Requirements178.Graphical User Interface189.Source Code2010.Testing Document2911.Future Enhancement3312.Conclusion3413.Bibliography35
+
+
+
+
+
+
+
+
+Chapter-1
+1. INTRODUCTION
+	
+Presently PVG college of Engineering has been keeping all records for the feedback from student, staff manually forpast years. Keeping the physical copy of data from the feedbackrequiresspace. Also, to track the performance of the college and to be able to see the performanceyear after a year was a really tiresome process. The earlier process required human resources to manually keep take feedback from every student or teacher of every of different branches and class.This system will also ensure an honest response from everyone giving the feedback and keeping track of the feedback is also easier with a software to do it for you.
+PURPOSE
+As we know in any technical educational office,  the facultyhas to  spare a lot of  time, even after the regular college hours either at home or college ingoing through the feedback given by students to the respective teachers’ performance and other necessary records for students’performance. Now with the help of this system, the faculty can easily prepare a record based on their requirements. Finally, we can say that not only will this system auto-mate the process, but save the valuable time of the students,faculties, and administration of the college, also the management which can be well utilized by this institute. 
+
+
+
+
+
+BENEFITS
+
+This system will reduce the complexity of feedback gathering and viewing.
+By using this system we can easily maintain all the records about students, and the feedback about college staff, and the amenities provided. It will reduce search time.
+It can be easily handled by the people who have elementary knowledge of computer because it provides a user friendly environment.
+Its hardware and software configuration is not very costly that means. The hardware and software requirement for this software/project are not very costly.
+
+
+
+
+
+
+
+
+
+
+
+
+     Chapter-2
+2. Feasibility Study
+	Before recommending the new system, it is necessary to investigate whether it is possible as well as feasible to develop the new system. The important outcome of this preliminary investigation is the determination of whether the proposed system is feasible for target user or not. Feasibility & Risk analysis are related in many ways. If project risk is great, the feasibility of producing quality software is required.
+The feasible analysis was carried out which involved following steps:
+Identification of users need.
+Identification of how different tasks are carried out for keeping record of project and student activities.
+Identify whether the proposed system can meet user’s need.
+And finally proving the system technically, financially & operational feasible.
+
+2.1 Economic Feasibility:
+It includes an evaluation of development cost weight against the ultimate income or benefit derived from the developed system or product. The approximate cost of this project will be definitely less than any other software with this kind of reliability, ease, functionality & feasibility since the application does not require any extra hardware or any supporting software.
+If we consider the cost of Internet and of electricity used while creating the system and the petrol used to travel to know the user’s need that is the only amount that cost us.
+
+
+
+
+2.2: Technical Feasibility:
+Technical analysis begins with an assessment of the technical viability of proposed system.
+What technologies are required to accomplish system functions and requirements?
+We used Java,MongoDB,Windows operating system.
+Which other resources (hardware and software) are available to build the system?
+We used 4GB RAM to work on the system. 
+The system is developed using MongoDB and Java Application (Swing).
+
+2.2:3Operational Feasibility:
+In this type of feasibility study, the operational implementation of the system is considered. Checking is done regarding whether it is feasible for the user to use the software or will there be any instance from the user.
+	Proposed system is beneficial only if they can turn in to information system that will meet user’s requirement. That is new in the new developing world with the automatic capturing image and automatic saving the data. The users ease with minimum effort to keep the record hence it is operationally feasible.
+
+
+
+
+
+
+
+Chapter-3
+3. Requirement Analysis
+      System analysis basically deals with determination of system requirements. The determination of requirements means studying the existing system and collection details about it to find out what these parameters are.
+      There are three main activities that are performed in requirement analysis.
+> Requirement Anticipation:
+       	It means the study done by the system analyst. In this case system analyst raised the question and applies methods to solve that question based on his/her past experiences.
+> Requirement Investigation:
+      This method is related with finding and investing more features of the system. We have collected information about our system by using fact finding methods like observation and questioning clients.
+> Requirement Specification:
+      A Requirement Specification is an agreement between the developer and the user. The clients specified their requirements to us and we selected a strategy in which he tries to fulfill their requirements.
+
+      
+
+
+
+Chapter 4
+4. MongoDB and Java Application
+
+MongoDBis a cross-platform document-oriented database. Classified as a NoSQL database, MongoDB eschews the traditional table-based relational database structure in favour of JSON-like documents with dynamic schemas, making the integration of data in certain types of applications easier and faster. Released under a combination of the GNU Affero General Public License and the Apache License, MongoDB is free and open-source software.
+	First developed by the software company 10gen (now MongoDB Inc.) in October 2007 as a component of a planned platform as a service product, the company shifted to an open source development model in 2009, with 10gen offering commercial support and other services. Since then, MongoDB has been adopted as backend software by a number of major websites and services, including Brave Collective, Craigslist, eBay, Foursquare, Source Forge, Viacom, and the New York Times, among others. MongoDB is the most popular NoSQL database system.
+
+
+
+
+
+
+
+A JApplication isa swing application that looks and behaves like a JApplet Specializations of this class must implement the init() method. They may also implement the destroy(), start(), and stop() methods.
+Java is a set of several computer software and specifications developed by Sun Microsystems, later acquired by Oracle Corporation, that provides a system for developing application software and deploying it in a cross-platform computing environment. Java is used in a wide variety of computing platforms from embedded devices and mobile phones to enterprise servers and supercomputers. While less common, Java applets run in secure, sandboxed environments to provide many features of native applications and can be embedded in HTML pages.
+Writing in the Java programming language is the primary way to produce code that will be deployed as byte code in a Java Virtual Machine (JVM); byte code compilers are also available for other languages, including Ada, JavaScript, Python, and Ruby. In addition, several languages have been designed to run natively on the JVM, including Scala, Clojure and Groovy. Java syntax borrows heavily from C and C++, but object-oriented features are modelled after Smalltalk and Objective-C. Java eschews certain low-level constructs such as pointers and has a very simple memory model where every object is allocated on the heap and all variables of object types are references. Memory management is handled through integrated automatic garbage collection performed by the JVM.
+On November 13, 2006, Sun Microsystems made the bulk of its implementation of Java available under the GNU General Public License (GPL).
+	
+
+
+
+
+SOFTWARE LIFE CYCLE ADOPTED:-
+
+            In order to develop the project “Feedback System” we have adopted the iterative enhancement model. This model removes the shortcoming of waterfall model. Since many facts of this system are already known. It is not a new concept and hence no research is required. A working version can be easily created and hence the system can start working. Rest of the functionalities can be implemented in the next iteration and can be delivered later. As the requirement analysis is also not required. It not being a new technology risk involved is also less. So one need not perform detailed risk analysis. If redevelopment staff is less than development can be started with less number of people and in next increments others can be involved. As this model combines the advantage of waterfall model and prototyping, clients are always aware of the product being delivered and can always suggest changes and enhancements and can get them implemented. As less amount of customer communication is required one need not apply spiral model in which all types of analysis is done in detail. As the deadline is affordable one need not to for Rapid Application Development model. Iterative enhancement model is useful when less manpower is available for software development and the release deadlines are specified. It is best suited for in house product development, where it is ensured that the user has something to start with. The complete product is divided into releases and the developer delivers the product release by release.
+
+
+
+
+
+
+Chapter-5
+     5. Conceptual and Logical Designs
+
+     
+     
+     
+			Chapter -6
+6. Database Normalization
+
+1.Administrator	
+L_IDPASSWORDUSERNAMEE_ID
+2. Teacher
+L_IDPasswordE_IDNameSubject
+3. Parent
+L_IDPasswordFirst 
+NameMiddle NameLast NameWard’s PRNWard’s Name	
+4.Subject
+E_IDFullnameSubjectname
+
+
+5.Student
+L_IDPasswordPRNFirst NameMiddle
+NameLast
+NameYearBranchDoBF
+6.Questions1
+E_IDQ_IDYesNo	
+5.Questions2
+E_IDQ_IDRating
+
+
+
+
+
+
+
+Chapter -7
+7. Hardware and Software Requirements
+
+6.1 Hardware Requirements:
+* Processor: Pentium III and above
+* Memory(RAM): 500MB RAM(minimum)
+* Input Devices: Keyboard and Mouse.
+* Hard Disk: Minimum 20GB
+6.2 Software Requirements:
+* Any Operating System(Java Code is Cross Platform)
+* Java Connectors
+* Eclipse platform
+* MongoDB
+
+
+
+
+
+
+     
+     
+     
+     
+     Chapter 8
+8. Graphical User Interface
+
+This chapter documents the current user interface and the various elements needed to fulfil the user requirements.  The images of the user interface pages are included to demonstrate the application’s look and feel. 
+Description of Complete User Interface Specification:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Chapter -9
+9. Source Code
+
+Home_Page.java
+publicclasshomepageextendsJFrame
+ {
+privateJPanelcontentPane;
+privateJTextFieldtextField;
+privateJPasswordFieldpasswordField;
+privateJPasswordFieldpwdNnnnnnnnnnnnnnnnn;
+/**
+ * Launch the application.
+ */
+publicstaticvoid main(String[] args) {
+EventQueue.invokeLater(new Runnable() {
+publicvoid run() {
+try {
+homepageframe = new homepage();
+frame.setSize(1100,650);
+frame.setLocation(150,50);
+frame.setVisible(true);
+} catch (Exception e)
+{
+e.printStackTrace();
+}}
+});
+}
+/**
+* Create the frame.
+*/
+public homepage() {
+setTitle("Campus Feedback System:Login Page");
+setBackground(UIManager.getColor("PasswordField.selectionBackground"));
+setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+setBounds(100, 100, 764, 870);
+contentPane = newJPanel();
+contentPane.setBackground(new Color(175, 238, 238));
+contentPane.setBorder(newEmptyBorder(5, 5, 5, 5));
+setContentPane(contentPane);
+contentPane.setLayout(null);
+JLabellblCampusFeedbackSystem = newJLabel("  CAMPUS FEEDBACK");
+lblCampusFeedbackSystem.setBounds(268, 69, 507, 74);
+lblCampusFeedbackSystem.setForeground(new Color(128, 0, 0));
+lblCampusFeedbackSystem.setFont(new Font("Times New Roman", Font.BOLD, 40));
+lblCampusFeedbackSystem.setBackground(UIManager.getColor("PasswordField.selectionBackground"));
+contentPane.add(lblCampusFeedbackSystem);
+
+passwordField = newJPasswordField();
+passwordField.setBounds(529, 292, -131, 17);
+passwordField.setBackground(UIManager.getColor("PasswordField.selectionBackground"));
+contentPane.add(passwordField);
+JLabellblIfYouDont = newJLabel("Note : If you dont have account click on sign up.");
+lblIfYouDont.setBounds(311, 539, 388, 24);
+lblIfYouDont.setFont(new Font("Times New Roman", Font.PLAIN, 20));
+lblIfYouDont.setBackground(UIManager.getColor("PasswordField.selectionBackground"));
+contentPane.add(lblIfYouDont);
+JPanelpanel = newJPanel();
+panel.setBounds(228, 154, 534, 342);
+panel.setBackground(new Color(32, 178, 170));
+panel.setForeground(new Color(32, 178, 170));
+contentPane.add(panel);
+panel.setLayout(null);
+JButtonbtnSignUp = newJButton("SIGN UP");
+btnSignUp.setBounds(297, 197, 118, 33);
+panel.add(btnSignUp);
+btnSignUp.setFont(new Font("Times New Roman", Font.PLAIN, 20));
+btnSignUp.addActionListener(newActionListener() {
+publicvoidactionPerformed(ActionEventarg0) {
+dispose();
+signupsu = new signup();
+su.setExtendedState(JFrame.MAXIMIZED_BOTH);
+su.setVisible(true);
+}
+});
+btnSignUp.setBackground(UIManager.getColor("PasswordField.selectionBackground"));
+JButtonbtnForgetPassword = newJButton("Forget Password?");
+btnForgetPassword.setBounds(191, 261, 191, 34);
+panel.add(btnForgetPassword);
+btnForgetPassword.setFont(new Font("Times New Roman", Font.PLAIN, 20));
+btnForgetPassword.addActionListener(newActionListener() {
+publicvoidactionPerformed(ActionEventarg0) {
+dispose();
+forgetpassfp = newforgetpass();
+fp.setSize(800,600);
+fp.setVisible(true);
+}
+});btnForgetPassword.setBackground(UIManager.getColor("PasswordField.selectionBackground"));
+textField = newJTextField();
+textField.setBounds(244, 29, 205, 31);
+panel.add(textField);
+textField.setFont(new Font("Times New Roman", Font.PLAIN, 20));
+textField.setBackground(new Color(240, 255, 255));
+textField.setColumns(10);
+
+pwdNnnnnnnnnnnnnnnnn = newJPasswordField();
+pwdNnnnnnnnnnnnnnnnn.setBounds(244, 96, 205, 34);
+panel.add(pwdNnnnnnnnnnnnnnnnn);
+pwdNnnnnnnnnnnnnnnnn.setFont(new Font("Times New Roman", Font.PLAIN, 20));
+pwdNnnnnnnnnnnnnnnnn.setBackground(new Color(240, 255, 255));
+
+JLabellblPassword = newJLabel("PASSWORD:");
+lblPassword.setBounds(64, 99, 118, 32);
+panel.add(lblPassword);
+lblPassword.setFont(new Font("Sylfaen", Font.PLAIN, 20));
+lblPassword.setBackground(UIManager.getColor("PasswordField.selectionBackground"));
+JLabellblUserName = newJLabel("LOGIN ID:");
+lblUserName.setBounds(64, 29, 105, 34);
+panel.add(lblUserName);
+lblUserName.setFont(new Font("Sylfaen", Font.PLAIN, 20));
+lblUserName.setBackground(UIManager.getColor("PasswordField.selectionBackground"));
+JButtonbtnLogin = newJButton("LOGIN");
+btnLogin.setBounds(148, 196, 105, 34);
+panel.add(btnLogin);
+btnLogin.setFont(new Font("Times New Roman", Font.PLAIN, 20));
+btnLogin.addActionListener(newActionListener() {
+private Component frame;
+
+publicvoidactionPerformed(ActionEventarg0) {
+try {
+/**** Connect to MongoDB ****/
+// uses MongoClient
+MongoClientmongo = newMongoClient("localhost", 27017);
+
+/**** Get database ****/
+// if database doesn't exists, MongoDB will create it for
+DB db = mongo.getDB("dbp");
+/**** Get collection / table from 'testdb' ****/
+// if collection doesn't exists, MongoDB will create it for
+String f = textField.getText();
+@SuppressWarnings("deprecation")
+String s = pwdNnnnnnnnnnnnnnnnn.getText();
+DBCollectiontable = db.getCollection("staff");
+DBCollectiontable1 = db.getCollection("student");
+DBCollectiontable2 = db.getCollection("parent");
+DBCursorcursor;
+String search = textField.getText();
+String sr = pwdNnnnnnnnnnnnnnnnn.getText();
+if (f.startsWith("T")) 
+{
+cursor = table.find();
+DBObjectdisp = cursor.next();
+intk = 0;
+while (cursor.hasNext()) {
+String id = (String) disp.get("L_ID");
+String st = (String) disp.get("PASSWORD");
+System.out.println(id);
+if ((search.compareTo(id) == 0) && (sr.compareTo(st) == 0)) {
+dispose();
+teacherfirstpageobj = newteacherfirstpage();
+String Lid = (String) disp.get("L_ID");
+String eid = (String) disp.get("E_ID");
+String fn = (String) disp.get("FIRSTNAME");
+String mn = (String) disp.get("MIDDLENAME");
+String ln = (String) disp.get("LASTNAME");
+teacherfirstpage.textPane.setText(Lid);
+teacherfirstpage.textPane_2.setText(eid);
+teacherfirstpage.textPane_1.setText(fn);
+teacherfirstpage.textPane_4.setText(ln);
+obj.setVisible(true);
+ k = 1;
+break;
+}disp = cursor.next();
+}
+if (k == 0) {
+JOptionPane.showMessageDialog(frame, "login failed");
+}
+}
+elseif (f.startsWith("S")) {
+cursor = table1.find();
+DBObjectdisp = cursor.next();
+intk = 0;
+System.out.println(k);
+while (true) 
+{
+System.out.println(disp.get("PRN"));
+String id = (String) disp.get("L_ID");
+String st = (String) disp.get("PASSWORD");
+System.out.println(id + "*** " + st+"* "+search);
+if ((search.compareTo(id) == 0) && (sr.compareTo(st) == 0))
+{
+System.out.println("hi123");
+dispose();
+studentfirstpageobj = newstudentfirstpage();
+System.out.println("hi1234");
+String Lid = (String) disp.get("L_ID");
+
+intprn = (int) disp.get("PRN");
+String fn = (String) disp.get("FIRSTNAME");
+String mn = (String) disp.get("MIDDLENAME");
+String ln = (String) disp.get("LASTNAME");
+String cl = (String) disp.get("CLASS");
+String br = (String) disp.get("BRANCH");
+studentfirstpage.LID.setText(Lid);
+studentfirstpage.PRN.setText(Integer.toString(prn));
+studentfirstpage.FN.setText(fn);
+studentfirstpage.LN.setText(ln);
+studentfirstpage.CL.setText(cl);
+studentfirstpage.BR.setText(br);
+// teacherfirstpage.textPane_5.setText(sub);
+obj.setVisible(true);
+k = 1;
+break;
+}
+if(!cursor.hasNext())
+break;
+disp = cursor.next();
+}
+if (k == 0) {
+JOptionPane.showMessageDialog(frame, "login failed");
+}
+}
+elseif (f.startsWith("P")) {
+cursor = table2.find();		
+DBObjectdisp = cursor.next();
+intk = 0;
+System.out.println(k);
+while (cursor.hasNext())
+{
+System.out.println(disp.get("PRN"));
+String id = (String) disp.get("L_ID");
+String st = (String) disp.get("PASSWORD");
+System.out.println(id + "*** " + st+"* "+search);
+if ((search.compareTo(id) == 0) && (sr.compareTo(st) == 0))
+{
+System.out.println("hi123");
+dispose();
+parentsfirstpageobj = newparentsfirstpage();
+System.out.println("hi1234");
+String Lid = (String) disp.get("L_ID");
+intprn = (int) disp.get("PRN");
+String fn = (String) disp.get("First Name");
+String mn = (String) disp.get("Ward's Name");
+parentsfirstpage.textPane.setText(Lid);
+parentsfirstpage.textPane_3.setText(Integer.toString(prn));
+parentsfirstpage.textPane_1.setText(fn);
+obj.setVisible(true);
+k = 1;
+break;
+}
+disp = cursor.next();
+}
+if (k == 0) {
+JOptionPane.showMessageDialog(frame, "login failed");
+}
+}
+elseif (f.startsWith("N")) 
+{
+cursor = table.find();
+DBObjectdisp = cursor.next();
+intk = 0;
+System.out.println(k);
+while (true) 
+{
+System.out.println(disp.get("PRN"));
+String id = (String) disp.get("L_ID");
+String st = (String) disp.get("PASSWORD");
+System.out.println(id + "*** " + st+"* "+search);
+if ((search.compareTo(id) == 0) && (sr.compareTo(st) == 0))
+{
+System.out.println("hi123");
+dispose();
+nonteacherfirstpageobj = newnonteacherfirstpage();
+System.out.println("hi1234");
+String Lid = (String) disp.get("L_ID");
+String eid = (String) disp.get("E_ID");							
+String fn = (String) disp.get("FIRSTAME");
+String mn = (String) disp.get("MIDDLENAME");
+String ln = (String) disp.get("LASTNAME");
+String cl = (String) disp.get("POST");
+String br = (String) disp.get("STATUS");
+nonteacherfirstpage.textPane.setText(Lid);
+nonteacherfirstpage.textPane_1.setText(eid);
+nonteacherfirstpage.textPane.setText(fn);
+nonteacherfirstpage.textPane_2.setText(ln);
+nonteacherfirstpage.textPane_3.setText(cl);
+nonteacherfirstpage.textPane_4.setText(br);
+obj.setVisible(true);
+k = 1;
+break;
+}
+if(!cursor.hasNext())
+break;
+disp = cursor.next();
+}
+if (k == 0) {
+JOptionPane.showMessageDialog(frame, "login failed");
+}
+}
+elseif (f.startsWith("a")) {
+cursor = table.find();
+DBObjectdisp = cursor.next();
+intk = 0;
+System.out.println(k);
+while (true) 
+{
+//System.out.println(disp.get("PRN"));
+String id = (String) disp.get("L_ID");
+String st = (String) disp.get("PASSWORD");
+System.out.println(id + "*** " + st+"* "+search);
+if ((search.compareTo(id) == 0) && (sr.compareTo(st) == 0))
+{
+System.out.println("hi123");
+dispose();
+admin2obj = new admin2();
+System.out.println("hi1234");
+String Lid = (String) disp.get("L_ID");
+String fn = (String) disp.get("FIRSTNAME");
+String id2 = (String) disp.get("E_ID");
+admin2.textPane.setText(fn);
+admin2.textPane_1.setText(id2);
+obj.setVisible(true);
+k = 1;
+break;
+}
+if(!cursor.hasNext())
+break;
+disp = cursor.next();
+}
+if (k == 0) {
+JOptionPane.showMessageDialog(frame, "login failed");
+}
+}
+}catch (Exception e)
+{
+System.out.println(e);
+}
+}
+});
+btnLogin.setBackground(UIManager.getColor("PasswordField.selectionBackground"));
+}
+}
+
+
+Chapter -10
+					10. Testing
+
+10.1 Introduction:
+	The Testing phase forms an important part of the software development life cycle. Any software product has to be tested thoroughly before it is delivered to the end customer. Well tested software with limited features is certainly better than the one having many features with only a few of them working. This document provides a general overview of the testing strategy adopted for testing our product.
+10.2 Goals and Objectives:
+	The software testing involves verification and validation of the software produced. Testing is a process of executing of program with the intent of finding an error.	A good test is one where there is high probability of finding an error.	A successful test is one which uncovers and as yet undiscovered errors. Our objective of testing is systematically uncovering different classes of errors and to do so with minimum efforts and amount of time and effort. The data collected in the test provides a good indication of the software reliability and some indication of software quality as a whole. The results of testing will not only help to know which parts of system are working below average but also helps to make the system more user friendly. Testing is considered as an unavoidable part of any responsible effort to develop a software system.
+
+
+
+10.3 Test Plan:
+Testing Strategy
+	A good testing strategy is one using which a lot of errors can be easily found. The testing which is to be carried out is divided into number of modules for a proper judgment of the quality of the software. The testing strategy mainly carried out was Module Testing.
+	Test cases are plotted considering the above categories and correct functionality of various parts of code is ensured.
+Unit Testing
+	This involves testing of individual modules. Here we have tested Individual modules written for various operations,
+	Module for HomePage
+	Module for SignUpPage
+	Module for Feedback(s)
+
+
+
+
+
+
+
+Integration Testing
+	The system as a whole is tested here. The system is said to be operating correctly if it passes these tests. After the different modules have been developed and tackled, all the modules are integrated and tested during the Integration testing.
+TEST CASE TEMPLATE
+A test case can have the following elements. Note, however, that normally a test management tool is used by companies and the format is determined by the tool used.
+Test Case SummaryThe summary / objective of the test case.PrerequisitesAny prerequisites or preconditions that must be fulfilled prior to executing the test.Test DataThe test data, or links to the test data, that are to be used while conducting the test.Expected ResultThe expected result of the test.Actual ResultThe actual result of the test; to be filled after executing the test.StatusPass or Fail. Other statuses can be ‘Not Executed’ if testing is not performed and ‘Blocked’ if testing is blocked.
+
+
+
+
+TEST CASE EXAMPLE / TEST CASE SAMPLE
+Test Case SummaryTo verify that a user although given a username password can login if is assigned PrerequisitesLogin should be done by a user.Test Procedure1. Enter the username and password of user.
+2.Click on Login ButtonTest DataUsername and Password of user.Expected ResultUser should be logged in.Actual ResultOnly the userwhich has logged I should be able to see their feedback.StatusFail.
+
+
+
+
+
+
+
+Chapter -11
+11. Future Enhancement
+
+This project can be made Web Based. The scope can also be increased to be used at University Level with more functionality. One of the functionality could be a process that finds feedback from different universities. This project can also be applied at different levels and different kinds of institutes since almost everywhere feedbackexists manually.This project has a really big scope.
+
+
+
+
+
+
+
+
+
+
+
+
+Chapter -12
+12. Conclusion
+
+Thus, considering our system, we conclude that using our system, we can successfully use it to keep a track of feedbacks from faculties, students. We can successfully register students, teachers and login using the generated IDs. We can also perform other activities such as submitting feedback, and viewing performance, keeping track of student progress, and generating report based on it. We have also implemented modules for addition and deletion of faculty and students.
+The system can be effectively used for managing feedback and keeping track of student progress.
+
+
+
+
+
+
+
+
+
+Chapter -13
+13. References
+
+> MongoDB: The Definitive Guide, 2nd Edition by Kristina Chodorow
+> Java The Complete Reference, Eight Edition by Herbert Schildt
+> Software Engineering by Roger Pressman
+> www.wikipedia.org
+> www.youtube.com
+
+
+
+
+
+
+1
+
+

@@ -1,0 +1,228 @@
+1. ABSTRACT
+	Emergency and disaster management has become a widely researched area in the last decade. Communication during disaster time is very crucial for both rescue team and victims. Emergency never comes with prior intimation. The System is intended to function in case of emergencies in society. The emergencies may include Fire, Medical Emergencies, accident and Natural Emergencies (Earthquake, Floods, and Storm). In this report we present Emergency Management System (EMS), which enables smart phone based ad-hoc systems to communicate during a disaster over Communication Network.  The person in an emergency or anybody at the emergency site will use the EMS application to avail the service. Location Coordinates are sent on each request. The system works on the principles of Client-Server system, wherein the server responds to the requests of the Clients. We will need the EMS Client Application, Rescue Application and Server. The Client and Rescue Application could be implemented as an Android Application. The Sever could be implemented as a Web Based Application.
+	This report is based on a survey of the existing systems, ongoing research projects, supporting systems and concepts.
+
+
+2. INTRODUCTION
+	Disaster is a broad term which can include a range of crisis situations arising as a result of natural and/or man-made phenomenon. Disasters have varying magnitudes, temporal and spatial dimensions and varying social and economic consequences. The impacts of disasters change the socio-economic environments of human life locally, and in many cases, regionally. We understand disasters as “a serious disruption of the functioning of a community or a society causing widespread human, material, economic or environmental losses which exceed the ability of the affected community or society to cope using its own resources”.
+   	In the event of a disaster, the affected population needs large scale material and humanitarian assistance to cope with the loss, and thereafter, recover from it. The total systematic coordination of activities undertaken before and after a disaster, are termed as disaster management activities
+   	When disasters strike, traditional communication and cellular access points may no longer be available, denying communication when it is most needed. Recent Disasters such as Uttarakhand Flood, and many more in the past such as Indian Ocean, Gujarat Earthquake have caused unprecedented damage and massive loss of life, and unveiled the necessity of immediate ad-hoc communication solutions for rescue forces and personnel.
+   	The research community has invested in the construction of management systems for communications at rescue areas, designing effective systems that provide timely access to comprehensive, relevant, and reliable information that is critical to humanitarian operations, as well as operations management.
+   	A wireless ad-hoc network is a computer network in which the communication links are wireless. The network is ad-hoc because each node is willing to forward data for other nodes, and so the determination of which nodes forward data is made dynamically based on the network connectivity. This is in contrast to older network technologies in which some designated nodes, usually with custom hardware and variously known as routers, switches, hubs, and firewalls, perform the task of forwarding the data. Minimal configuration and quick deployment make ad hoc networks suitable for emergency situations like natural or human-induced disasters, military conflicts.
+3. MOTIVATION AND PURPOSE OF THIS DOCUMENT
+   This system would be responsible for leading the department in providing a properly planned and organized emergency management force, capable of responding to public emergencies and homeland security incidents that may have a significant impact on the safety and security of local residents and Businesses.
+   The system is intended to function in case of emergencies in the society. The emergencies include Fire, Medical Emergency, Personal threats (armed hold-ups, robberies), Bomb threats, Manmade Emergencies (spillage of hazardous substances, electrical power failure) and Natural Emergencies (earthquake, floods).
+     
+
+4. LITERATURE SURVEY
+Existing Emergency Management Systems
+      Various emergency handling services are present worldwide to cater to the emergencies faced by the common man. The USA has its own such system by the name 911.
+A. 9-1-1:
+* It is a telephone number which provide help in emergency it’s for North America.
+* Whenever we dial 911 and call, we can get connected to emergency center which called as PASP (Public Safety Answering Point) which gives us immediate response to the victim’s location in case of emergency.
+* For gathering details about number and address of caller it maps phone number of caller with an address in database.  This is called as Automatic Location Identification (ALI). 
+* Local companies are working for maintaining database. 
+Limitations of 9-1-1: 
+* In 911 systems it is very difficult to find the exact location of caller using PASP and ALI. 
+* According to increasing population it needs lots of manpower. It is costly system as compare to EMS.
+* 911 systems require $15 to $30 per annual where the proposed EMS system is totally free. 
+
+
+
+
+
+
+B. 1-0-0/1-0-8: 
+* In India 108 is a free telephone number for providing emergency service like police, fire, ambulance or medical. 
+* 100 are used in India for calling police in case of emergency.
+
+C. 2611 App:
+	2611 is the ‘National Emergency Number’ in India. 2611 was proposed by Telecom Engineer Dinkar Borde. The '2611' number integrates all the local helpline numbers like 100-police, 101-Fire, 102-Ambulance. It is an Android App which simply integrates all the local helpline numbers. According to some reports, during terror attacks, it will co-ordinate with the National Security Guards (NSG) or other relevant departments. The entire system will be under the Home Ministry which will give sufficient feedback to the Defense Ministry.
+
+
+
+
+
+
+
+
+
+
+5. DISASTER AND EMERGENCY MANAGEMENT
+	In order to accurately categorize and analyze disaster management systems, it is important to have a clear understanding of the disaster management process and its distinct phases. Each phase has a different objective and different set of qualitative system requirements that will help in accomplishing those objectives. 
+5.1 PHASES OF EMERGENCY MANAGEMENT:
+	The Federal Emergency Management Agency (FEMA) has categorized four stages in a Comprehensive Emergency Management system. They are structured by time and function for all types of disasters.
+A. Mitigation/Prevention: This phase focuses on long-term measures for reducing or eliminating risk. It is necessary to prevent hazards from developing into disasters. It is vital to identify, analyze and document the possibility of an emergency event or a disaster and its potential consequences or impacts on life, property and environment. The results of this phase are essential for the next preventive and response phases. It includes long-term activities designed to reduce the effects of unavoidable disasters. Mitigation measures can be structural or non-structural. Structural measures use technological solutions like flood levees. Non-structural measures include legislation, land-use planning and insurance. It includes providing regulations regarding evacuation and communication of risks to the public
+B.  Preparedness:  In this phase governments, organizations, and individuals, develop plans to save lives and minimize disaster damage. Preparedness is a continuous cycle of planning, organizing, training, equipping, and exercising, evaluation, and improvement activities. This is to ensure effective coordination and enhancement of capabilities to respond to and recover from the effects of disasters. Preparedness measures seek to enhance disaster response operations through positioning and provisioning of inventories for emergency use and training of ground and emergency operations center (EOC) personnel. A well-rehearsed emergency plan developed as part of the preparedness phase enables efficient co-ordination of response.
+
+
+Fig. 5.1 Phases of emergency Management
+
+C. Response:  The response phase starts when avoidance efforts fail and events trigger a crisis. At this point, organizations shift their resources and efforts towards response activities designed to provide emergency assistance for victims. This involves mobilization of emergency services and first responders, initiation of emergency evacuation, situation assessment and requirements assessment procedures. They also aim to stabilize the situation and reduce the probability of secondary damage and speed-up recovery actions. 
+D. Recovery:  Recovery activities aim to return the living conditions to normal or better and they usually include two sets of activities
+1) Short-term recovery activities return vital life-support systems to a minimum operating standard.  
+ 2) Long-term recovery activities may continue for a number of years after a disaster.  Recovery efforts are primarily concerned with actions that involve rebuilding destroyed property, re-employment, and the repair of other essential infrastructure. This phase also represents the first step to a new planning/mitigation phase, because this is the point when the analysis of the cause of the disaster or emergency takes place.
+6. CATEGORIZATION OF EMERGENCY MANAGEMENT SYSTEM 
+      Disaster management systems can be categorized on the basis of their characteristics and the phase in which these are used. Following are the categories of Emergency Management Systems:
+A. Monitoring System: A monitoring system records data as real world events occur. These data are helpful in spreading timely warning to agencies and populations at risk. It allows them to take precautionary measures to prevent and reduce loss of life and property caused by events like earthquakes, floods, tsunami, forest-fires etc.
+B. Live System:  A live system, as the name suggests, will be up and running during the response, relief, and recovery phases of a disaster. Such systems will assist the responders in issues such as situational awareness, information gathering, exchange and dissemination, and management of relief effort information. 
+C. Simulation Systems:  Simulation systems are used to present computer-generated scenarios using real world situations. These are used in the preparedness phase to train the rescue, relief and decision-making personnel. Simulation systems are crucial as they can be used to present varied scenarios and check the efficiency of procedures to deal with them. More sophisticated simulation systems can be used to predict the disaster progression and damage estimation.
+
+     
+
+6.1 SOFTWARE ARCHITECTURAL CONCERNS OF EMERGENCY MANAGEMENT SYSTEM
+Type Of SystemDesirable System QualitiesMonitoringAvailability 
+Interoperability
+ReliabilityLive
+Interoperability
+Maintainability
+Performance
+Portability
+Reliability
+Scalability
+UsabilitySimulationInteroperability 
+Modifiability
+       Table 6.1 Software Architectural Concerns of Emergency Management System
+A. Availability: Traditionally, availability is concerned with the long-term proportion of time the system is working and delivering its services. In the case of systems operating in the preparedness and response phase of disaster management, it is important that they work round the clock collecting real time data. For example, monitoring systems should be highly available irrespective of the climatic conditions prevalent in a geographical area.  
+B. Reliability:  Reliability is concerned with the probability a system will not fail over some specified interval of time. This means that the system should not fail when it is needed the most. Often, systems are liable to failure when the demand is high i.e. during crisis situations. It is crucial that the communication channels for disaster warning are reliable, i.e. the system should be built taking into account the overload on these channels during critical incidents due to high public demand. Reliability is also necessary for information systems used in the response phase. 
+C. Modifiability:  Modifiability is the ability of the system to be changed after it is implemented. It is usually concerned with the cost of change. For example, a simulation system should be customizable. It should be able to simulate different types of emergency and disaster situations, for thorough preparedness. It should be designed in such a way that it can be changed to incorporate new realities that may enhance its functionality. 
+D. Maintainability:  In the context of disaster management software systems, maintainability refers to the ease or difficulty of maintaining a system in such a state that it will be ready for use in the sudden, critical situations arising on the occurrence of a disaster. This includes system and database maintenance costs. Maintainability is important, especially for live systems, whose working is extremely critical in the post-disaster period. 
+E. Interoperability:  Interoperability means that a number of organizations coming together to cope with a major disaster should be able to exchange data for effective disaster response. The concern here is to use a standard data interchange format. XML, for instance, is a flexible format because XML documents can contain all required information as well as meta-information to extract the semantics of the information. It can be used for simple messages as well as complex maps. 
+F. Scalability:  Scalability is the ability of a computer application or product to continue to function well when it (or its context) is changed in size or volume in order to meet a user’s need. In the disaster management context, for example, the UN News Centre reported that in 2008, the death toll due to natural disasters was 235,816 and it was more than three times the annual average of the previous eight years. A system built for relief and rescue has to be scalable to handle such high numbers with reasonably low latency to remain functional and useful in such critical conditions. Similarly, a system should be able to scale adequately by the type of disaster being serviced. 
+
+
+
+
+G. Performance:  Performance is the ability of a system to allocate its computational resources for service in a manner that will satisfy timing requirements. Another term commonly used is ‘latency’. System performance is one of the primarily observed qualities of a software system. Any disaster management system will have a number of competing requests and inability to service those requests within an expected amount of time will make the users abandon the system for other means. With the increasing richness of information, processing of data in a timely manner becomes very important. For example, applications like a missing persons’ registry, a camp registry, etc. need to cater to a large number of requests that flood in after a disaster. 
+H. Portability:  Software portability is the property of a software system to be executed on a variety of software and hardware platforms. In some instances, the software system should be portable enough to run on handheld devices carried by rescue and relief workers to the site of the disaster. Emergence of newer tools and platforms makes it imperative that long-lived systems – especially simulation-based decision support systems be easily ported to the new platforms. In this manner, these systems can take advantage of the technological improvements available. The ease with which this can be done affects other quality attributes and hence the value
+
+
+
+.
+
+
+
+
+
+7. SMART PHONES
+	A smartphone is a mobile phone with an advanced mobile operating system which combines features of a personal computer operating system with other features useful for mobile or handheld use. They typically combine the features of a cell phone with those of other popular mobile devices, such as personal digital assistant (PDA), media player and GPS navigation unit.  
+	Most smartphones can access the Internet, have a touchscreen user interface, with either an LCD, OLED, AMOLED, LED or similar screen, can run third-party apps, music players and are camera phones. Most smartphones produced from 2012 onwards also have high-speed mobile broadband 4G LTE internet, motion sensors, and mobile payment.
+7.1 SMART PHONE USAGE:
+	In the third quarter of 2012, one billion smartphones were in use worldwide. Global smartphone sales surpassed the sales figures for features phones in early 2013. As of 2013, 65 percent of U.S. mobile consumers own smartphones. The European mobile device market as of 2013 is 860 million. In China, smartphones represented more than half of all handset shipments in the second quarter of 2012 and in 2014 there were 519.7 million smartphone users, with the number estimated to grow to 700 million by 2018.      
+	As of November 2011, 27% of all photographs were taken with camera-equipped smartphones. A study conducted in September 2012 concluded that 4 out of 5 smartphone owners use the device to shop.  Another study conducted in June 2013 concluded that 56% of American adults now owned a smartphone of some kind. Android and iPhone owners account for half of the cell phone user population. Higher income adults and those under age 35 lead the way when it comes to smartphone ownership.
+	Worldwide shipments of smartphones topped 1 billion units in 2013, up 38% from 2012's 725 million, while comprising a 55% share of the mobile phone market in 2013, up from 42% in 2012.
+
+
+
+7.2 SMART PHONES AND DISASTER RESPONSE:
+	Based on research released by Smartphone Summit, smart phones account for 80% of all cell phone sales and it is still growing and driving more interest among people. One of the reasons for its continued growth is that it provides information valuable to the users.      Moreover, in times of disaster, the more people that have information with them all the time, the more they will be self-reliant allowing rescuers or responders to concentrate on those in the greatest need of help.    	
+	There are also a number of mobile applications available in smart phones that are beneficial in disaster response. Among these is the GPS technology, which can be used in the tracking of rescuers and resources, the translator, which can be used for communication, and the field examiner, which can be used to send information to headquarters for assessment of damages. Indeed, the use of a smart phone in a disaster management system is advantageous. 
+
+
+
+
+
+
+
+
+
+
+
+8. GEO-LOCATION USING GLOBAL POSITIONING SYSTEM (GPS)
+      Geographic locations or geolocations are described in latitude and longitude. Based on the Dijkstra’s, distances between these locations were calculated. A method in the Android operating system determines the distance between geolocations and it is based on the WGS84 ellipsoid or the World Geodetic System 84, which is currently being used by the GPS at present. 
+      The Global Positioning System (GPS) is a space-based navigation system that provides location and time information in all weather conditions, anywhere on or near the Earth where there is an unobstructed line of sight to four or more GPS satellites. The system provides critical capabilities to military, civil, and commercial users around the world. The United States government created the system, maintains it, and makes it freely accessible to anyone with a GPS receiver.
+      A GPS navigation device is a device that accurately calculates geographical location by receiving information from GPS satellites. Initially it was used by the United States military, but now most receivers are in automobiles and smartphones.
+8.1 FUNDAMENTALS OF GPS:
+      The GPS concept is based on time and the known position of specialized satellites. The satellites carry very stable atomic clocks that are synchronized to each other and to ground clocks. Any drift from true time maintained on the ground is corrected daily. Likewise, the satellite locations are known with great precision.
+       GPS receivers have clocks as well; however, they are not synchronized with true time, and are less stable. GPS satellites continuously transmit their current time and position. A GPS receiver monitors multiple satellites and solves equations to determine the exact position of the receiver and its deviation from true time. At a minimum, four satellites must be in view of the receiver for it to compute four unknown quantities (three position coordinates and clock deviation from satellite time).
+
+
+
+8.2 MORE DETAILED DESCRIPTION OF GPS
+      Each GPS satellite continually broadcasts a signal (carrier wave with modulation) that includes:
+* A pseudorandom code (sequence of ones and zeros) that is known to the receiver. By time-aligning a receiver-generated version and the receiver-measured version of the code, the time of arrival (TOA) of a defined point in the code sequence, called an epoch, can be found in the receiver clock time scale
+* A message that includes the time of transmission (TOT) of the code epoch (in GPS system time scale) and the satellite position at that time
+      Conceptually, the receiver measures the TOAs (according to its own clock) of four satellite signals. From the TOAs and the TOTs, the receiver forms four time of flight (TOF) values which are (given the speed of light) approximately equivalent to receiver-satellite range differences. The receiver then computes its three-dimensional position and clock deviation from the four TOFs.
+      In practice the receiver position (in three dimensional Cartesian coordinates with origin at the Earth's center) and the offset of the receiver clock relative to the GPS time are computed simultaneously, using the navigation equations to process the TOFs.
+      The receiver's Earth-centered solution location is usually converted to latitude, longitude and height relative to an ellipsoidal Earth model. The height may then be further converted to height relative the geoid (e.g., EGM96) (essentially, mean sea level). These coordinates may be displayed, e.g. on a moving map display and/or recorded and/or used by some other system (e.g., a vehicle guidance system).
+
+
+
+
+
+
+GPS devices may have capabilities such as:
+* Maps, including street maps, displayed in human readable format via text or in a graphical format.
+* Turn-by-turn navigation directions to a human in charge of a vehicle or vessel via text or speech.
+* Directions fed directly to an autonomous vehicle such as a robotic probe.
+* Traffic congestion maps (depicting either historical or real time data) and suggested alternative directions.
+* Information on nearby amenities such as restaurants, fueling stations, and tourist attractions.
+
+GPS devices may be able to indicate:
+* The roads or paths available.
+* Traffic congestion and alternative routes.
+* Roads or paths that might be taken to get to the destination.
+* If some roads are busy (now or historically) the best route to take.
+* The location of food, banks, hotels, fuel, airports or other places of interests.
+* The shortest route between the two locations.
+* The different options to drive on highway or back roads.
+
+
+
+
+
+
+
+8.3 MOBILE PHONES WITH GPS CAPABILITY:
+	Due in part to regulations encouraging mobile phone tracking, including E911, the majority of GPS receivers are built into mobile telephones, with varying degrees of coverage and user accessibility. Commercial navigation software is available for most 21st-century smartphones as well  as some Java-enabled phones that allows them to use an internal or external GPS receiver (in the latter case, connecting via serial or Bluetooth). Some phones using assisted GPS (A-GPS) function poorly when out of range of their carrier's cell towers. Others can navigate worldwide with satellite GPS signals as well as a dedicated portable GPS receiver does, upgrading their operation to A-GPS mode when in range. Still others have a hybrid positioning system that can use other signals when GPS signals are inadequate.
+	More bespoke solutions also exist for smartphones with inbuilt GPS capabilities. Some such phones can use tethering to double as a wireless modem for a laptop, while allowing GPS-navigation/localization as well.
+	GPS navigation applications for mobile phones include on-line (e.g. Waze, Google Maps Navigation, Apple Maps) and off-line (e.g. iGo for Android, Maverick and Here (Nokia) for Windows Phone) navigation applications. Google Maps Navigation, which is included with Android, means most smartphone users only need their phone to have a personal navigation assistant.
+	Many Android smartphones have an additional GPS feature, called EPO (Extended Prediction Orbit). The phone downloads a file to help it locate GPS satellites more quickly and reduce the time to first fix.
+8.4 APPLICATIONS of GPS:
+	Commercial aviation applications include GPS devices that calculate location and feed that information to large multi-input navigational computers for autopilot, course information and correction displays to the pilots, and course tracking and recording devices.
+   	Military applications include devices similar to consumer sport products for foot soldiers (commanders and regular soldiers), small vehicles and ships, and devices similar to commercial aviation applications for aircraft and missiles.
+
+9. FEATURES OF EMERGENCY MANAGEMENT SYSTEM
+
+A. EMS system uses GPS for location tracking. 
+B. Authorized person will be responsible for rescuing the victim.  
+C. Report can be generated Area wise, Issues wise, Location wise, and Priority wise.
+D. Location tracking will be done in Network mode also if the GPS is disabled.
+E. EMS system is useful in any type of emergency that would occur in society.
+F. EMS system is very cost effective as compared to other emergency system.
+G. Admin will be able to send the emergency number.
+10. 
+  CONCLUSION
+
+	Thus we saw the concept for a smart phone based platform for ad-hoc communication as well as for communication during disaster when no other communication media exists. This system will give fast response to victim as compared to other services in less cost or totally free.
+	Moreover, this system will also be flexible because it allows the prioritization to be changed or extended with minimal effort.
+	This is an application that could be used during the response phase in a disaster especially when time is crucial.
+	This report gives architecture for a system which will help the people in any emergency using its android smart phones by providing the help through the rescue team.
+
+
+
+
+
+
+
+
+
+
+
+
+
+11.   FUTURE SCOPE
+   	This application may be built using Ad-hoc network. If resources permit, we may implement this using cloud computing techniques as a future work. 
+   	This would give leverage to global access by expanding the scope of the application from an ad-hoc network to, say WAN (Wide Area Network).
+   	It may be made cross platform so that it will work on all the OS like BlackBerry and iOS. [Cross platform may be done using HTML5].We may develop independent APIs.
+
+
+12.  REFERENCES
+[1] Sharad Mehrotra <sharad@ics.uci.edu>, Xiaogang Qiu <xgqiu@nudt.edu.cn>, Zhidong Cao <zhidong.cao@ia.ac.cn>, Austin Tate <a.tate@ed.ac.uk> IEEE Intelligent Systems, Vol. 28, No. 5, July/August 2013, Special Issue on Emergency Management, IEEE Computer Society.
+ [2] Prof. Mangal Kotkar1 Manisha Bhapkar2 Arti Walunj3 Dadasaheb Didwagh4 Amol Navale ”Emergency Management System (EMS): Android Based Rescue Application” IJSRD - International Journal for Scientific Research & Development| Vol. 2, Issue 11, 2015.
+[3] Rehka Jadhav,  Jwalant Patel, Darshan Jain,  Suyash Phadhtare  Department of Information Technology G. H. Raisoni Collage of Engineering & Technology,  University of Pune, Pune / (IJCSIT) International Journal of Computer Science and Information Technologies, Vol. 5 (3) , 2014, 2803-2805
+[4] Moumita Mukherjee and Jai Asundi Considering Emergency and Disaster Management Systems from a Software Architecture Perspective The 4th Annual International Conference on Next Generation Infrastructures, Virginia Beach, Virginia, November 16-18, 2011.   
+
+PVG’S COET COMP/IT DEPT. 2015-20160 1
+
+

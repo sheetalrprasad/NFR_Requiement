@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/">
+<skos:ConceptScheme rdf:about="r">
+</skos:ConceptScheme>
+
+	<skos:Concept rdf:about="r/1">
+		<skos:prefLabel xml:lang="en"></skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/2">
+		<skos:prefLabel xml:lang="en">/*	DATABASE-RELATED TERMS	*/</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/3">
+		<skos:prefLabel xml:lang="en">data</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/4">
+		<skos:prefLabel xml:lang="en">database</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/5">
+		<skos:prefLabel xml:lang="en">data base</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/6">
+		<skos:prefLabel xml:lang="en">databases</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/7">
+		<skos:prefLabel xml:lang="en">dbms</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/8">
+		<skos:prefLabel xml:lang="en">distributed database</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/9">
+		<skos:prefLabel xml:lang="en">relational database</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/10">
+		<skos:prefLabel xml:lang="en">store</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/11">
+		<skos:prefLabel xml:lang="en">information</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/12">
+		<skos:prefLabel xml:lang="en">record</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/13">
+		<skos:prefLabel xml:lang="en">tuple</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/14">
+		<skos:prefLabel xml:lang="en">retrieve</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/15">
+		<skos:prefLabel xml:lang="en">update</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/16">
+		<skos:prefLabel xml:lang="en">add</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/17">
+		<skos:prefLabel xml:lang="en">delete</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/18">
+		<skos:prefLabel xml:lang="en">sql</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/19">
+		<skos:prefLabel xml:lang="en">schema</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/20">
+		<skos:prefLabel xml:lang="en">query</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/21">
+		<skos:prefLabel xml:lang="en">normalization</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/22">
+		<skos:prefLabel xml:lang="en">centralized</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/23">
+		<skos:prefLabel xml:lang="en">distributed</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/24">
+		<skos:prefLabel xml:lang="en"></skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/25">
+		<skos:prefLabel xml:lang="en">/*	SECURITY-RELATED TERMS	*/</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/26">
+		<skos:prefLabel xml:lang="en">safe</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/27">
+		<skos:prefLabel xml:lang="en">safety</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/28">
+		<skos:prefLabel xml:lang="en">security</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/29">
+		<skos:prefLabel xml:lang="en">secure</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/30">
+		<skos:prefLabel xml:lang="en">privacy</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/31">
+		<skos:prefLabel xml:lang="en">cryptography</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/32">
+		<skos:prefLabel xml:lang="en">encode</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/33">
+		<skos:prefLabel xml:lang="en">decode</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/34">
+		<skos:prefLabel xml:lang="en">encrypt</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/35">
+		<skos:prefLabel xml:lang="en">encryption</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/36">
+		<skos:prefLabel xml:lang="en">decrypt</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/37">
+		<skos:prefLabel xml:lang="en">decryption</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/38">
+		<skos:prefLabel xml:lang="en">verify</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/39">
+		<skos:prefLabel xml:lang="en">verification</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/40">
+		<skos:prefLabel xml:lang="en">validation</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/41">
+		<skos:prefLabel xml:lang="en">permit</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/42">
+		<skos:prefLabel xml:lang="en">permission</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/43">
+		<skos:prefLabel xml:lang="en">username</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/44">
+		<skos:prefLabel xml:lang="en">user name</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/45">
+		<skos:prefLabel xml:lang="en">password</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/46">
+		<skos:prefLabel xml:lang="en">pass word</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/47">
+		<skos:prefLabel xml:lang="en">authentication</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/48">
+		<skos:prefLabel xml:lang="en"></skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/49">
+		<skos:prefLabel xml:lang="en">/*	ACCESSIBILITY-RELATED TERMS	*/</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/50">
+		<skos:prefLabel xml:lang="en">system</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/51">
+		<skos:prefLabel xml:lang="en">user</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/52">
+		<skos:prefLabel xml:lang="en">permit</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/53">
+		<skos:prefLabel xml:lang="en">user access</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/54">
+		<skos:prefLabel xml:lang="en">access</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/55">
+		<skos:prefLabel xml:lang="en">authorize</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/56">
+		<skos:prefLabel xml:lang="en">authorization services</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/57">
+		<skos:prefLabel xml:lang="en">authorization</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/58">
+		<skos:prefLabel xml:lang="en">privilege</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/59">
+		<skos:prefLabel xml:lang="en"></skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/60">
+		<skos:prefLabel xml:lang="en">/*	USABILITY-RELATED TERMS	*/</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/61">
+		<skos:prefLabel xml:lang="en">easy</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/62">
+		<skos:prefLabel xml:lang="en">easier</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/63">
+		<skos:prefLabel xml:lang="en">ease</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/64">
+		<skos:prefLabel xml:lang="en">convenient</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/65">
+		<skos:prefLabel xml:lang="en">easy-to-use</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/66">
+		<skos:prefLabel xml:lang="en">easy to use</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/67">
+		<skos:prefLabel xml:lang="en">comfortable</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/68">
+		<skos:prefLabel xml:lang="en">user experience</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/69">
+		<skos:prefLabel xml:lang="en">user interface</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/70">
+		<skos:prefLabel xml:lang="en">useful</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/71">
+		<skos:prefLabel xml:lang="en">interface</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/72">
+		<skos:prefLabel xml:lang="en"></skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/73">
+		<skos:prefLabel xml:lang="en">/*	CONNECTIVITY-RELATED TERMS	*/</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/74">
+		<skos:prefLabel xml:lang="en">on-line</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/75">
+		<skos:prefLabel xml:lang="en">online</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/76">
+		<skos:prefLabel xml:lang="en">connect</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/77">
+		<skos:prefLabel xml:lang="en">connection</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/78">
+		<skos:prefLabel xml:lang="en">intranet</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/79">
+		<skos:prefLabel xml:lang="en">web browser</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/80">
+		<skos:prefLabel xml:lang="en">internet explorer</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/81">
+		<skos:prefLabel xml:lang="en">netscape</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/82">
+		<skos:prefLabel xml:lang="en">webserver</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/83">
+		<skos:prefLabel xml:lang="en">web server</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/84">
+		<skos:prefLabel xml:lang="en">web-server</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/85">
+		<skos:prefLabel xml:lang="en">web portal</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/86">
+		<skos:prefLabel xml:lang="en">communication</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/87">
+		<skos:prefLabel xml:lang="en">network</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/88">
+		<skos:prefLabel xml:lang="en">internet</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/89">
+		<skos:prefLabel xml:lang="en">client/server</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/90">
+		<skos:prefLabel xml:lang="en">server</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/91">
+		<skos:prefLabel xml:lang="en">login</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/92">
+		<skos:prefLabel xml:lang="en">search</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/93">
+		<skos:prefLabel xml:lang="en">web-page</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/94">
+		<skos:prefLabel xml:lang="en">web page</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/95">
+		<skos:prefLabel xml:lang="en"></skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/96">
+		<skos:prefLabel xml:lang="en">/*	MULTIMEDIA-RELATED TERMS	*/</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/97">
+		<skos:prefLabel xml:lang="en">image</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/98">
+		<skos:prefLabel xml:lang="en">picture</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/99">
+		<skos:prefLabel xml:lang="en">audio</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/100">
+		<skos:prefLabel xml:lang="en">sound</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/101">
+		<skos:prefLabel xml:lang="en">voice</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/102">
+		<skos:prefLabel xml:lang="en">video</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/103">
+		<skos:prefLabel xml:lang="en"></skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/104">
+		<skos:prefLabel xml:lang="en">/*	PERFORMANCE-RELATED TERMS	*/</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/105">
+		<skos:prefLabel xml:lang="en">memory</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/106">
+		<skos:prefLabel xml:lang="en">RAM</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/107">
+		<skos:prefLabel xml:lang="en">storage</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/108">
+		<skos:prefLabel xml:lang="en">performance</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/109">
+		<skos:prefLabel xml:lang="en">optimization</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/110">
+		<skos:prefLabel xml:lang="en">reliability</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/111">
+		<skos:prefLabel xml:lang="en"></skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/112">
+		<skos:prefLabel xml:lang="en">maintain</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/113">
+		<skos:prefLabel xml:lang="en">available</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/114">
+		<skos:prefLabel xml:lang="en">Linux</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/115">
+		<skos:prefLabel xml:lang="en">Apache</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/116">
+		<skos:prefLabel xml:lang="en">response</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/117">
+		<skos:prefLabel xml:lang="en">correct</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/118">
+		<skos:prefLabel xml:lang="en">availability</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/119">
+		<skos:prefLabel xml:lang="en">customer needs</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/120">
+		<skos:prefLabel xml:lang="en">correctness</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/121">
+		<skos:prefLabel xml:lang="en">mobile</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/122">
+		<skos:prefLabel xml:lang="en">free to download</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/123">
+		<skos:prefLabel xml:lang="en">interaction</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/124">
+		<skos:prefLabel xml:lang="en">functionality</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/125">
+		<skos:prefLabel xml:lang="en">fetch</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/126">
+		<skos:prefLabel xml:lang="en">time</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/127">
+		<skos:prefLabel xml:lang="en">link</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/128">
+		<skos:prefLabel xml:lang="en">control</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/129">
+		<skos:prefLabel xml:lang="en">testing</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/130">
+		<skos:prefLabel xml:lang="en">fault</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/131">
+		<skos:prefLabel xml:lang="en">input/output devices</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/132">
+		<skos:prefLabel xml:lang="en">input</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/133">
+		<skos:prefLabel xml:lang="en">output</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/134">
+		<skos:prefLabel xml:lang="en">feasible</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/135">
+		<skos:prefLabel xml:lang="en">feasibility</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/136">
+		<skos:prefLabel xml:lang="en">complexity</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/137">
+		<skos:prefLabel xml:lang="en">environment</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/138">
+		<skos:prefLabel xml:lang="en">hardware</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/139">
+		<skos:prefLabel xml:lang="en">software</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/140">
+		<skos:prefLabel xml:lang="en">configuration</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/141">
+		<skos:prefLabel xml:lang="en">quality</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/142">
+		<skos:prefLabel xml:lang="en">ease</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/143">
+		<skos:prefLabel xml:lang="en">viability</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/144">
+		<skos:prefLabel xml:lang="en">recovery</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/145">
+		<skos:prefLabel xml:lang="en">efficiency</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/146">
+		<skos:prefLabel xml:lang="en">maintainability</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/147">
+		<skos:prefLabel xml:lang="en">interoperability</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/148">
+		<skos:prefLabel xml:lang="en">portability</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/149">
+		<skos:prefLabel xml:lang="en">stable</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/150">
+		<skos:prefLabel xml:lang="en">platform</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/151">
+		<skos:prefLabel xml:lang="en">accurate</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/152">
+		<skos:prefLabel xml:lang="en">accuracy</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/153">
+		<skos:prefLabel xml:lang="en">precise</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="r/154">
+		<skos:prefLabel xml:lang="en">precision</skos:prefLabel>
+	</skos:Concept>
+</rdf:RDF>

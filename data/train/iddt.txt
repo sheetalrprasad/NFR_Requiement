@@ -1,0 +1,212 @@
+CHAPTER-1
+INTRODUCTION
+		In curriculum of Engineering, students have to perform various assignments as part of Digital Electronic Laboratory (DEL). Also, they need to practice lots of circuit implementation for preparation of their practical exams. But due to unavailability of “digital training kit” at a particular time, the students are unable to practice the implementation on the kit. In this project, we will try to simulate the "Digital Training Kit" for those students, who want to practice the implementation. This project will simulate the working of SSI and MSI ICs, and will produce the required output without requiring any additional external hardware. We will provide a platform, where a student can practice the implementation of a circuit anytime, anywhere on their Devices. It will provide variety of sequential and combinational ICs, which will help them to practice every circuit implementation of DEL assignments. It will provide timing diagram, logical design of implemented circuit, automatic and manual output generator for circuit testing purpose. 
+1.1 Aim  
+      The main aim of this system is to help students in performing their Digital Electronics Assignments without any additional hardware requirements. Also it provides a platform, where students can implement and debug the complex circuits easily and can practice implementation of circuits anytime, anywhere on their devices.
+      
+      
+
+
+1.2 Goals 
+   1. Provide the simulated environment of Digital Training Kit.
+2. Provide Timing diagrams, Logical design view, Automatic truth table generator and Manual testing facility.
+   3. Integration of SSI and MSI ICs.
+   4. Enable the students to learn the concepts of digital electronics in efficient way.
+ 
+
+
+CHAPTER-2
+LITERATURE SURVEY
+A. Existing System
+	During the engineering, colleges may use different software products over the course of four years. Simulation tools play an important role in enabling students to learn concepts faster in the classroom and significantly enhance students learning. Students spend a significant amount of additional time and efforts on learning to design the logic circuits. Also, the students spend countless hours attempting to learn the tool and fail to grasp the actual concepts that the tool was supposed to reinforce.
+	Currently the most popular and famous tool for electronics industry is MULTISIM. The Multisim has distinguished itself as a capture environment with advanced features that are an asset in function as well as implementation. Whether a design is simple or complex, Multisim’s functionality can be rapidly adopted to help successfully complete a project. Multisim have large package of features for advance development of circuits. To work on multisim students must have basic knowledge of VHDL syntax which is its main requirement. Multisim is code base, where users have to learn syntax of coding language to use it with its full extent.
+	 The second mostly used tool is DIGITAL WORKS 3. It is a simple tool having quite simple GUI and design. . It is use to construct basic logic gates and flip-flop connections. It is develop to implements the basic idea of logic gates and flip-flops. It is most simple tool, students can use for practice. In digital works 3 Simple gates and flip flop connections can be implements smoothly.
+	Now the main question is that, if all these tools and products help electronics industry in design process then why there is need of new powerful but simpler tool which integrates all the features and functionalities of all these tools. The answer is, all these tools were developed to help engineers in design and production process, so they lack in providing a suitable platform for the students. All these tools are good in their domain but when we are considering from student’s point of view, we feel that something is missing in all these tools. Now there is a need of tool which will help the students to learn and visualize the implementation of logic circuits. All of above tool has some dependencies, for example all these tools are working only on windows platform. Professional tool like Multisim need the basic knowledge of VHDL, which is its big disadvantage when it handled by the average students. When we considering Digital Works 3, we feel that at the student’s level, when they want to study logic circuits, the basic implementation is not enough, because Digital work 3 fail when we want to implements complex circuits. Some advance features of logic circuits are not integrated with it, so the need of powerful tool again encounter.
+
+	In Existing system students do not have any simulator where they can practice their Digital Electronics Assignments.
+            
+2.1 Multisim
+	NI Multisim (formerly MultiSIM) is an electronic schematic capture and simulation program which is part of a suite of circuit design programs, along with NI Ultiboard. Multisim is one of the few circuit design programs to employ the original Berkeley SPICE based software simulation.
+2.1.1 Features: 
+    1. It is widely used tool for digital circuit designing.
+    2. It is good tool for professional designer.
+2.1.2 Drawbacks: 	
+    1. Only works on windows platform.
+    2. It requires minimum 2GB hard-disk space and 512 MB RAM.
+    3. It was developed for professional designers, which is not satisfactory for students.
+    4. It has the code base and gate base architecture.
+    5. It requires at least basic knowledge of VHDL syntax to use it.
+
+2.2 Digital works 3 
+	Digital Works is a graphical design tool that enables you to construct digital logic circuits and to analyze their behavior through simulation. Circuits can be composed of simple gates (AND, OR, NAND, NOR, XOR, XNOR, NOT) and simple flip-flops (D, RS and JK). You can also use tri-state and memory devices to construct systems with buses. It also provides mechanisms for detecting race conditions and bus contention.
+Features: 
+    1. Simple gates and flip flop connections can be implemented smoothly.
+
+Drawbacks:
+    1. Only works on windows platform.
+    2. We cannot have multiple output connections from a gate
+    3. Complex circuits cannot be implemented efficiently.
+    4. It has the confusing GUI.
+    5. It has gate base architecture.
+
+B. Proposed system
+      This system will simulate the working of Digital training kit. The input connections from the user will be taken as input for the system. The input connection data will be store in our system for further processing. Path for those connections will be found with the help of path finding algorithm. Then the circuit will be implemented according to user input and then finally the system will give the Timing diagrams and Logical Design view of your circuit as output.
+      All these issues lead to developing a new tool which will be platform independent and will integrate all the functionalities of above mention tools. Besides that, Tool should not have any types of dependencies. By studying all these parameters, we will try to develop a system to help students in studying digital electronic circuits. Our intent was to develop the tools within the digital logic thread of IT and Computer Engineering stream, and then apply it within other streams of engineering like Electrical Engineering, Mechanical Engineering and Electronic and Telecommunication (E&TC) Engineering. We believed that we could develop innovative techniques to facilitate improved learning. 
+       IDDT (Intelligent Digital Design Tool) is a simulation tool that will be focused on providing powerful design features that will be integrated seamlessly into the implementation of the circuit design flow. This environment will help students to easily, successfully and quickly complete their assignments. In case of any complexity, IDDT will provide benefits by offering powerful features at all levels of implementation from the fundamentals of placement of IC’s and wire connections, to the advanced features like timing diagrams. This system will focus on the design of logic circuits, Timing diagrams that we use to improve student’s performance and efficiency. IDDT will be the simulation tool that assists you in carrying out the major steps in the circuit implementation flow. IDDT will be designed for IC functionalities, simulation, generating automatic truth table and timing diagrams. It will also work efficiently for single source multiple destinations, i.e. from single output multiple connections can be possible, which will be its big advantage. It will support each of the SSI and MSI digital electronics experiments.
+      Circuit simulation will help students to uncover varieties of flaws in the earlier stage of design and implementation process. IDDT will be a powerful simulation tool that will enable the students to reduce design and implementation iterations and save the valuable time which was required in trial and error method on actual digital electronic kit. To drive efficiency for electronics design, IDDT will include a wide variety of sophisticated simulation features such as timing diagrams, single source multiple destination connections, user friendly GUI and the integration with varieties of ICs. 
+
+
+
+CHAPTER-3
+REQUIREMENT AND ANALYSIS
+		In this project our aim is to design simulator which simulates Digital Electronics trainer kit. Nowadays, students have to perform various assignments as part of DEL (Digital Electronic Laboratory). Also, they need to practice lots of circuit implementation for preparation of their practical exams. But due to unavailability of “digital training kit” at a particular time, the students are unable to practice the implementation on the kit. This project will simulate the working of SSI and MSI ICs, and will produce the required output without requiring any additional external hardware. We will provide a platform, where a student can practice the implementation of a circuit anytime, anywhere on their Devices. It will provide variety of sequential and combinational ICs, which will help them to practice every circuit implementation of DEL assignments. It will provide timing diagram, logical diagram of implemented circuit, automatic and manual output generator for circuit testing purpose. 
+   For implementing this project, we divided this problem into following module:
+1. Input module.
+2. Path-finder module. 
+3. Truth table processing.
+4. Circuit output and Timing diagram module 
+5. Logical design module.
+6. Automatic testing module. 
+
+
+
+
+3.1 Requirement Specification
+3.1.1 Introduction
+		Although there are many simulators available for DEL, the most of the time given by the user is used for learning that tool only. Due to this, the wastage of time occurs, which could be used for any other important work. Also the most of the simulators are either run on windows operating system or they work at logical level only, so either students need a Windows PC or they need to have a good knowledge of logical design. In the first case, the users with Operating System (other than windows) can’t use those simulator tools. And in the second case, the users with basic knowledge of DEL can’t perform digital electronics assignments on those simulators efficiently. Also since those simulators work only on logical level or code design level, the users can’t visualize the implementation of the circuit.
+
+3.1.2. Problem Definition 
+      After analyzing the current situation and other academic problems, the problem can be defined as: 
+      “Develop a platform independent intelligent tool to simulate SSI and MSI digital electronics circuits without any additional hardware requirement."  
+3.2 Requirements	
+3.2.1 Functional Requirements
+* The system must be able to simulate the working of SSI and MSI ICs.
+* The system must be able to find wired connection path. 
+* The system must be able to generate dynamic timing diagrams.
+* The system must be able to generate automatic truth table.
+* The system must be able to generate Logical design view.
+
+3.2.2 Scope
+	In this project, the inputs will be given by LED Port and Timer Port. The system will work in three stages: the first stage being connection processing stage, where the connections are taken from user with the help of Pins and paths for those connections will be found. In the later stage, truth table processing will be done. It will consist of identification of the current flow and the affected pins and ICs. The last stage will be Output stage where the user will get the Circuit Output, Timing diagrams and Logical Design view of the implemented circuit.
+3.2.3. Constraints
+      In case of incomplete circuit implementation (without ground and vcc connections) the system should display error message. Within the scope of this project the electronics assignments of IT, Computer, Mechanical, Electrical and E&TC Departments are taken into the consideration. The Graphical user interface remains same as digital trainer kit for all assignments. 
+3.2.4 Software and Hardware Requirements
+The computer which will run the system has to meet the following conditions:  
+* Operating System: Any
+* Memory: minimum 256MB RAM  
+* Browser: Any JavaScript supported browser.
+3.2.5 Environment Conditions
+* The browser must be HTML5 and JavaScript supported.
+3.3 Definitions 
+3.3.1 IC Base
+	An IC Base is a placeholder for the IC. It allows safe insertion and removal of the IC.
+3.3.2 Input Port
+		An Input port is a component which is use to give binary inputs to the circuit. It consists of a Pin, an LED and a button.
+ 3.3.3 Output Port
+		An Output port is a component which is use to take binary output of the circuit and then display it to user. It consists of a Pin and an LED.
+ 3.3.4 Input /Output Pins
+	The Input /Output Pins are the communication interface between the two components. The Input pin is used to carry the current towards the component and the Output pin is used to carry the current away from the component.
+
+CHAPTER-4
+DESIGN
+4.1 Architecture of System
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4.2 Data Flow Diagrams
+
+4.2.1 DFD LEVEL 0
+
+
+Fig. 4.2.1 DFD Level 0
+
+
+
+
+
+
+
+4.2.2 DFD LEVEL 1
+
+Fig. 4.2.2 DFD LEVEL 1
+4.2.3 DFD LEVEL 2
+
+Fig. 4.2.3 DFD LEVEL 2
+4.3 Use Case Diagram
+
+Fig. 4.3 Use Case Diagram
+4.4 Class Diagram
+
+Fig. 4.4 Class Diagram
+4.5 Sequence Diagram 1: Add Pin Connection
+
+
+Fig.4.5. Sequence Diagram 1
+4.6 Sequence Diagram 2: Remove Pin Connection
+
+Fig.4.6. Sequence Diagram 2
+4.7 Sequence Diagram 3: Update Pin Connection
+
+Fig.4.7. Sequence Diagram 3
+4.8 State Diagram 1: LED State
+
+Fig 4.8 State Diagram 1
+
+
+4.9 State Diagram 2: Pin State
+
+Fig.4.9. State Diagram 2
+4.10 State Diagram 3: Switch State
+
+Fig.4.10. State Diagram 3
+ 
+
+
+CHAPTER 5
+PROJECT PLAN
+
+Fig.5.1. Gantt chart
+
+
+Table.5.1. Project Plan
+
+
+CHAPTER-6
+ REFERENCES
+[1] “A comprehensive study on path finding techniques for robotics and video games” by zeyad abd algfoor, mohd shahrizal sunar, and hoshang kolivand.
+Published date: 18th March 2015
+DOI: 10.1155/2015/736138
+Published in: International Journal of Computer Games Technology, Volume 2015
+
+ [2] “A comparative study of a-star algorithms for search and rescue in perfect maze” by xiang liu, daoxiong gong
+ Published date: 17th April 2011 
+ DOI: 10.1109/ICEICE.2011.5777723
+ Published in: IEEE
+ 
+ [3] “Direction based heuristic for path finding in video games” by geethu elizebeth Mathew
+Published date: 27th Feb 2015
+ DOI: 10.1109/ECS.2015.7124867
+Published in: IEEE Sponsored Second International Conference on Electronics            and Communication Systems (Icecs ‘2015)
+INTELLIGENT DIGITAL DESIGN TOOL
+
+
+
+PVG’S COET INFORMATION TECHNOLOGY, PUNE 2016-2017
+
+1
+
+

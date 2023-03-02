@@ -1,0 +1,1241 @@
+
+PUNE VIDHYARTHI GRIHA'S
+COLLEGE OF ENGINEERING AND TECHNOLGY, PUNE-09.
+DEPARTMENT OF INFORMATION TECHNOLOGY
+
+A
+PROJECT REPORT
+ON
+
+“DISCUSSION FORUM”
+
+
+Under the Guidance of
+Prof. S.G. Kamble 
+
+Submitted By
+Gayatri D Kodag
+Sheetal Rani Prasad
+   
+      
+Academic Year:  2015 - 2016   
+
+PUNE VIDHYARTHI GRIHA'S
+COLLEGE OF ENGINEERING AND TECHNOLGY, PUNE-09.
+CERTIFICATE
+
+This is to certify that, the project entitled as
+“Discussion Forum “
+Is a bonafide work done by 
+
+1)Gayatri D Kodag
+2)Sheetal Rani Prasad
+
+
+
+                Submitted in the partial fulfillment for the award of Third Year Engineering in Information Technology as prescribed by Savitribai Phule Pune University, Pune as a record of students own work carried out under the guidance of Prof. S. G. Kamble during academic year 2015-2016.
+
+
+                       								 
+					
+
+Prof.S.G.Kamble					                                   Dr.G.V.Garje   
+      Project  Guide               						H.O.D Comp/IT Department
+ACKNOWLEDGEMENT
+
+      With immense pleasure, we are presenting this project report as a part of the curriculum of Information Technology. We wish to thank all the people who gave us unending support right from the stage the idea was conceived.
+      We take this opportunity to convey our sincere thanks to our beloved Principal Dr.Y.P.Nerkar for his continual support and encouragement that made this project a great success.
+      We express our profound thanks to our respected   Head of Department	 Dr. G.V.Garje, whose advice and valuable guidance helped us in making this project interesting and successful one.
+      We are also grateful to our Internal guide Prof. S. G. Kamble,  whose valuable guidance helped us in making this project interesting and successful one by providing us with immense support and guidance throughout the project.
+      We also thank all those who have directly or indirectly guided and helped us in preparation of this project.
+      Last but not the least we thank our beloved Parents, Friends and our well wishers who helped us to do this project by their kind help and assistance.
+      
+      
+      
+1)Gayatri D Kodag 
+2)Sheetal Rani Prasad 
+
+
+      
+      
+      
+ABSTRACT
+      Whenever we want to give our views on any topic we can post our  replies and join a discussion. This project is envisioned as a viable solution to express our view and  dilemma and provide a feasible and easy method to choose a topic  according to the user’s choice. 
+	The website basically accepts and stores data about Categories, and groups the Categories according to Topics. It allows the user to easily find the categories, and also select a topic and make a reply.
+	The system being developed is Discussion Forum using MySQL at its backend and PHP at its front end; with WAMP providing hosting. It is real time developed software for personal computers. It performs insertion of Category,Topic,Post data and deletion as well as allowing the users to view it. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INDEX
+Sr. No.TitlePage No1.Introduction62.Feasibility Study83.Requirement Analysis104.PHP, MySQL and WAMP Server115.Database Design136.Entity- Relation Diagram 177.Data Flow Diagram188.Hardware & Software Requirements199.Graphical User Interface            2010.Source Code27      11.Testing Document3312.Conclusion3613.References37
+		
+
+
+
+      
+
+
+
+
+Chapter-1
+1. INTRODUCTION
+
+       	Whenever a person wants to express his views about some category,topic, he can make a post and join the discussion. This project is envisioned as a viable solution to let the world understand the viewpoint of users and provide a feasible and easy method to choose a topic and post replies, according to the user’s choice. The website basically accepts and stores data about Categories, and groups the Categories according to Topics . It allows the user to easily find the current topic , join the discussion, and also allows him to express his views by posting reply.
+
+PURPOSE OF THE SYSTEM
+	As we know in any situation, the user is curious to know about some topic under a category. Also, if a new Category is started, the user may not know about the general information of dining that topic. With the help of this project, the user can get information about new and arising topics readily and easily and get their queries solved. It may also help the use to strategically plan the Categories and Topics, according to his choices and preferences. 
+
+BENEFITS OF THIS SYSTEM:-
+                                 
+This system will reduce the complexity of restaurant selection.
+* By using this system we can easily maintain all the records about categories
+* It will reduce search time to get information about a new topic.
+* It can be easily handled by the person who have elementary knowledge of computer because it provides an user friendly environment.
+* It’s hardware and software configuration is not very costly that means The hardware and and software requirement for this software/project are not very costly.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Chapter-2
+2. Feasibility Study
+	Before recommending the new system, it is necessary to investigate whether it is possible as well as feasible to develop the new system. The important outcome of this preliminary investigation is the determination of whether the proposed system is feasible for target user or not. Feasibility & Risk analysis are related in many ways. If project risk is great, the feasibility of producing quality software is required.
+The feasible analysis was carried out which involved following steps:
+* Identification of data user needs.
+* Identification of how different tasks are carried out for keeping record of client user activities.
+* Identifying whether the proposed system can meet user’s need.
+* And finally proving the system technically, financially & operational feasible.
+
+2.1 Economic Feasibility:
+It includes an evaluation of development cost weight against the ultimate income or benefit derived from the developed system or product.
+The approximate cost of this project will be definitely less than any other software with this kind of reliability, ease, functionality & feasibility since the application does not require any extra hardware or any supporting software.
+2.2: Technical Feasibility:
+Technical analysis begins with an assessment of the technical viability of proposed system.
+What technologies are required to accomplish system functions and requirements?
+Which other resources (hardware and software) are available to build the system?
+The system is developed using MySQL database and PHP webpages.
+2.2:3Operational Feasibility:
+In this type of feasibility study, the operational implementation of the system is considered. Checking is done regarding whether it is feasible for the user to use the software or will there be any instance from the user.
+	Proposed system is beneficial only if they can turn in to information system that will meet user’s requirement. That is new in the new developing world with the automatic capturing image and automatic saving the data. The users ease with minimum effort to keep the record hence it is operationally feasible.
+
+     
+       
+       
+       
+       
+		
+
+
+
+
+
+
+
+
+ Chapter-3
+3. Requirement Analysis
+      System analysis basically deals with determination of system requirements. The determination of requirements means studying the existing system and collection details about it to find out what these parameters are.
+      There are three main activities that are performed in requirement analysis.
+> Requirement Anticipation:
+ 	It means the study done by the system analyst. In this case system analyst raised the question and applies methods to solve that question based on his/her past experiences.
+> Requirement Investigation:
+         This method is related with finding and investing more features of the system. We have collected information about our system by using fact finding methods like observation and questioning clients.
+> Requirement Specification:
+          A Requirement Specification is an agreement between the developer and the user. The clients specified their requirements to us and we selected a strategy in which he tries to fulfill their requirements.
+        
+
+
+
+
+Chapter 4
+4. MySQL, PHP and WAMP server
+
+MySQL (officially pronounced as  "My S-Q-L", and unofficially as "My Sequel") is an open-source relational database management system (RDBMS); in July 2013, it was the world's second most widely used RDBMS, and the most widely used open-source client–server model RDBMS. The SQL acronym stands for Structured Query Language. The MySQL development project has made its source code available under the terms of the GNU General Public License, as well as under a variety of proprietary agreements.
+	MySQL is a popular choice of database for use in web applications, and is a central component of the widely used LAMP open source web application software stack (and other "AMP" stacks).
+      WAMP is an acronym for Windows Apache MySQL PHP. It is an archetypal model of web service solution stacks, named as an acronym of the names of its original four open-source components: the Windows operating system, the Apache HTTP Server, the MySQL relational database management system (RDBMS), and the PHP programming language. The WAMP components are largely interchangeable and not limited to the original selection. As a solution stack, WAMP is suitable for building dynamic web sites and web applications.
+      
+Since its creation, the WAMP model has been adapted to other componentry, though typically consisting of free and open-source software. For example, an equivalent installation on the Linux family of operating systems is known as LAMP.
+      
+      PHP is a server-side scripting language designed for web development but also used as a general-purpose programming language. As of January 2013, PHP was installed on more than 240 million websites (39% of those sampled) and 2.1 million web servers. Originally created by Rasmus Lerdorf in 1994.
+      
+      	
+      PHP code can be simply mixed with HTML code, or it can be used in combination with various templating engines and web frameworks. PHP code is usually processed by a PHP interpreter, which is usually implemented as a web server's native module or a Common Gateway Interface (CGI) executable. After the PHP code is interpreted and executed, the web server sends the resulting output to its client, usually in the form of a part of the generated web page.
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Chapter-5
+5. Database Design
+
+A database “restos” is used for storing the data of the project.
+TABLE 1: ‘users’
+
+ColumnDataTypeAttributesuser_idint(8)Primary Keyuser_namevarchar(30)Username of the useruser_passvarchar(255)Password of the useruser_emailVarchar(255)Email id of the useruser_dateDatetimeTime at which the user logins. user_levelInt(8)Level of user 0 for Administrator,1 for Users.
+
+
+TABLE 2: ‘categories’:
+
+ColumnDatatypeAttributescat_idInt(8)Unique id for each category : Primary KeyCat_nameVarchar(255)Name of the categoryCat_descriptionVarchar(255)Description of the categories.
+
+
+
+
+TABLE 3: ‘topics’:
+
+ColumnDatatypeAttributesTopic_idInt(8)Primary KeyTopic_subjectVarchar(255)Describes the subject of topic.Topic_datedatetimeGives the time when topic was createdTopic_catInt(8)Foreign key it joins category and topic using cat_id=topic_catTopic_byInt(8)Foreign key it joins topic and user using user_id=topic_by
+TABLE 4: ‘posts’:
+
+ColumnDatatypeAtrributesPost_idInt(8)Primary keyPost_contentVarchar(255)Content of the postPost_datedatetimeTime at which the post was made.Post_topicInt(8)Foreign Key it joins topics and posts by topic_id=post_topicPost_byInt(8)Foreign key it joins users and posts by user_id=post_by
+
+
+
+Chapter -6
+6. Entity-Relationship Diagram
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Chapter -7
+7. Data Flow Diagram
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Chapter -8
+8. Hardware and Software Requirements
+
+6.1 Hardware Requirements:
+* Processor: Pentium III and above
+* Memory(RAM): 500MB RAM(minimum)
+* Input Devices: Keyboard and Mouse.
+* Hard Disk: Minimum 20GB
+6.2 Software Requirements:
+> WAMP server installation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Chapter -9
+9. Graphical User Interface
+
+This chapter documents the current user interface and the various elements needed to fulfil the user requirements.  The images of the user interface pages are included to demonstrate the application’s look and feel. 
+Description of Complete User Interface Specification: 
+1.
+
+2.
+
+3.
+
+4.
+
+5.
+
+6.
+
+7.
+
+8.
+
+8.
+
+9.
+
+10.
+
+11.
+
+12.
+
+
+
+     Chapter -10
+10. Source Code
+
+1.header.php
+<?php	
+session_start();
+if(isset($_POST["user_name"]))
+{
+	
+	$_SESSION["name"]=$_POST["user_name"];
+	
+}
+?>
+<!DOCTYPE html>
+
+<html>
+<head>
+  
+    <title>PHP-MySQL forum</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+<h1>LET'S TALK</h1>
+<div id="footer">Created by GS</div>
+    <div id="wrapper">
+    <div id="menu">
+        <a class="item" href="view.php">Home</a> -
+        <a class="item" href="create_topic.php">Create a topic</a> -
+        <a class="item" href="new_cat.php">Create a category</a>
+    </div>
+        <br>
+	<br>
+        
+	<?php
+	echo "<br>";
+    	if(isset($_SESSION['signed_in']))
+    {
+        echo 'Hello  ' . $_SESSION['user_name'] . '. Not you? <a href="signout.php">Sign out</a>';
+    }
+    else
+    {
+        echo '<a href="signin.php">Sign in</a> or <a href="signup.php">create an account</a>.';
+    }
+	
+	?>
+	
+	<div id="userbar">
+	</div>
+    	</div>
+
+
+</body>
+</html>
+2.style.css
+body {	
+    background-color:#d3d3d3;
+    text-align: center;         /* make sure IE centers the page too */
+}	
+ 
+#wrapper {
+    width: 900px;
+    margin: 0 auto;             /* center the page */
+}
+ 
+#content {
+    background-color: #fff;
+    border: 1px solid #000;
+    float: left;
+    font-family: Arial;
+    padding: 20px 30px;
+    text-align: left;
+    width: 100%;                /* fill up the entire div */
+}
+ 
+#menu {
+    float: left;
+    border: 1px solid #000;
+    border-bottom: none;        /* avoid a double border */
+    clear: both;                /* clear:both makes sure the content div doesn't float next to this one but stays under it */
+    width:100%;
+    height:20px;
+    padding: 0 30px;
+    background-color: #FFF;
+    text-align: left;
+    font-size: 85%;
+}
+ 
+
+#menu a:hover {
+    background-color: #009FC1;
+}
+#userbar {
+    background-color: #fff;
+    float: right;
+    width: 250px;
+}
+ 
+#footer {
+    clear: both;
+}	
+ 
+/* begin table styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+ 
+table a {
+    color: #000;
+}
+ 
+table a:hover {
+    color:#373737;
+    text-decoration: none;
+}
+ 
+th {
+    background-color: #B40E1F;
+    color: #F0F0F0;
+}
+ 
+td {
+    padding: 5px;
+}
+ 
+/* Begin font styles */
+h1, #footer {
+    font-family: Arial;
+    color: #34B79D;
+}
+ 
+h3 {margin: 0; padding: 0;}
+ 
+/* Menu styles */
+.item {
+    background-color: #00728B;
+    border: 1px solid #032472;
+    color: #FFF;
+    font-family: Arial;
+    padding: 3px;
+    text-decoration: none;
+}
+ 
+.leftpart {
+    width: 70%;
+}
+ 
+.rightpart {
+    width: 30%;
+}
+ 
+.small {
+    font-size: 75%;
+    color: #373737;
+}
+#footer {
+    font-size: 65%;
+    padding: 3px 0 0 0;
+}
+ 
+.topic-post {
+    height: 100px;
+    overflow: auto;
+}
+ 
+.post-content {
+    padding: 30px;
+}
+ 
+textarea {
+    width: 500px;
+    height: 200px;
+}
+3.connect.php
+<?php
+//connect.php
+$server = 'localhost';
+$username   = 'root';
+$password   = 'root';
+$database   = 'project';
+ 
+if(!mysql_connect($server, $username,  $password))
+{
+    exit('Error: could not establish database connection');
+}
+if(mysql_select_db($database))
+{
+    
+}
+?>
+4.signin.php
+<?php
+//signin.php
+include 'connect.php';
+include 'header.php';
+
+echo '<h3>Sign in</h3>';
+ 
+//first, check if the user is already signed in. If that is the case, there is no need to display this page
+if(isset($_SESSION['signed_in']) && $_SESSION['signed_in'] == true)
+{
+    echo 'You are already signed in, you can <a href="signout.php">sign out</a> if you want.';
+}
+else
+{
+    if($_SERVER['REQUEST_METHOD'] != 'POST')
+    {
+        /*the form hasn't been posted yet, display it
+          note that the action="" will cause the form to post to the same page it is on */
+        echo '<form method="post" action="">
+            Username: <input type="text" name="user_name" />
+            Password: <input type="password" name="user_pass">
+            <input type="submit" value="Sign in" />
+         </form>';
+    }
+    else
+    {
+        /* so, the form has been posted, we'll process the data in three steps:
+            1.  Check the data
+            2.  Let the user refill the wrong fields (if necessary)
+            3.  Varify if the data is correct and return the correct response
+        */
+        $errors = array(); /* declare the array for later use */
+         
+        if(!isset($_POST['user_name']))
+        {
+            $errors[] = 'The username field must not be empty.';
+        }
+         
+        if(!isset($_POST['user_pass']))
+        {
+            $errors[] = 'The password field must not be empty.';
+        }
+         
+        if(!empty($errors)) /*check for an empty array, if there are errors, they're in this array (note the ! operator)*/
+        {
+            echo 'Uh-oh.. a couple of fields are not filled in correctly..';
+            echo '<ul>';
+            foreach($errors as $key => $value) /* walk through the array so all the errors get displayed */
+            {
+                echo '<li>' . $value . '</li>'; /* this generates a nice error list */
+            }
+            echo '</ul>';
+        }
+        else
+        {
+            //the form has been posted without errors, so save it
+            //notice the use of mysql_real_escape_string, keep everything safe!
+            //also notice the sha1 function which hashes the password
+            $sql = "SELECT 
+                        user_id,
+                        user_name,
+                        user_level
+                    FROM
+                        users
+                    WHERE
+                        user_name = '" . mysql_real_escape_string($_POST['user_name']) . "'
+                    AND
+                        user_pass = '" . sha1($_POST['user_pass']) . "'";
+                         
+            $result = mysql_query($sql);
+            if(!$result)
+            {
+                //something went wrong, display the error
+                echo 'Something went wrong while signing in. Please try again later.';
+                //echo mysql_error(); //debugging purposes, uncomment when needed
+            }
+            else
+            {
+                //the query was successfully executed, there are 2 possibilities
+                //1. the query returned data, the user can be signed in
+                //2. the query returned an empty result set, the credentials were wrong
+                if(mysql_num_rows($result) == 0)
+                {
+                    echo 'You have supplied a wrong user/password combination. Please try again.';
+                }
+                else
+                {
+                    //set the $_SESSION['signed_in'] variable to TRUE
+                    $_SESSION['signed_in'] = true;
+                     
+                    //we also put the user_id and user_name values in the $_SESSION, so we can use it at various pages
+                    while($row = mysql_fetch_assoc($result))
+                    {
+                        $_SESSION['user_id']    = $row['user_id'];
+                        $_SESSION['user_name']  = $row['user_name'];
+                        $_SESSION['user_level'] = $row['user_level'];
+                    }
+                     
+                    echo 'Welcome, ' . $_SESSION['user_name'] . '. <a href="header.php">Proceed Now</a>.';
+                }
+            }
+        }
+    }
+}
+ 
+//include 'footer.php';
+?>
+5.signup.php
+<?php
+//signup.php
+include 'connect.php';
+include 'header.php';
+ 
+echo '<h3>Sign up</h3>';
+ 
+if($_SERVER['REQUEST_METHOD'] != 'POST')
+{
+    /*the form hasn't been posted yet, display it
+      note that the action="" will cause the form to post to the same page it is on */
+    echo '<form method="post" action="">
+        Username: <input type="text" name="user_name" />
+        Password: <input type="password" name="user_pass">
+        Password again: <input type="password" name="user_pass_check">
+        E-mail: <input type="email" name="user_email">
+        <input type="submit" value="REGISTER" />
+     </form>';
+}
+else
+{
+    /* so, the form has been posted, we'll process the data in three steps:
+        1.  Check the data
+        2.  Let the user refill the wrong fields (if necessary)
+        3.  Save the data 
+    */
+    $errors = array(); /* declare the array for later use */
+     
+    if(isset($_POST['user_name']))
+    {
+        //the user name exists
+        if(!ctype_alnum($_POST['user_name']))
+        {
+            $errors[] = 'The username can only contain letters and digits.';
+        }
+        if(strlen($_POST['user_name']) > 30)
+        {
+            $errors[] = 'The username cannot be longer than 30 characters.';
+        }
+    }
+    else
+    {
+        $errors[] = 'The username field must not be empty.';
+    }
+     
+     
+    if(isset($_POST['user_pass']))
+    {
+        if($_POST['user_pass'] != $_POST['user_pass_check'])
+        {
+            $errors[] = 'The two passwords did not match.';
+        }
+    }
+    else
+    {
+        $errors[] = 'The password field cannot be empty.';
+    }
+     
+    if(!empty($errors)) /*check for an empty array, if there are errors, they're in this array (note the ! operator)*/
+    {
+        echo 'Uh-oh.. a couple of fields are not filled in correctly..';
+        echo '<ul>';
+        foreach($errors as $key => $value) /* walk through the array so all the errors get displayed */
+        {
+            echo '<li>' . $value . '</li>'; /* this generates a nice error list */
+        }
+        echo '</ul>';
+    }
+    else
+    {
+        //the form has been posted without, so save it
+        //notice the use of mysql_real_escape_string, keep everything safe!
+        //also notice the sha1 function which hashes the password
+        $sql = "INSERT INTO
+                    users(user_name, user_pass, user_email ,user_date, user_level)
+                VALUES('" . mysql_real_escape_string($_POST['user_name']) . "',
+                       '" . sha1($_POST['user_pass']) . "',
+                       '" . mysql_real_escape_string($_POST['user_email']) . "',
+                        NOW(),
+                        0)";
+                         
+        $result = mysql_query($sql);
+        if(!$result)
+        {
+            //something went wrong, display the error
+            echo 'Something went wrong while registering. Please try again later.';
+            //echo mysql_error(); //debugging purposes, uncomment when needed
+        }
+        else
+        {
+            echo 'Successfully registered. You can now <a href="signin.php">sign in</a> and start posting! :-)';
+        }
+    }
+}
+ 
+//include 'footer.php';
+?>
+6.signout.php
+<?php
+include "header.php";
+		if(isset($_SESSION["name"]))
+		{
+		unset($_SESSION["name"]);
+		}
+		echo '<h1>You have been successfully logout</h1>';
+		session_destroy();
+		echo "<a href=header.php>HOME</a>";
+?>
+7.create_cat.php
+<?php
+//create_cat.php
+include 'connect.php';
+include 'header.php';
+         
+echo '<table border = 10px>';
+echo'<tr>';
+    echo '<td class="leftpart">';
+        echo '<h3><a href="category.php?id=">Category name</a></h3> Category description goes here';
+    echo '</td>';
+    echo '<td class="rightpart">';                
+            echo '<a href="topic.php?id=">Topic subject</a> at 10-10';
+    echo '</td>';
+echo '</tr>';
+include 'footer.php';
+?>
+8.create_topic.php
+<?php
+//create_cat.php
+include 'connect.php';
+include 'header.php';
+ 
+echo '<h2>Create a topic</h2>';
+if(!($_SESSION['signed_in']))
+{
+    //the user is not signed in
+    echo 'Sorry, you have to be <a href="signin.php">signed in</a> to create a topic.';
+}
+else
+{
+    //the user is signed in
+    if($_SERVER['REQUEST_METHOD'] != 'POST')
+    {   
+        //the form hasn't been posted yet, display it
+        //retrieve the categories from the database for use in the dropdown
+        $sql = "SELECT
+                    cat_id,
+                    cat_name,
+                    cat_description
+                FROM
+                    categories";
+         
+        $result = mysql_query($sql);
+         
+        if(!$result)
+        {
+            //the query failed, uh-oh :-(
+            echo 'Error while selecting from database. Please try again later.';
+        }
+        else
+        {
+            if(mysql_num_rows($result) == 0)
+            {
+                //there are no categories, so a topic can't be posted
+                if($_SESSION['user_level'] == 1)
+                {
+                    echo 'You have not created categories yet.';
+                }
+                else
+                {
+                    echo 'Before you can post a topic, you must wait for an admin to create some categories.';
+                }
+            }
+            else
+            {
+         	echo '<form method="post" action="">
+                    Subject: <input type="text" name="topic_subject" /> <br>
+                    Category:'; 
+                 
+                echo '<select name="topic_cat">';
+                    while($row = mysql_fetch_assoc($result))
+                    {
+                        echo '<option value="' . $row['cat_id'] . '">' . $row['cat_name'] . '</option>';
+                    }
+                echo '</select> <br>'; 
+                     
+                echo 'Message: <textarea name="post_content" /></textarea> <br>
+                    <input type="submit" value="Create topic" />
+                 </form>';
+            }
+        }
+    }
+    else
+    {
+        //start the transaction
+        $query  = "BEGIN WORK;";
+        $result = mysql_query($query);
+         
+        if(!$result)
+        {
+            //Damn! the query failed, quit
+            echo 'An error occured while creating your topic. Please try again later.';
+        }
+        else
+        {
+     
+            //the form has been posted, so save it
+            //insert the topic into the topics table first, then we'll save the post into the posts table
+            $sql = "INSERT INTO 
+                        topics(topic_subject,
+                               topic_date,
+                               topic_cat,
+                               topic_by)
+                   VALUES('" . mysql_real_escape_string($_POST['topic_subject']) . "',
+                               NOW(),
+                               " . mysql_real_escape_string($_POST['topic_cat']) . ",
+                               " . $_SESSION['user_id'] . "
+                               )";
+                      
+            $result = mysql_query($sql);
+            if(!$result)
+            {
+                //something went wrong, display the error
+                echo 'An error occured while inserting your data. Please try again later.' . mysql_error();
+                $sql = "ROLLBACK;";
+                $result = mysql_query($sql);
+            }
+            else
+            {
+                //the first query worked, now start the second, posts query
+                //retrieve the id of the freshly created topic for usage in the posts query
+                $topicid = mysql_insert_id();
+                 
+                $sql = "INSERT INTO
+                            posts(post_content,
+                                  post_date,
+                                  post_topic,
+                                  post_by)
+                        VALUES
+                            ('" . mysql_real_escape_string($_POST['post_content']) . "',
+                                  NOW(),
+                                  " . $topicid . ",
+                                  " . $_SESSION['user_id'] . "
+                            )";
+                $result = mysql_query($sql);
+                 
+                if(!$result)
+                {
+                    //something went wrong, display the error
+                    echo 'An error occured while inserting your post. Please try again later.' . mysql_error();
+                    $sql = "ROLLBACK;";
+                    $result = mysql_query($sql);
+                }
+                else
+                {
+                    $sql = "COMMIT;";
+                    $result = mysql_query($sql);
+                     
+                    //after a lot of work, the query succeeded!
+                    echo 'You have successfully created your new topic</a>.';
+                }
+            }
+        }
+    }
+}
+ 
+//include 'footer.php';
+?>
+9.new_cat.php
+<?php
+//create_cat.php
+include 'connect.php';
+include 'header.php';
+ 
+echo '<h2>Create a Category</h2>';
+if(!($_SESSION['signed_in']))
+{
+    //the user is not signed in
+    echo 'Sorry, you have to be <a href="/forum/signin.php">signed in</a> to create a category.';
+}
+else
+{
+    //the user is signed in
+    if($_SERVER['REQUEST_METHOD'] != 'POST')
+    {   
+        //the form hasn't been posted yet, display it
+        //retrieve the categories from the database for use in the dropdown
+        $sql = "SELECT
+                    cat_id,
+                    cat_name,
+                    cat_description
+                FROM
+                    categories";
+         
+        $result = mysql_query($sql);
+         
+        if(!$result)
+        {
+            //the query failed, uh-oh :-(
+            echo 'Error while selecting from database. Please try again later.';
+        }
+        else
+        {
+            if(mysql_num_rows($result) == 0)
+            {
+                //there are no categories, so a topic can't be posted
+                if($_SESSION['user_level'] == 1)
+                {
+                    echo 'You are allowed to create category.';
+                }
+                else
+                {
+                    echo 'You must wait for an admin to create category.';
+                }
+            }
+            else
+            {
+         	echo '<form method="post" action="">
+                    Category: <input type="text" name="cat_name" /> <br>
+                    Category Description:<input type="text" name="cat_desc" /> <br>'; 
+                 
+                echo    '<input type="submit" value="Create Category" />'.
+                 '</form>';
+            }
+        }
+    }
+    else
+    {
+        
+     
+            //the form has been posted, so save it
+            //insert the topic into the topics table first, then we'll save the post into the posts table
+            $sql = "INSERT INTO 
+                        categories (cat_name,cat_description)
+                   VALUES('" . mysql_real_escape_string($_POST['cat_name']) . "',
+            
+                               '" . mysql_real_escape_string($_POST['cat_desc'])."'
+                               )";
+                      
+            $result = mysql_query($sql);
+            if(!$result)
+            {
+                //something went wrong, display the error
+                echo 'An error occured while inserting your data. Please try again later.' . mysql_error();
+           
+            }
+            else
+            {
+            	echo "Category Created";
+            }
+        
+    }
+}
+//include 'footer.php';
+?>
+10.display.php
+<?php
+
+include 'connect.php';
+include 'header.php';
+
+	$sql="SELECT cat_name, cat_id FROM categories group by cat_name";		//list of categories
+	$result=mysql_query($sql);
+	echo "<table border=2>
+	<tr>
+	<th>CATEGORY</th>
+	</tr>";
+	if ($result==false)
+	{
+		echo "Error occurred".mysql_error();
+	}
+	while($row=mysql_fetch_array($result))
+	{
+		echo "<tr>";
+		echo "<td>".$row['cat_name']."</td>";
+		echo "</tr>";
+	}
+	
+	
+
+
+?>
+<html>
+	<body>
+		<a href="header.php">Home</a>
+	</body>
+</html>
+11.topic_list.php
+<?php
+include 'header.php';
+include 'connect.php';
+
+	$sql="SELECT user_name, topic_subject FROM users t1 INNER JOIN topics t2 ON t1.user_id = t2.topic_by WHERE t1.user_id = t2.topic_by";		//list of topics and users
+	$result=mysql_query($sql);
+	
+	echo "<table border='1'>
+	<tr>
+	<th>TOPIC NAME</th>
+	<th>USER NAME</th>
+	</tr>";
+	
+	while($row=mysql_fetch_array($result))
+	{
+		echo "<tr>";
+		echo "<td>".$row['topic_subject']."</td>";
+		echo "<td>".$row['user_name']."</td>";
+		echo "</tr>";
+	}
+	
+
+?>
+<html>
+	<body>
+		<a href="header.php">Home</a>
+	</body>
+</html>
+12.reply_list.php
+<?php
+include 'connect.php';
+include 'header.php';
+
+	$sql="SELECT user_name, post_content,post_date FROM users t1 INNER JOIN posts t2 ON t1.user_id = t2.post_by WHERE t1.user_id = t2.post_by";	//displays all replies
+	$result=mysql_query($sql);
+
+	
+	echo "<table border='1'>
+	<tr>
+	<th>REPLY</th>
+	<th>BY</th>
+	<th>TIME</th>
+	</tr>";
+	
+	while($row=mysql_fetch_array($result))
+	{
+		echo "<tr>";
+		echo "<td>".$row['post_content']."</td>";
+		echo "<td>".$row['user_name']."</td>";
+		echo "<td>".$row['post_date']."</td>";
+		echo "</tr>";
+	}
+
+?>
+<html>
+	<body>
+		<a href="header.php">Home</a>
+	</body>
+</html>
+13.index1.php
+<?php
+//create_cat.php
+include 'connect.php';
+include 'header.php';
+ 
+$sql = "SELECT
+            cat_id,
+            cat_name,
+            cat_description,
+        FROM
+            categories";
+ 
+$result = mysql_query($sql);
+ 
+if(!$result)
+{
+    echo 'The categories could not be displayed, please try again later.';
+}
+else
+{
+    if(mysql_num_rows($result) == 0)
+    {
+        echo 'No categories defined yet.';
+    }
+    else
+    {
+        //prepare the table
+        echo '<table border="1">
+              <tr>
+                <th>Category</th>
+                <th>Last topic</th>
+              </tr>'; 
+             
+        while($row = mysql_fetch_assoc($result))
+        {               
+            echo '<tr>';
+                echo '<td class="leftpart">';
+                    echo '<h3><a href="new_cat.php?id">' . $row['cat_name'] . '</a></h3>' . $row['cat_desc'];
+                echo '</td>';
+                echo '<td class="rightpart">';
+                            echo '<a href="topic.php?id=">Topic subject</a> at 10-10';
+                echo '</td>';
+            echo '</tr>';
+        }
+    }
+}
+ 
+//include 'footer.php';
+?>
+14.view.php
+<?php
+include 'header.php';
+include 'connect.php';
+?>	
+<html>
+	<body>
+		<a href="display.php">1.Display the Categories.</a><br>
+		<a href="topic_list.php">2.Display the Topics.</a><br>
+		<a href="reply_list.php">3.Display the Replies.</a>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+     Chapter -11
+11. Testing
+
+10.1 Introduction:
+	The Testing phase forms an important part of the software development life cycle. Any software product has to be tested thoroughly before it is delivered to the end customer. Well tested software with limited features is certainly better than the one having many features with only a few of them working. This document provides a general overview of the testing strategy adopted for testing our product.
+10.2 Goals and Objectives:
+	The software testing involves verification and validation of the software produced. Testing is a process of executing of program with the intent of finding an error.	A good test is one where there is high probability of finding an error.	A successful test is one which uncovers and as yet undiscovered errors. Our objective of testing is systematically uncovering different classes of errors and to do so with minimum efforts and amount of time and effort. The data collected in the test provides a good indication of the software reliability and some indication of software quality as a whole. The results of testing will not only help to know which parts of system are working below average but also helps to make the system more user friendly. Testing is considered as an unavoidable part of any responsible effort to develop a software system.
+10.3 Test Plan:
+Testing Strategy
+	A good testing strategy is one using which a lot of errors can be easily found. The testing which is to be carried out is divided into number of modules for a proper judgment of the quality of the software. The testing strategy mainly carried out was Module Testing.
+	Test cases are plotted considering the above categories and correct functionality of various parts of code is ensured.
+Unit Testing
+	This involves testing of individual modules. Here we have tested Individual modules written for various operations,
+	Module for Insert Restaurant
+	Module for Delete Restaurant
+	Module for Rate Restaurant
+	Module for Admin Login
+	Module for Displaying according to area
+	Module for filtering Restaurants according to cuisine
+Integration Testing
+	The system as a whole is tested here. The system is said to be operating correctly if it passes these tests. After the different modules have been developed and tackled, all the modules are integrated and tested during the Integration testing.TEST CASE TEMPLATE
+A test case can have the following elements. Note, however, that normally a test management tool is used by companies and the format is determined by the tool used.
+Test Case SummaryThe summary / objective of the test case.PrerequisitesAny prerequisites or preconditions that must be fulfilled prior to executing the test.Test DataThe test data, or links to the test data, that are to be used while conducting the test.Expected ResultThe expected result of the test.Actual ResultThe actual result of the test; to be filled after executing the test.StatusPass or Fail. Other statuses can be ‘Not Executed’ if testing is not performed and ‘Blocked’ if testing is blocked.Validation:
+
+We validate that the following fields aren’t empty:
+> Restaurant Name
+> Restaurant type
+> Location
+> Street
+> Landmark
+> Post Code
+
+
+We also validate that the ratings submitted by user are not NULL.
+
+While deleting, it is essential that the entered restaurant name is not empty. This validation is also carried out.
+
+
+
+
+
+
+
+
+
+Chapter -12
+12. Conclusion
+
+      As, considering our system, we conclude that using our system we can maintain all the records and perform operations like Inserting of Restaurant data, Deleting our data, perform rate Restaurant operation, display Restaurants according to area and filtering restaurants by cuisine. The system can be effectively used by the users to find and display nearby restaurants and make relevant decision.
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Chapter -13
+13. References
+
+> Modern PHP: new features and good practices, by Josh Lockhart
+> TutorialsPoint – tutorialspoint.com
+> W3Schools Online Web Tutorials – w3schools.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1
+
+
+

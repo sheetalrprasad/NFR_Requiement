@@ -1,0 +1,130 @@
+
+ Sentiment Analysis and Opinion Mining with Social Networking for Predicting Box Office Collection of Movie 
+
+ PVG’s COET Page 1 
+
+ CHAPTER 1 
+INTRODUCTION 
+In this era social media is becoming more popular where netizens can express themselves, gives reviews etc. data generated through social media is nearly 10TB per day. With increase in such large amount of data it is necessary to develop a system which will make use of such large amount of data to perform analysis and predict future with social networking. So we are developing a system which makes use of twitter data for predicting box office collection of movie. This system include Natural Language Processing domain of computer science and scientific study of human language i.e. linguistics which is related with the interaction or interface between the human (natural) language and computer. Opinion mining or Sentiment analysis refers to a broad area of Natural Language Processing and text mining. It is concern not with the topic a document is about but with opinion it expresses that is the aim is to determine the attitude (feeling, emotion and subjectivities) of a speaker or writer with respect to some topic to determine opinion polarity. Initially it was applied for classifying a movie as good or bad based on positive or negative opinion. Later it expanded to star rating predictions, prediction of box office collection of movie. 
+1.1 WHAT IS SENTIMENT ANALYSIS? 
+Natural Language Processing is a domain of computer science and scientific study of human language i.e. linguistics which is related with the interaction or interface between the human (natural) language and computer. Basically NLP commenced as a sub-field of artificial intelligence. Opinion mining or Sentiment analysis refers to a broad area of Natural Language Processing and text mining. It is not concern with what the topic is about , but with opinion it expresses . The aim is to determine the attitude (feeling, emotion and subjectivities) of a speaker or writer with respect to some topic to determine opinion polarity. Initially it was applied for classifying a movie as good or bad based on positive or negative opinion. Later it expanded to star rating predictions, product reviews travel advice and other decision making processes. Sentiment Analysis and Opinion Mining with Social Networking for Predicting Box Office Collection of Movie 
+PVG’s COET Page 2 
+
+Sentiment Analysis identifies the phrases in a text that bears some sentiment. The author may speak about some objective facts or subjective opinions. It is necessary to distinguish between the two. Sentiment analysis finds the subject towards whom the sentiment is directed. A text may contain many entities but it is necessary to find the entity towards which the sentiment is directed. It identifies the polarity and degree of the sentiment. Sentiments are classified as objective (facts), positive (denotes a state of happiness, bliss or satisfaction on part of the writer) or negative (denotes a state of sorrow, dejection or disappointment on part of the writer). The sentiments can further be given a score based on their degree of positivity, negativity or objectivity. 
+1.2 CHALLENGES FOR SENTIMENT ANALYSIS 
+1.2.1 Implicit Sentiment and Sarcasm 
+A sentence may have an implicit sentiment even without the presence of any sentiment bearing words. Consider the following examples. 
+1) How can anyone sit through this movie? 
+
+2) One should question the stability of mind of the writer who wrote this book. 
+
+Both the above sentences do not explicitly carry any negative sentiment bearing words although both are negative sentences. Thus identifying semantics is more important in Sentiment analysis than syntax detection. 
+1.2.2 Domain Dependency 
+There are many words whose polarity changes from domain to domain. Consider the following examples. 
+1) The story was unpredictable. 
+
+2) The steering of the car is unpredictable. 
+
+3) Go read the book. 
+
+In the first example, the sentiment conveyed is positive whereas the sentiment conveyed in the second is negative. The third example has a positive sentiment Sentiment Analysis and Opinion Mining with Social Networking for Predicting Box Office Collection of Movie 
+PVG’s COET Page 3 
+
+in the book domain but a negative sentiment in the movie domain (where the director is being asked to go and read the book). 
+1.2.3 Thwarted Expectations 
+Sometimes the author deliberately sets up context only to refute it at the end. 
+Consider the following example: 
+1) This film should be brilliant. It sounds like a great plot, the actors are first grade, and the supporting cast is good as well, and Stallone is attempting to deliver a good performance. However, it can’t hold up. 
+
+In spite of the presence of words that are positive in orientation the overall sentiment is negative because of the crucial last sentence, whereas in traditional text classification this would have been classified as positive as term frequency is more important there than term presence. 
+1.2.4 World Knowledge 
+Often world knowledge needs to be incorporated in the system for detecting sentiments. Consider the following examples: 
+1) He is a Frankenstein. 
+
+2) Just finished Doctor Zhivago for the first time and all I can say is Russia sucks. 
+
+The first sentence depicts a negative sentiment whereas the second one depicts a positive sentiment. But one has to know about Frankenstein and Doctor Zhivago to find out the sentiment. 
+1.2.5 Subjectivity Detection 
+This is to differentiate between opinionated and non-opinionated text. This is used to enhance the performance of the system by including a subjectivity detection module to filter out objective facts. But this is often difficult to do. Consider the following examples: Sentiment Analysis and Opinion Mining with Social Networking for Predicting Box Office Collection of Movie 
+PVG’s COET Page 4 
+
+
+1) I hate love stories. 
+
+2) I do not like the movie “I hate stories”. 
+
+The first example presents an objective fact whereas the second example depicts the opinion about a particular movie. 
+1.2.6 Entity Identification 
+A text or sentence may have multiple entities. It is extremely important to find out the entity towards which the opinion is directed. Consider the following examples. 
+1) Samsung is better than Nokia 
+
+2) Ram defeated Hari in football. 
+
+The examples are positive for Samsung and Ram respectively but negative for Nokia and Hari. 
+1.3 APPLICATION OF SENTIMENT ANALYSIS 
+Word of mouth (WOM) is the process of conveying information from person to person and plays a major role in customer buying decisions. In commercial situations, WOM involves consumers sharing attitudes, opinions, or reactions about businesses, products, or services with other people. WOM communication functions based on social networking and trust. People rely on families, friends, and others in their social network. Research also indicates that people appear to trust seemingly disinterested opinions from people outside their immediate social network, such as online reviews. This is where Sentiment Analysis comes into play. Growing availability of opinion rich resources like online review sites, blogs, social networking sites have made this 
+“decision-making process” easier for us. With explosion of social networking platforms consumers have a soapbox of unprecedented reach and power by which they can share opinions. Major companies have realized these consumer voices affect shaping voices of other consumers. Sentiment Analysis thus finds its use in Consumer Market for Product reviews, Marketing for knowing consumer attitudes and trends, 
+Social Media for finding general opinion about recent hot topics in town, Movie to find whether a recently released movie is a hit. Sentiment Analysis and Opinion Mining with Social Networking for Predicting Box Office Collection of Movie 
+PVG’s COET Page 5 
+
+CHAPTER 2 
+LITERATURE SURVEY 
+2.1 RELATED WORK 
+A lot of research on sentiment analysis and machine learning techniques to achieve greater accuracy and precision has been carried out in recent times. The process has been tested using multiple machine learning algorithms such as support vector machines (SVM) and their variations. The sentiment analysis system uses the movie review domain. It uses movie reviews and employs popular machine learning algorithms to correctly categorize the reviews into positive, negative and neutral. The system maintains a corpus of words or terms and categorizes the reviews. SVM is used to predict the sentiment. These algorithms depend on the probability of words appearing in their view against the words in the corpus. Sentiment analysis is further expanded into the finance domain also. It attempts to quantify numerical information found in financial markets and verbal data as provided in financial news. The thesis clearly indicates the multitude of applications of sentiment analysis and essentially follows a similar pattern as that of the movie review domain. The basic methodology for obtaining an aggregated sentiment deals with maintaining a corpus of terms of the relevant domain, and using machine learning algorithms to understand the customer sentiment. 
+2.2 EXISTING SYSTEM 
+IMDB (Internet Movie Database) 
+IMDB is web based application which maintains all the information related to movies. This system also gives ratings to movie depending on reviews given by user. For giving rating to movie this system just finds the average of ratings given by user. In this system users create account and can rate movie from 1 to 5 stars. IMDB system then analyzes these ratings to conclude which movie is hit, flop or average. Sentiment Analysis and Opinion Mining with Social Networking for Predicting Box Office Collection of Movie 
+PVG’s COET Page 6 
+
+Advantage: This system recommends movie based on user reviews 
+Disadvantage: This system makes analysis over reviews submitted by user on their site only and doesn’t make use of social network. 
+As we have seen our system will overcome drawbacks of this system by making use of social media platform. Our system will also perform NLP and sentiment analysis to predict the mood of user towards movie. Sentiment Analysis and Opinion Mining with Social Networking for Predicting Box Office Collection of Movie 
+PVG’s COET Page 7 
+
+CHAPTER 3 
+PROBLEM STATEMENT 
+3.1 WHAT IS TO BE DEVELOPED 
+Our system is going to predict overall box office collection of movie with the help of social media such as twitter. Our system analyzes the tweets and classify it into positive and negative tweets using N-gram classifier. Then various factors are applied to predict box office collection of movie. Phases in which project is going to be developed is as follows : 
+Phase 1: 
+Input to the system will be tweets streamed using twitter API. These Tweets will be streamed using keywords such as '#phantom', '#phantommovie', '#phantomtrailer' etc. Python along with twitter API is used for streaming purpose. The tweets which are streamed will be stored in .csv(Comma Separated Values) file. 
+Phase 2: 
+Data in the .csv file will be loaded into hadoop HDFS system. Data available in HDFS file system will be retrived with mapreduce technique. 
+Phase 3: 
+After data file is taken from HDFS file system then each tweet will be analysed using NLP. 
+Phase 4: 
+In this phase tweets will be classified as positive or negative tweets. For classifying tweets as positive or negative we will first train the system to identify which word is positive and which word is negative. Then we will apply N-gram classifier to classify tweets as positive and negative. Sentiment Analysis and Opinion Mining with Social Networking for Predicting Box Office Collection of Movie 
+PVG’s COET Page 8 
+
+Phase 5: 
+Box office collection of movie will depend on various factor as follows: 
+1) No. of positive and negative tweets 
+
+2) Star power 
+
+- Producer 
+
+- Director 
+
+- Actor and Actress 
+
+- Music Director 
+
+3) No. Of screens on which movie will be released 
+
+Weights will be assigned to factors between 1 to 10. These Weights will be assigned to factors by comparing factor value with baseline. For Example. If we consider number of followers of actor 5M as baseline then if any actor has more number of followers than baseline then this actor has more weight. Once weights of all factor is determined then we will calculate final weight of movie by combining weight of all factors. This final weight is then compared with baseline and box office collection will be predicted. 
+3.2 TECHNOLOGIES USED 
+The system is built on Python platform as portable language. Python is used for streaming of twitter data purpose also. Data streamed will be stored in HDFS. Tweets are analysed using NLP technique for classifying it into positive tweet or negative tweet or neutral tweet. Sentiment Analysis and Opinion Mining with Social Networking for Predicting Box Office Collection of Movie 
+PVG’s COET Page 9 
+
+CHAPTER 4 
+SYSTEM REQUIREMENT AND SPECIFICATION 
+4.1 SOFTWARE REQUIREMENT SPECIFICATION 
+4.1.1 Introduction 
+Purpose 
+The purpose of this document is to outline the requirements which the opinion mining and prediction of box office collection of movie windows application must meet. The audience of this document includes project developers and users who wish to view the project requirements and specifications and use this application. 
+Scope 
+The purpose of this project is to develop an automated way of gauging the reviews of netizens on particular movie based on social media, specifically Twitter, using a windows device. The software should determine the sentiment of the Twitter community with respect to a required movie, without looking at traditional news sources .The scope of this project is for movie business . For developing superior marketing and publicity strategies . The system will make use of machine learning techniques and algorithms such as Multiple Linear Regression, which will predict box office collection of movie. Using various criterions such as followers, following, relevancy of the comment can be calculated and later be factored in prediction. Sentiment Analysis and Opinion Mining with Social Networking for Predicting Box Office Collection of Movie 
+PVG’s COET Page 10 
+
+4.1.2 Stakeholder and User Description 
+Stakeholder Profile Representatives Mohit Shaha Shrijeet Joshi Hrishikesh Vibhute Mahesh Panaskar Description Design, execute and refine the final product from scratch Responsibilities 1. Successfully develop the entire system adhering to the software development standards and practices 2. Ensure the system will be efficient in its operation, maintainable, and testable 3. Create and maintain demand for the overall product 4. Monitor progress and adhere to the projected time- lines Involvement All Stakeholders are involved in all phase of development Table 1. Stakeholder Profile User Profile Representatives Individuals/organizations which are wishing to use this tool Description Business application Type Casual user, marketing professionals and anybody who wants to classify sentiment Table 2. User Profile 

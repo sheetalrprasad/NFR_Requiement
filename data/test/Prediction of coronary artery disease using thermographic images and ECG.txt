@@ -1,0 +1,232 @@
+Prediction of coronary artery disease using thermographic images and ECG 
+PROJECT REPORT 
+Submitted in partial fulfillment 
+of the requirements for the award of the degree 
+of 
+MASTER OF TECHNOLOGY 
+in 
+INFORMATION TECHNOLOGY 
+(Specialization: BIOINFORMATICS) 
+By 
+Bakul Gohel 
+IBI2006006 
+Under the Guidance of: 
+Dr.T.L.Lahiri 
+IIIT-Allahabad 
+1 
+INDIAN INSTITUTE OF INFORMATION TECHNOLOGY 
+Allahabad 
+(A Centre of Excellence in Information Technology Established by Govt. of India) 
+Date: __________________ 
+WE HEREBY RECOMMEND THAT THE THESIS PREPARED UNDER OUR SUPERVISION BY Mona Chaurasiya ENTITLED Classification of protein families based on physiochemical parameters BE ACCEPTED IN PARTIAL FULFILMENT OF THE REQUIREMENTS FOR THE DEGREE OF MASTER OF TECHNOLOGY IN INFORMATION TECHNOLOGY FOR EXAMINATION 
+COUNTERSIGNED 
+THESIS ADVISOR 
+DEAN (ACADEMIC) 
+INDIAN INSTITUTE OF INFORMATION TECHNOLOGY – ALLAHABAD 
+U.P., 211012, INDIA 
+Table of Contents 
+2 
+INDIAN INSTITUTE OF INFORMATION TECHNOLOGY 
+Allahabad 
+(A Centre of Excellence in Information Technology Established by Govt. of India) 
+CERTIFICATE OF APPROVAL* 
+     The foregoing thesis is hereby approved as a creditable study in the area of Information Technology carried out and presented in a manner satisfactory to warrant its acceptance as a pre-requisite to the degree for which it has been submitted. It is understood that by this approval the undersigned do not necessarily endorse or approve any statement made, opinion expressed or conclusion drawn therein but approve the thesis only for the purpose for which it is submitted. 
+     COMMITTEE 
+     ON 
+     FINAL EXAMINATION 
+     FOR EVALUATION 
+     OF THE THESIS 
+*Only in case the recommendation is concurred in 
+3 
+Index 
+No. Page No 
+1. Motivation 6 
+3. Problem Definition 8 
+4. Literature survey 8 
+5. Proposed approach for Problem 10 
+6. Material and method 14 
+7. Result 25 
+8. Conclusion 29 
+9 Future works 30 
+10 References 30 
+4 
+Abbreviation 
+RIVA=ramus interventricularis (anterior interventricular branch of the left coronary artery) 
+RCX = circumflex artery 
+RCA = right coronary artery 
+MI = myocardial infarction 
+CAD = coronary artery disease 
+CHD = coronary heart disease 
+5 
+Title 
+“Prediction of coronary artery disease using thermographic images and ECG”. 
+Motivation 
+Coronary artery disease or coronary heart disease (CHD) is the leading cause of death and disability in the world. Main etiological factor of CHD is atherosclerosis which is seen in every part of the body like brain, heart, kidney, liver, spleen, extremities etc. Hypercholesteromia, smoking, hypertension, hyperglycemia etc. are the risk factor for development of it. There is lipid deposition in the arterial wall which gradually form plaque and reduce lumen size. Over the time there is platelet aggregation over it witch further reduce the lumen size and reduce the blood flow to the supplying tissue. Stenosis of vessel, vasculities are other factors which cause reduces in lumen size gradually and cause same effect. Over the time it causes chronic ischemia of tissue and cause biochemical, functional and structural change in the tissue. 
+Coronary artery involvement cause ischemic heart disease the most common, serious acute or chronic, life- threatening illness. If there is acute blockage, it leads to angina and myocardial infarction. Chronic ischemia gradually leads to biochemical, functional and structural change in myocardium and leads to arrhythmias, myopathies and heart failure. This pathology detected by the ECG, echocardiography , angiography etc. 
+Peripheral extremity involvement cause peripheral vascular diseases include intermittent claudicating and gangrene. Tissue temperature is maintained by the blood flow and circulation in tissue. Reduced blood flow to the tissue cause decrease in temperature 
+6 
+of extremities. This temperatures change can be detected by infrared thermograph. It is in the flow chart below. 
+Current approach of detection of myocardial infarction based on mainly on various clinical symptoms and investigation. Symptom and sign include chest pain, dyspnea, palpitation, dizziness, syncope, sweating and increase or decrease heart rate, uncontrolled blood pressure etc. Investigation includes ECG, echocardiography and angiography etc. ECG is most widely used investigative tool in diagnosis of heart disease but 
+7 
+its sensitivity and specificity is however low in diagnosis of many heart disease, especially for CHD disease and also ECG tell very little about coronary artery block. Currently angiography is the only way for identification of coronary artery block but it is an expensive, risky and invasive investigation. . 
+Problem Definition 
+1. Find newer efficient feature from ECG with good sensitivity for detection of CHD, especially myocardial abnormalities particularly myocardial infarction and myocardial hypertrophy. 
+2. Find newer efficient feature from ECG for prediction of affected area of heart and the extent of affected area. 
+3. Selecting appropriate feature from ECG and thermographic imaging of body surface in prediction of coronary artery block and extent of block. 
+4. Develop non-invasive and cheap method or model for prediction of coronary artery block and the extent of blockage. 
+5. To explore current practice of CHD diagnosis and compare it with our new method. 
+6. Maximizing diagnosis efficiency by using multimodal (i.e., ECG and Thermogram) data analysis. 
+Literature survey 
+
+As we know that ECG is most cheap and easy investigation in detection of cardiac abnormalities. But still its sensitivity and specificities low in diagnosis of certain 
+8 
+disease, so it may miss many important lesions. Sensitivity of ECG in detection of MI is range from 39% to 68% and specificity of ECG in MI detection is range from 89% to 98% [6]. So still sensitivity of ECG is low in diagnosis of MI. Sensitivity of Q-wave in diagnosis of prior MI is 48%[7]. Sudden cardiac death, MI, cardiac failure is more common in hypertrophy cardiac disease [8]. In ECG hypertrophy detected by various absolute amplitude base criteria. Numerous ECG criteria of diagnosis of LVH depend mainly on the fix voltage threshold and give only 6.9% sensitivity and 98.8% specificity [2]. Different people with different body mass and body index exert different amount of biometric impendence affect (reduce) sensitivity of ECG in diagnosis of disease like LVH e.g. low-fat group have high sensitivity in diagnosis of LVH then fatty group of people [10]. Echocardiography gives accurate result in LVH but costly procedure. Also there is ST, QT, J morphology based criteria for prediction of coronary artery stenosis[9] . Coronary artery block accurately detected by angiography which is costly procedure. 
+Patients with peripheral arterial disease (PAD) are characterized by a high mortality for cardiovascular events. So find out peripheral vascular disease may help in identification of cardiovascular disease risk. Peripheral vascular disease can be find out by thermography of extremities. Report on application of thermogram for biomedical use mainly gives three kind of approaches. One deals with identification of position of internal wounds within the body (e.g., detection of craniocerebral injury) [4]. second approach deals with invasive use of thermogram for diagnostics purpose [5] and third one deals with detection of peripheral vascular disease by detection of peripheral blood flow [3]. In our specific problem we have utilized the third approach to design our specific protocol (as described in the methodology section). 
+9 
+Proposed Approach for problem 
+Normal ECG: 
+The electrocardiogram is the graphical recording of electric potentials generated by the heart. Electric currents propagate through three components (1) pacemaker cells (2) conduction tissue and (3) heart muscle. Signal generated in the pacemaker cell which is travel through conduction tissue like inter nodal fiber, a-v node, bundle branch fiber, perkinje fiber and at last through heart muscle. When signal reach at heart muscle it contract and after it relax. fig (2). Under resting state cell remain polarized that means carry electrical charge across the membrane which is around 70 to 90 mV with inside negative. During Depolarization and Repolarization of heart their is change in potential in heart muscle cell. Depolarization is a potential changes from negative to more positive value in heart muscle cell or neural cell means excitation of cell. Repolarization is a reverse of Depolarization. This change is recorded from surface of the body by placing the electrode on different part of the body. This potential changes plot against time called electrocardiograph. Fig(1) and fig(3) 
+Fig. 1 normal ECG .[11] Fig.2 conduction pathway[11] 
+10 
+Fig.3 normal 12 lead ECG [11] 
+“Relative amplitude” as disease identifying feature: 
+As mentioned above, change in shape and Amplitude of wave in ECG depends on the change in direction and amplitude of resultant polarization vector. Structural and biochemical changes cause deviation of resultant polarization vector from its normal direction pattern. This also affects amplitude of ECG wave in different leads with various amounts. So it is possible for us to detect these pathological changes by detecting the change in amplitude pattern in ECG leads. But amplitude also affected by body built and machine configuration which add noise to ECG which affect amplitude of ECG. To overcome this noise we use relative amplitude. Relative amplitude difference pattern instead of absolute amplitude. Relative amplitude defines as follow. 
+Relative Amplitude = (|a| - |b|) / (|a| + |b|) 
+11 
+OR 
+Relative Amplitude = (|a| /|b|) 
+a=average peak value of max {R wave, S wave} of first lead of two 
+b=average peak value of max {R wave, S wave} of second lead of two 
+See fig. 4 and fig. 5. 
+“amplitude inversely proportional to biometric impendence”. 
+Now assume one person is fatty, take ECG and calculate (a/b) (fatty). At same time assume he is thin, take ECG and calculate (a/b) (thin). But amplitude inversely proportional to biometric impendence so 
+(a/b) (Fatty) = (a/b) (Thin) 
+But 
+a (fatty) ? a (thin) 
+b (fatty) ? b (thin) 
+We can see that biometric impendence affect absolute amplitude but not affect relative amplitude. So relative amplitude overcome the effect of biometric impendence hence body built. relative amplitude pattern of various two lead combinations can help in identifying the particular cardiac disease. Detail about this method given in following subsequent session. 
+12 
+Thermograph: 
+The infrared camera being used by us can give thermal property up to the 5 mm depth of soft tissue of the human body. Heart lays within chest wall which quite deep from surface, there for, it is not possible to get direct temperature profile of heart tissue from thermograph of precardium. Temperature profile of extremities and neck region of body which provide indirect measure of vascular disease like atherosclerosis which is main risk factor of coronary artery block and other cardiac abnormalities. We try to classify the disease and normal, and. Also try to see the extent of disease using temperature profile. Combine it with ECG feature try to predict blocked coronary artery (ies) and if possible extent of blockage. 
+
+Fig.4 thin person 
+
+Fig 5 fatty person 
+13 
+Material and Method 
+Material: 
+(1) FLER Infrared camera with 0.08 °C resolution 
+(2) Philips ECG machine 
+Software Use 
+Matlab 
+Adob photoshop 
+Method: 
+DATA Collection: 
+We collect history, thermo graphic images and ECG from each person. Patient’s data collected from heart line hospital in Allahabad. Data record as follow. 
+Person History: 
+(1) name 
+(2) age 
+(3) sex 
+(4) history of diabetes mellitus, MI and hypertension 
+(5) smoking habit 
+(6) Diagnosis of patient (diagnosed by H.O.D doctor) 
+
+14 
+Thermo graphic image: 
+We are taking four images per person, person is in lying position. 
+(1) Dorsum of hand (right or left ) 
+(2) Dorsum of left foot 
+(3) Dorsum of right foot 
+(4) Front of neck with extension position 
+
+(a) (b) 
+(c) (d) 
+Fig (6) (a) Right hand (b) Left foot 
+(c) Right foot (d) Front of neck 
+15 
+ECG feature extraction 
+Data: Digital ECG signal from PTB database 
+Feature extraction: as follow. 
+(1) Base line correction of ECG signal 
+Generally ECG contains noise that is result from movement of electrode and movement of heart during respiration, which cause baseline drift in ECG. Computer aided analysis of ECG generally required correction of this baseline drift. Base line drift has low frequencies waves. So it can be corrected by removing low frequencies from original ECG. Low frequencies wave is get by using low pass filter. we use median filter as low pass filter with window size 100 to get low frequencies wave, then it subtracted from original ECG wave. At the end we got baseline corrected ECG signal. All above process where ECG signal in time domine. 
+Baseline_corrected_ECG_signal = original ECG signal – median filter (original 
+ECG Signal) 
+(2) Extraction of average R wave or S wave amplitude of lead 
+There is variation in the amplitude of R or S wave in same lead, so here we take the average amplitude of R or S wave. First extract the R wave or S wave whatever maximum by it’s amplitude. we did it by taking maximum absolute value in the lead. It gives the R or S wave with highest amplitude. For average R or S wave value, extract the wave with amplitude more than 80 % of highest amplitude wave with same direction. So we get the upper 1/5th part of every S or R wave in same lead. Peak value of each R or S wave gets identifying peak point peak point is, point where positive slop change to negative slop. Then calculate average of all peak point value. 
+16 
+(3) “Relative amplitude” as feature vector of ECG use for classifying propose 
+There is 12 lead in ECG, out of this 6 is limb leads and 6 is chest leads. After extracting R or S wave of each lead, calculate relative amplitude between two lead which define below. We are taking possible combination of leads I, II, III, aVR, aVL, aVF and possible combination of leads V1, V2, V3, V4, V5, V6. Total we get (6C2 + 6C2) =30 combinations. we are taking limbs leads and chest lead combination separate because Fat deposition so biometric impendence on chest area and other part of body is not in proportional in every people, female have more fat deposition on chest than male, and also vary within the gender. We also consider the direction of waves whether positive or negative, For Positive wave give value 1 and for negative wave give value 0. So each combination has three properties (Relative Amplitude, direction of first wave, direction of second wave) e.g. (0.321, 1, and 0). By this way we get total 30*3=90 property value (feature vector) per one ECG. 
+Relative Amplitude Difference = (|a| - |b|) / (|a| + |b|) 
+a=average peak value of max {R wave, S wave} of first lead 
+b=average peak value of max {R wave, S wave} of second lead 
+(4) Method for localization of MI or prediction of blocked coronary artery 
+Data used: ECG with angiography annotation in PTB database 
+      Here we trying to localize affected (blocked) vascular bed supplying, heart using relative amplitude, whether involve RIVA, RCX, or RCA vascular bed. Here I just try to classify only single artery involvement disease due to shortage of data. I consider vascular bed is blocked if it involve blockage of its any branch with any percentage of block. After calculating the relative amplitude features of corresponding ECG we clustered it using hierarchical clustering. 
+17 
+Extracting feature from image: 
+Normalization of image 
+Initial image is as follow: 
+Fig. (7) initial thermograph of hand 
+In image we only required tissue part; other thing apart from tissue region is noise (background). So we have to remove noise. Other big problem is Temperature range in image varies with image to image but pixel value remain constant 0 to 255, so same pixel value in different image have not represent same temperature. So it’s required to remove unwanted noise and normalize all images with fix temperature range before processed it for comparison between normal and disease. This is done according to following step: 
+(1) Convert image into gray image and remove unwanted marking: 
+Images in fig.(7) is color image, and have different marking produce by camera. Images are converted to gray and marking less by using software provided with IR camera. So we get the gray image without unwanted marking except temperature scale. Fig (8). 
+18 
+Fig.(8) gray scale thermograph with removed marking 
+(2) Acquired temperature normalized image without temperature scale mark 
+For temperature normalization required highest and lowest temperature value in image. but it can not get from FLIR software. So we have to extract from image. Here it is done automatically as follow. 
+1. Crop highest and lowest temperature representing part in image: 
+After converting image into gray and remove marking image like in fig. (8). from this image crop highest temperature value part which represent by (7 to 18 rows, 323 to 354column) pixel in image, same lowest temperature value part represent by (229 to 240 rows, 323 to 354 column) pixels in image. fig(9) 
+19 
+Fig. (9) Cropping of high and low temperature part 
+2. Extracting temperature value from this crop image part 
+As these temperature values are added in image by FLIR software, every number character occupied unique pixel pattern and every number character separated by at least one column of non-character pixel. After converting temperature value part of image in binary, means character part pixels give value 1 and non-character part pixels give value 0. Then sum up every column in binary temperature image part, give vector as shown in fig.(10). so first, second, and forth non-zero five or six element vector give pattern for number character, it is unique for each of number character 0 to 9, like this at last we get three number. Calculate temperature value from this three number by formula given below. 
+Temperature value=first number * 10 + second number + (third number / 10) 
+This electronic translation of images of text into machine-editable text is called optical character recognition (OCR). 
+20 
+Fig. (10) 
+ 3. Temperature normalization of image 
+After extracting the higher and lower temperature, we have to rescale the pixal values of image according to new temperature range 26 to 37 degree Celsius. As follow. 
+T_High = higher temperature from image 
+T_low = lower temperature from image 
+Old_Pixel_va l =old pixel value 
+New_pixel_val = new pixel value 
+Slope_1 = (T_High-T_low)/255 
+Slope_2 = (37 -26)/255 
+T= slope_1 * old_pixal_val + T_low 
+New_pixal_val = (T - 26) / slope_2; 
+Above formula apply on image, we get scaled temperature normalize image. 
+21 
+(3) Segmentation of image 
+Here segmentation is done manually using adobe Photoshop software. We crop the background and give zero value to all background pixels. Final segmented and normalize image given below (fig.(11)). 
+Fig. (11) normalized segmented image 
+(4) Thermographic feature extraction 
+First temperature profile calculated from as above formula (described in previous). Session. Then find out minimum temperature from all four images f patient and subs tract it 
+From all four images of patient, at the end add global minimum temperature mean 26 to all four images. Ten calculate five bin normalized histogram. So we get 5*4=20 bin frequency values which represent 20 dimension thermograph based feature vector for single subject. 
+Classifier method use for classification; 
+Here we use the backpropogation neural network and nearest neighbor classifier for classification of data. 
+1. backpropogation: 
+It’s a supervised multilayer feed forward neural network learning algorithm. 
+
+22 
+
+
+it has high tolerance to noisy data and capabilities of classifying non-linearly separable data. In our problem data is non-linearly separable so it is wise to use backpropogation algorithm. 
+2. nearest neighbor: 
+It’s based on learning by analogy. The training samples are descried by n-dimensional numeric attribute. Each sample is store in an n-dimensional space. In this way all of the training samples are stored in an n-dimensional pattern space. When given a unknown sample, nearest neighbor classifier search the point (class) closest to the unknown sample So assign unknown sample to class closest to it. Closeness is defined in term of Euclidean distance between two points in search space. 
+Here we make some modification in nearest neighbor classifiers. Instead of taking single nearest point we take k nearest point in positive example train set and k nearest point in negative example train set, take out average distance from positive example and negative example separately then Assign class to unknown sample, which have minimum average distance. 
+
+23 
+Result 
+Here data is classifying whether given sample data as disease or non-disease. We use relative amplitude feature vector (mention in previous session) for classification and clustering. Result of various classifier as given below. 
+Disease person = person have myocardial infarction (old or present) 
+Non-disease person =normal person without cardiac disease 
+TP (true positive) = classifying disease as disease 
+FN (false negative) = classifying disease as Non-disease 
+TN (true negative) = classifying Non-disease as Non-disease 
+FP (false positive) = classifying Non-disease as disease 
+Sensitivity = (TP) / (TP + FN) 
+Specificity = (TN) / (TN + FP) 
+      Accuracy = (TP + TN) / (TP +TN +FP +FN) 
+Result of nearest neighbor classification based on “relative amplitude pattern”: 
+Table 1. Result of nearest neighbor classification 
+(relative amplitude feature) No k Training data set Testing data set Total MI Normal Total MI Normal 1 1 139 94 45 78 54 24 2 1 90 45 45 48 24 24 3 4 139 94 45 78 54 24 4 7 139 94 45 78 54 24 5 4 90 45 45 48 24 24 

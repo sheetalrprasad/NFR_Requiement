@@ -1,0 +1,436 @@
+01:15:15,494 INFO  [MauiModelBuilder] -- Building the model... 
+01:15:15,616 INFO  [MauiModelBuilder] --- Loading the vocabulary...
+01:15:15,622 INFO  [Vocabulary] --- Loading RDF model from the SKOS file...
+01:15:16,161 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 9 column 35): {W130} Base URI is "", relative URIs left as relative.: <r>
+01:15:16,172 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 12 column 32): {W130} Base URI is "", relative URIs left as relative.: <r/1>
+01:15:16,252 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 15 column 32): {W130} Base URI is "", relative URIs left as relative.: <r/2>
+01:15:16,253 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 18 column 32): {W130} Base URI is "", relative URIs left as relative.: <r/3>
+01:15:16,254 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 21 column 32): {W130} Base URI is "", relative URIs left as relative.: <r/4>
+01:15:16,255 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 24 column 32): {W130} Base URI is "", relative URIs left as relative.: <r/5>
+01:15:16,256 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 27 column 32): {W130} Base URI is "", relative URIs left as relative.: <r/6>
+01:15:16,257 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 30 column 32): {W130} Base URI is "", relative URIs left as relative.: <r/7>
+01:15:16,258 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 33 column 32): {W130} Base URI is "", relative URIs left as relative.: <r/8>
+01:15:16,259 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 36 column 32): {W130} Base URI is "", relative URIs left as relative.: <r/9>
+01:15:16,263 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 39 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/10>
+01:15:16,264 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 42 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/11>
+01:15:16,265 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 45 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/12>
+01:15:16,266 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 48 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/13>
+01:15:16,267 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 51 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/14>
+01:15:16,268 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 54 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/15>
+01:15:16,269 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 57 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/16>
+01:15:16,270 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 60 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/17>
+01:15:16,271 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 63 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/18>
+01:15:16,272 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 66 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/19>
+01:15:16,273 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 69 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/20>
+01:15:16,274 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 72 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/21>
+01:15:16,275 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 75 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/22>
+01:15:16,276 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 78 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/23>
+01:15:16,277 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 81 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/24>
+01:15:16,278 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 84 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/25>
+01:15:16,279 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 87 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/26>
+01:15:16,279 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 90 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/27>
+01:15:16,280 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 93 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/28>
+01:15:16,281 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 96 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/29>
+01:15:16,282 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 99 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/30>
+01:15:16,283 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 102 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/31>
+01:15:16,284 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 105 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/32>
+01:15:16,285 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 108 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/33>
+01:15:16,286 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 111 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/34>
+01:15:16,287 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 114 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/35>
+01:15:16,288 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 117 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/36>
+01:15:16,289 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 120 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/37>
+01:15:16,289 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 123 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/38>
+01:15:16,290 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 126 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/39>
+01:15:16,291 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 129 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/40>
+01:15:16,292 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 132 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/41>
+01:15:16,293 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 135 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/42>
+01:15:16,294 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 138 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/43>
+01:15:16,308 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 141 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/44>
+01:15:16,309 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 144 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/45>
+01:15:16,310 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 147 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/46>
+01:15:16,311 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 150 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/47>
+01:15:16,312 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 153 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/48>
+01:15:16,312 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 156 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/49>
+01:15:16,313 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 159 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/50>
+01:15:16,314 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 162 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/51>
+01:15:16,315 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 165 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/52>
+01:15:16,315 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 168 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/53>
+01:15:16,316 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 171 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/54>
+01:15:16,317 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 174 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/55>
+01:15:16,318 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 177 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/56>
+01:15:16,319 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 180 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/57>
+01:15:16,320 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 183 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/58>
+01:15:16,321 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 186 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/59>
+01:15:16,321 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 189 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/60>
+01:15:16,322 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 192 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/61>
+01:15:16,323 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 195 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/62>
+01:15:16,324 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 198 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/63>
+01:15:16,325 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 201 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/64>
+01:15:16,326 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 204 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/65>
+01:15:16,326 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 207 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/66>
+01:15:16,327 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 210 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/67>
+01:15:16,328 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 213 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/68>
+01:15:16,329 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 216 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/69>
+01:15:16,329 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 219 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/70>
+01:15:16,330 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 222 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/71>
+01:15:16,330 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 225 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/72>
+01:15:16,331 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 228 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/73>
+01:15:16,332 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 231 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/74>
+01:15:16,333 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 234 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/75>
+01:15:16,333 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 237 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/76>
+01:15:16,334 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 240 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/77>
+01:15:16,335 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 243 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/78>
+01:15:16,336 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 246 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/79>
+01:15:16,337 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 249 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/80>
+01:15:16,338 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 252 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/81>
+01:15:16,339 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 255 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/82>
+01:15:16,340 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 258 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/83>
+01:15:16,340 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 261 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/84>
+01:15:16,341 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 264 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/85>
+01:15:16,342 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 267 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/86>
+01:15:16,342 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 270 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/87>
+01:15:16,343 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 273 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/88>
+01:15:16,344 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 276 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/89>
+01:15:16,344 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 279 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/90>
+01:15:16,345 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 282 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/91>
+01:15:16,346 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 285 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/92>
+01:15:16,346 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 288 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/93>
+01:15:16,347 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 291 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/94>
+01:15:16,348 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 294 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/95>
+01:15:16,348 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 297 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/96>
+01:15:16,349 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 300 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/97>
+01:15:16,350 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 303 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/98>
+01:15:16,350 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 306 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/99>
+01:15:16,351 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 309 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/100>
+01:15:16,351 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 312 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/101>
+01:15:16,352 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 315 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/102>
+01:15:16,353 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 318 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/103>
+01:15:16,354 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 321 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/104>
+01:15:16,355 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 324 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/105>
+01:15:16,355 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 327 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/106>
+01:15:16,356 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 330 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/107>
+01:15:16,357 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 333 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/108>
+01:15:16,357 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 336 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/109>
+01:15:16,358 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 339 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/110>
+01:15:16,359 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 342 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/111>
+01:15:16,359 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 345 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/112>
+01:15:16,360 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 348 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/113>
+01:15:16,361 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 351 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/114>
+01:15:16,361 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 354 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/115>
+01:15:16,362 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 357 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/116>
+01:15:16,362 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 360 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/117>
+01:15:16,363 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 363 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/118>
+01:15:16,364 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 366 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/119>
+01:15:16,364 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 369 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/120>
+01:15:16,365 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 372 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/121>
+01:15:16,366 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 375 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/122>
+01:15:16,366 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 378 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/123>
+01:15:16,367 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 381 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/124>
+01:15:16,368 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 384 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/125>
+01:15:16,369 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 387 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/126>
+01:15:16,370 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 390 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/127>
+01:15:16,371 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 393 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/128>
+01:15:16,372 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 396 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/129>
+01:15:16,372 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 399 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/130>
+01:15:16,373 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 402 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/131>
+01:15:16,374 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 405 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/132>
+01:15:16,374 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 408 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/133>
+01:15:16,375 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 411 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/134>
+01:15:16,375 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 414 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/135>
+01:15:16,376 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 417 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/136>
+01:15:16,377 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 420 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/137>
+01:15:16,377 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 423 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/138>
+01:15:16,378 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 426 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/139>
+01:15:16,379 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 429 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/140>
+01:15:16,379 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 432 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/141>
+01:15:16,380 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 435 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/142>
+01:15:16,381 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 438 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/143>
+01:15:16,381 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 441 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/144>
+01:15:16,382 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 444 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/145>
+01:15:16,383 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 447 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/146>
+01:15:16,383 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 450 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/147>
+01:15:16,384 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 453 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/148>
+01:15:16,385 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 456 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/149>
+01:15:16,385 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 459 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/150>
+01:15:16,386 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 462 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/151>
+01:15:16,387 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 465 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/152>
+01:15:16,388 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 468 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/153>
+01:15:16,388 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 471 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/154>
+01:15:16,393 INFO  [Vocabulary] --- Building the Vocabulary index from the RDF model...
+01:15:16,581 INFO  [Vocabulary] --- Statistics about the vocabulary: 
+01:15:16,582 INFO  [Vocabulary] 	146 terms in total
+01:15:16,582 INFO  [Vocabulary] 	0 non-descriptive terms
+01:15:16,582 INFO  [Vocabulary] 	0 terms have related terms
+01:15:16,582 INFO  [MauiModelBuilder] -- Adding documents as instances... 
+01:15:16,844 INFO  [MauiModelBuilder] -- Building the model... 
+01:15:18,363 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+01:15:18,363 WARN  [MauiFilter] ?
+01:15:18,363 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+01:15:18,364 WARN  [MauiFilter] ?
+01:15:18,364 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+01:15:18,364 WARN  [MauiFilter] ?
+01:15:18,364 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+01:15:18,364 WARN  [MauiFilter] ?
+01:15:18,364 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+01:15:18,365 WARN  [MauiFilter] ?
+01:15:18,365 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+01:15:18,365 WARN  [MauiFilter] ?
+01:15:18,366 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+01:15:18,367 WARN  [MauiFilter] ?
+01:15:18,367 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+01:15:18,367 WARN  [MauiFilter] ?
+01:15:18,367 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+01:15:18,367 WARN  [MauiFilter] ?
+01:15:18,367 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+01:15:18,368 WARN  [MauiFilter] ?
+01:15:18,368 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+01:15:18,368 WARN  [MauiFilter] ?
+01:15:18,368 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+01:15:18,368 WARN  [MauiFilter] ?
+01:15:18,368 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+01:15:18,368 WARN  [MauiFilter] ?
+01:15:18,368 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+01:15:18,369 WARN  [MauiFilter] ?
+01:15:18,369 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+01:15:18,369 WARN  [MauiFilter] ?
+01:15:18,369 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+01:15:18,369 WARN  [MauiFilter] ?
+01:15:18,370 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+01:15:18,370 WARN  [MauiFilter] ?
+01:15:18,370 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+01:15:18,370 WARN  [MauiFilter] ?
+01:15:18,371 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+01:15:18,371 WARN  [MauiFilter] ?
+01:15:18,372 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+01:15:18,372 WARN  [MauiFilter] ?
+01:15:18,373 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+01:15:18,373 WARN  [MauiFilter] ?
+01:15:18,373 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+01:15:18,373 WARN  [MauiFilter] ?
+01:15:18,374 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+01:15:18,374 WARN  [MauiFilter] ?
+01:15:18,374 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+01:15:18,374 WARN  [MauiFilter] ?
+01:15:18,376 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+01:15:18,376 WARN  [MauiFilter] ?
+01:15:18,376 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+01:15:18,377 WARN  [MauiFilter] ?
+01:15:18,377 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+01:15:18,377 WARN  [MauiFilter] ?
+01:15:18,377 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+01:15:18,377 WARN  [MauiFilter] ?
+01:15:18,378 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+01:15:18,378 WARN  [MauiFilter] ?
+01:15:18,378 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+01:15:18,378 WARN  [MauiFilter] ?
+01:15:18,379 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+01:15:18,379 WARN  [MauiFilter] ?
+01:15:18,379 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+01:15:18,379 WARN  [MauiFilter] ?
+01:15:18,380 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+01:15:18,381 WARN  [MauiFilter] ?
+01:15:18,381 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+01:15:18,381 WARN  [MauiFilter] ?
+01:15:18,381 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+01:15:18,381 WARN  [MauiFilter] ?
+01:15:18,381 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+01:15:18,381 WARN  [MauiFilter] ?
+01:16:30,510 INFO  [MauiTopicExtractor] --- Loading the vocabulary...
+01:16:30,510 INFO  [Vocabulary] --- Loading RDF model from the SKOS file...
+01:16:30,513 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 9 column 35): {W130} Base URI is "", relative URIs left as relative.: <r>
+01:16:30,514 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 12 column 32): {W130} Base URI is "", relative URIs left as relative.: <r/1>
+01:16:30,515 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 15 column 32): {W130} Base URI is "", relative URIs left as relative.: <r/2>
+01:16:30,515 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 18 column 32): {W130} Base URI is "", relative URIs left as relative.: <r/3>
+01:16:30,516 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 21 column 32): {W130} Base URI is "", relative URIs left as relative.: <r/4>
+01:16:30,517 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 24 column 32): {W130} Base URI is "", relative URIs left as relative.: <r/5>
+01:16:30,517 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 27 column 32): {W130} Base URI is "", relative URIs left as relative.: <r/6>
+01:16:30,518 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 30 column 32): {W130} Base URI is "", relative URIs left as relative.: <r/7>
+01:16:30,519 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 33 column 32): {W130} Base URI is "", relative URIs left as relative.: <r/8>
+01:16:30,519 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 36 column 32): {W130} Base URI is "", relative URIs left as relative.: <r/9>
+01:16:30,520 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 39 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/10>
+01:16:30,521 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 42 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/11>
+01:16:30,521 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 45 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/12>
+01:16:30,522 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 48 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/13>
+01:16:30,523 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 51 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/14>
+01:16:30,524 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 54 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/15>
+01:16:30,525 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 57 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/16>
+01:16:30,525 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 60 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/17>
+01:16:30,526 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 63 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/18>
+01:16:30,527 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 66 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/19>
+01:16:30,528 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 69 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/20>
+01:16:30,528 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 72 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/21>
+01:16:30,529 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 75 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/22>
+01:16:30,530 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 78 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/23>
+01:16:30,530 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 81 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/24>
+01:16:30,531 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 84 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/25>
+01:16:30,531 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 87 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/26>
+01:16:30,532 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 90 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/27>
+01:16:30,532 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 93 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/28>
+01:16:30,533 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 96 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/29>
+01:16:30,534 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 99 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/30>
+01:16:30,534 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 102 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/31>
+01:16:30,535 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 105 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/32>
+01:16:30,536 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 108 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/33>
+01:16:30,536 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 111 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/34>
+01:16:30,537 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 114 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/35>
+01:16:30,538 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 117 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/36>
+01:16:30,538 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 120 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/37>
+01:16:30,539 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 123 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/38>
+01:16:30,539 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 126 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/39>
+01:16:30,540 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 129 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/40>
+01:16:30,541 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 132 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/41>
+01:16:30,541 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 135 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/42>
+01:16:30,542 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 138 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/43>
+01:16:30,542 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 141 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/44>
+01:16:30,543 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 144 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/45>
+01:16:30,544 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 147 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/46>
+01:16:30,544 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 150 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/47>
+01:16:30,545 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 153 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/48>
+01:16:30,545 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 156 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/49>
+01:16:30,546 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 159 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/50>
+01:16:30,546 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 162 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/51>
+01:16:30,547 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 165 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/52>
+01:16:30,547 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 168 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/53>
+01:16:30,548 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 171 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/54>
+01:16:30,549 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 174 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/55>
+01:16:30,549 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 177 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/56>
+01:16:30,550 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 180 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/57>
+01:16:30,550 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 183 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/58>
+01:16:30,551 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 186 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/59>
+01:16:30,552 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 189 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/60>
+01:16:30,552 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 192 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/61>
+01:16:30,553 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 195 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/62>
+01:16:30,553 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 198 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/63>
+01:16:30,554 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 201 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/64>
+01:16:30,554 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 204 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/65>
+01:16:30,555 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 207 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/66>
+01:16:30,555 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 210 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/67>
+01:16:30,556 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 213 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/68>
+01:16:30,556 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 216 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/69>
+01:16:30,557 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 219 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/70>
+01:16:30,557 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 222 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/71>
+01:16:30,558 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 225 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/72>
+01:16:30,558 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 228 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/73>
+01:16:30,559 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 231 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/74>
+01:16:30,560 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 234 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/75>
+01:16:30,560 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 237 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/76>
+01:16:30,561 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 240 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/77>
+01:16:30,561 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 243 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/78>
+01:16:30,562 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 246 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/79>
+01:16:30,562 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 249 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/80>
+01:16:30,563 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 252 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/81>
+01:16:30,564 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 255 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/82>
+01:16:30,564 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 258 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/83>
+01:16:30,565 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 261 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/84>
+01:16:30,565 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 264 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/85>
+01:16:30,566 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 267 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/86>
+01:16:30,566 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 270 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/87>
+01:16:30,567 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 273 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/88>
+01:16:30,568 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 276 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/89>
+01:16:30,568 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 279 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/90>
+01:16:30,569 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 282 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/91>
+01:16:30,569 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 285 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/92>
+01:16:30,570 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 288 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/93>
+01:16:30,570 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 291 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/94>
+01:16:30,571 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 294 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/95>
+01:16:30,594 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 297 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/96>
+01:16:30,594 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 300 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/97>
+01:16:30,595 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 303 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/98>
+01:16:30,595 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 306 column 33): {W130} Base URI is "", relative URIs left as relative.: <r/99>
+01:16:30,596 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 309 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/100>
+01:16:30,597 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 312 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/101>
+01:16:30,597 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 315 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/102>
+01:16:30,598 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 318 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/103>
+01:16:30,598 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 321 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/104>
+01:16:30,599 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 324 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/105>
+01:16:30,599 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 327 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/106>
+01:16:30,600 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 330 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/107>
+01:16:30,600 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 333 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/108>
+01:16:30,600 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 336 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/109>
+01:16:30,601 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 339 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/110>
+01:16:30,601 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 342 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/111>
+01:16:30,602 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 345 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/112>
+01:16:30,603 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 348 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/113>
+01:16:30,603 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 351 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/114>
+01:16:30,604 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 354 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/115>
+01:16:30,604 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 357 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/116>
+01:16:30,606 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 360 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/117>
+01:16:30,607 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 363 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/118>
+01:16:30,607 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 366 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/119>
+01:16:30,608 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 369 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/120>
+01:16:30,608 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 372 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/121>
+01:16:30,609 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 375 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/122>
+01:16:30,609 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 378 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/123>
+01:16:30,610 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 381 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/124>
+01:16:30,610 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 384 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/125>
+01:16:30,610 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 387 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/126>
+01:16:30,611 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 390 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/127>
+01:16:30,611 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 393 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/128>
+01:16:30,612 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 396 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/129>
+01:16:30,613 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 399 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/130>
+01:16:30,613 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 402 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/131>
+01:16:30,620 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 405 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/132>
+01:16:30,621 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 408 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/133>
+01:16:30,621 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 411 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/134>
+01:16:30,622 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 414 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/135>
+01:16:30,622 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 417 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/136>
+01:16:30,622 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 420 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/137>
+01:16:30,623 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 423 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/138>
+01:16:30,623 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 426 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/139>
+01:16:30,624 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 429 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/140>
+01:16:30,625 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 432 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/141>
+01:16:30,625 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 435 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/142>
+01:16:30,626 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 438 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/143>
+01:16:30,630 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 441 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/144>
+01:16:30,632 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 444 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/145>
+01:16:30,633 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 447 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/146>
+01:16:30,633 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 450 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/147>
+01:16:30,634 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 453 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/148>
+01:16:30,634 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 456 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/149>
+01:16:30,635 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 459 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/150>
+01:16:30,640 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 462 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/151>
+01:16:30,641 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 465 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/152>
+01:16:30,641 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 468 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/153>
+01:16:30,642 WARN  [RDFDefaultErrorHandler] file:///H:/BE/BE%20SEM-2/Project/Code/NFRProject/Project_NFR/(line 471 column 34): {W130} Base URI is "", relative URIs left as relative.: <r/154>
+01:16:30,642 INFO  [Vocabulary] --- Building the Vocabulary index from the RDF model...
+01:16:30,651 INFO  [Vocabulary] --- Statistics about the vocabulary: 
+01:16:30,651 INFO  [Vocabulary] 	146 terms in total
+01:16:30,651 INFO  [Vocabulary] 	0 non-descriptive terms
+01:16:30,651 INFO  [Vocabulary] 	0 terms have related terms
+01:16:30,694 INFO  [MauiTopicExtractor] -- Extracting keyphrases... 
+01:16:30,751 INFO  [MauiTopicExtractor] -- Processing document: discussionForum.txt
+01:16:30,752 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+01:16:30,753 INFO  [MauiTopicExtractor] Topic software 1 0.25637063765421975 > false
+01:16:30,753 INFO  [MauiTopicExtractor] Topic easy 1 0.22779920908279122 > false
+01:16:30,753 INFO  [MauiTopicExtractor] Topic testing 1 0.19189888624179036 > false
+01:16:30,753 INFO  [MauiTopicExtractor] Topic safe 1 0.1771862026862027 > false
+01:16:30,753 INFO  [MauiTopicExtractor] Topic feasible 1 0.16113254241612446 > false
+01:16:30,754 INFO  [MauiTopicExtractor] Topic feasibility 1 0.16113254241612446 > false
+01:16:30,754 INFO  [MauiTopicExtractor] Topic validation 1 0.158565552908457 > false
+01:16:30,754 INFO  [MauiTopicExtractor] Topic performance 1 0.1568706376542197 > false
+01:16:30,754 INFO  [MauiTopicExtractor] Topic user name 1 0.14861477411477408 > false
+01:16:30,754 INFO  [MauiTopicExtractor] Topic web server 1 0.14861477411477408 > false
+01:16:30,867 INFO  [MauiTopicExtractor] -- Processing document: msedcl.txt
+01:16:30,867 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+01:16:30,867 INFO  [MauiTopicExtractor] Topic testing 1 0.2777039709875531 > false
+01:16:30,868 INFO  [MauiTopicExtractor] Topic authentication 1 0.2651862026862027 > false
+01:16:30,868 INFO  [MauiTopicExtractor] Topic software 1 0.25687063765421975 > false
+01:16:30,868 INFO  [MauiTopicExtractor] Topic feasible 1 0.22779920908279122 > false
+01:16:30,871 INFO  [MauiTopicExtractor] Topic feasibility 1 0.22779920908279122 > false
+01:16:30,871 INFO  [MauiTopicExtractor] Topic control 1 0.158565552908457 > false
+01:16:30,872 INFO  [MauiTopicExtractor] Topic password 1 0.158565552908457 > false
+01:16:30,873 INFO  [MauiTopicExtractor] Topic validation 1 0.158565552908457 > false
+01:16:30,873 INFO  [MauiTopicExtractor] Topic performance 1 0.158565552908457 > false
+01:16:30,874 INFO  [MauiTopicExtractor] Topic response 1 0.12999412433702845 > false
+01:16:30,926 INFO  [MauiTopicExtractor] -- Processing document: Prediction of coronary artery disease using thermographic images and ECG.txt
+01:16:30,926 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+01:16:30,926 INFO  [MauiTopicExtractor] Topic accuracy 1 0.2651862026862027 > false
+01:16:30,927 INFO  [MauiTopicExtractor] Topic testing 1 0.158565552908457 > false
+01:16:30,927 INFO  [MauiTopicExtractor] Topic easy 1 0.14199412433702846 > false
+01:16:30,927 INFO  [MauiTopicExtractor] Topic efficiency 1 0.14199412433702846 > false
+01:16:30,927 INFO  [MauiTopicExtractor] Topic useful 1 0.12691032019390228 > false
+01:16:30,927 INFO  [MauiTopicExtractor] Topic information 1 0.11579920908279115 > false
+01:16:30,927 INFO  [MauiTopicExtractor] Topic image 1 0.10220397098755307 > false
+01:16:30,927 INFO  [MauiTopicExtractor] Topic software 1 0.07056555290845704 > false
+01:16:30,927 INFO  [MauiTopicExtractor] Topic accurate 1 0.04199412433702846 > false
+01:16:30,927 INFO  [MauiTopicExtractor] Topic configuration 1 0.04199412433702846 > false

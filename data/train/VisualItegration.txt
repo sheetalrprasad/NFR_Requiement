@@ -1,0 +1,116 @@
+Visual integration of traffic analysis and social media analysis PVG?S COET INFORMATION TECHNOLOGY 2016-17 1 
+ ABSTRACT 
+Transportation systems in mega-cities are often affected by various kinds of events such as natural disasters, accidents, and public gatherings. Highly dense and complicated networks in the transportation systems propagate confusion in the network because they offer various possible transfer routes to passengers. Visualization is one of the most important techniques for examining such cascades of unusual situations in the huge networks. This paper proposes visual integration of traffic analysis and social media analysis using two forms of big data: smart card data on the Tokyo Metro and social media data on Twitter. Our system provides multiple coordinated views to visually, intuitively, and simultaneously explore changes in passengers? behavior and abnormal situations extracted from smart card data and situational explanations from real voices of passengers such as complaints about services extracted from social media data. We demonstrate the possibilities and usefulness of our novel visualization environment using a series of real data case studies and domain experts? feedbacks about various kinds of events. Visual integration of traffic analysis and social media analysis PVG?S COET INFORMATION TECHNOLOGY 2016-17 2 
+1 . INTRODUCTION 
+Visual Exploration is a process to known events happening in city. In this application we are going to show the events in particular office complex. If complex consist of 10 to 15 stories building in this complex there are many number of office, here we are going to maintain the data of all employees at particular floor for example how many employees are working in single office. 
+Employee need to login at particular entry gate and in office so admin can calculate the number of employee and visitor present at particular office and on floor. Suppose if fire catches at particular floor e.g. at 10th floor then admin will fire a event which is shown on user application, so they can take another way to dispatch from floor. So our application is useful to find out the how many people are missing from office or complex. 
+This paper proposes a novel visual fusion analysis system that can support ex post evaluations of trouble in a metro system by using two forms of big data: archived transportation logs from the smart card system of the Tokyo Metro and social media data from Twitter. Knowledge acquired through the visualized results mostly reflects real situations such as disasters, accidents, and public gatherings. 
+1.1 AIM: 
+
+Developing a visual environment for exploring passenger behaviors in a complex Transportation system using transportation logs and social media stream is still a challenging task. 
+1.2 GOAL: 
+This application is used anywhere at any places to generate events like accident, fire, earthquick etc... Using this application we can tell to all user to change the route or path not follow due events occur also calculate the number of user on road, building etc… Visual integration of traffic analysis and social media analysis PVG?S COET INFORMATION TECHNOLOGY 2016-17 3 
+
+1.3 OVERVIEW : 
+
+Fig 1: Overview of our system workflow 
+We construct an analysis framework which can integrate both smart card and twitter data to explore passengers? behavior. Fig.1 shows the design of our system workflow. Smart card data are transferred to our analysis system once a month. We estimate passenger flows from the one month worth of data, compute average flows for every sections from updated last one year worth of flows, and compute z-scores (difference normalized by standard deviation) of the last one month. This computation requires less than one hour in total under the current implementation. When we try to simulate passengers? behaviour under accident case, flows are recomputed by the smart card data with constraints; taking into account of suspended lines, for example The recomputation process requires several minutes. Passengers? reactions are obtained Visual integration of traffic analysis and social media analysis PVG?S COET INFORMATION TECHNOLOGY 2016-17 4 
+from tweet archive by extracting situational explanations. All tweets which are related to traffic conditions are archived. Visualization components access extracted information in on demand manner to keep high interactivity. 
+1.3.1 ESTIMATION OF PASSENGER FLOWS: 
+Fig 2:Estimation of Passenger Flows 
+1.3.2 HEATMAP VIEW : 
+For intuitively verifying effects of known events and discovering unknown troubles from temporal overviews Spotting interesting phenomena by using patterns of colors 
+• Derived from differences between daily and event?driven passenger behaviors Visual integration of traffic analysis and social media analysis PVG?S COET INFORMATION TECHNOLOGY 2016-17 5 
+Fig 3:HeatMap View 
+1.3.4 TWEETBUBBLE VIEW : 
+• Exploring reasons for unusual phenomena or their effects from real users? voices 
+• Overview of trends of keywords explaining the situation in selected station or line. 
+Fig 4: TweetBubble View Visual integration of traffic analysis and social media analysis PVG?S COET INFORMATION TECHNOLOGY 2016-17 6 
+1.4 Software Development Model: 
+Fig 5: Software Development Model 
+1.4.1 Advantages of Spiral Model: 
+? The high amount of risk analysis, hence avoidance of Risk is enhanced. 
+? Good for large and mission-critical projects. 
+? Strong approval and documentation control. 
+? Additional Functionality can be added at a later date. 
+? Software is produced early in the software life cycle. 
+Visual integration of traffic analysis and social media analysis PVG?S COET INFORMATION TECHNOLOGY 2016-17 7 
+2. BACKGROUND AND LITERATURE REVIEW 
+2. BACKGROUND: 
+2.1 EXISTING SYSTEM: 
+The smart card is being used more and more by public transit agencies, this technology is not new. Since 1990, that the use of the smart card has become significant, with the exponential growth of the internet and the increased sophistication of mobile communication technologies. In fsct, the smart card has many uses, including access control, and to store information like biometrics, photos, fingerprints, medical data, DNA results, religious affiliation, and banking data. 
+2.2 PROPOSED SYSTEM: 
+This proposes a novel visual fusion analysis system that can support ex post evaluations of trouble in a metro system by using two forms of big data: archived transportation logs from the smart card system of the Tokyo Metro and social media data from Twitter. Knowledge acquired through the visualized results mostly reflects real situations such as disasters, accidents, and public gatherings. To address the above requirements, we built the analysis system by integrating the following visualization components: 
+1) Heat Map view provides a temporal overview of unusual phenomena in passenger flows. 
+2) Animated Ribbon view visualizes temporal changes in passenger flows with spatial contexts and propagation of unusual phenomena over the whole metro network using animation. 
+3) Tweet Bubble view provides an overview of trends of keywords explaining the situation during the unusual phenomena. Visual integration of traffic analysis and social media analysis PVG?S COET INFORMATION TECHNOLOGY 2016-17 8 
+2. 3 LITERATURE REVIEW: 
+2.3.1 REFERENCE PAPER 1: 
+Title: 
+Analysis of passenger group behaviour and its impact on passenger flow using an agent based model . 
+Author: 
+Cheng, Lin; Fookes, Clinton; Reddy, Vikas; Yarlagadda, Prasad K.D.V. 
+Introduction: 
+Group Dynamics, Agent-based Model, Airport, Passenger Flow, Simulation. Group interaction within crowds is a common phenomenon and has great influence on pedestrian behaviour. This paper investigates the impact of passenger group dynamics using an agent-based simulation method for the outbound passenger process at airports. Unlike most passenger-flow models that treat passengers as individual agents, the proposed model additionally incorporates their group dynamics as well. The simulation compares passenger behaviour at airport processes and discretionary services under different group formations. Results from experiments (both qualitative and quantitative) show that incorporating group attributes, in particular, the interactions with fellow travellers and wavers can have significant influence on passenger&#039;s activity preference as well as the performance and utilisation of services in airport terminals. The model also provides a convenient way to investigate the effectiveness of airport space design and service allocations, which can contribute to positive passenger experiences. The model was created using AnyLogic software and its parameters were initialised using recent research data published in the literature. Introduction revenue of airports nowadays is Visual integration of traffic analysis and social media analysis PVG?S COET INFORMATION TECHNOLOGY 2016-17 9 
+gradually transferring from aviation related sectors to nonaviation sectors (retail revenues) and also from traditional airline sources (lease arrangements) to passengers. 
+2.3.2 REFERENCE PAPER 2: 
+Title: 
+The Geography of Travel to Work in England and Wales: Extracts from the 2011 Census. 
+Introduction: 
+From a policy point of view, the question of transport connectivity has recently risen up the policy agenda in the UK, and particularly in the North of England where the government are currently seeking to boost economic growth through their „Northern Powerhouse? initiative. Transport is central to this plan. However, existing patterns of connectivity across England and Wales are not always well understood in the policy domain, so this paper attempts to help fill a gap by taking a geovisualisation-based approach to the analysis of 2.4 million individual journey to work flows across England and Wales. The paper builds upon previous research in the field of spatial interaction by exploring patterns associated with different modes of transport. The analysis highlights London?s dominance as a rail commuter destination, relative to major cities in the North of England, in addition to the growth of cycling as a mode of travel to work. The question of „error? in the dataset is then explored, followed by a discussion of possible explanations. The paper ends by reflecting on three key findings and by highlighting opportunities for future research in this field. Visual integration of traffic analysis and social media analysis PVG?S COET INFORMATION TECHNOLOGY 2016-17 10 
+2.4 RELATED WORK: 
+2.4.1 SMART CARD DATA ANALYSIS : 
+Smart card data is one of the data sources to analyse operation of public transportation systems. Ceapaetal focused on congestion patterns of some underground stations in London to reveal station crowding patterns to avoid traffic crowdedness . They utilized data of oyster cards, the smartcards used on the London Underground. Their spatio temporal analysis showed a highly regular crowding pattern during the weekdays with large spikes occurring in short time intervals. It provided a model to predict spatio temporal density of passengers and analyzed it for one MRT line in Singapore. However, previous work only focused on a single selected line or some stations. One reason is that most smart card data does not include transfer station information. Our work speculates the most probable path of each trip from origin and destination in smart card data and succeeds in visualizing propagation of effects of trouble on the metro network. As far as we know, there has been no research on the visualization of such propagation of influences spreading over a wide range of public transportation systems such as metro networks. 
+2.4.2 SPATIO-TEMPORAL INFORMATION VISUALIZATION 
+There have been some research on and systems developed for the visualization of geo-spatial and temporal values ona map. Tominski et al. introduced 3D icons into a map for representing spatio-temporal data . Each 3D icon, which emphasizes linear or cyclic temporal dependencies, represents multiple time dependent attributes on maps. Thakur and Hanson also used 3D icons on maps to represent spatio-temporal distributions of time-varying quantities in a single view and provided 2D icons called Data Vases to represent the profiles of the time-dependent variable, in which the colors and the horizontal arrangement represent regional classifications. Their approach focused on describing changes in values at independent points and did not provide a method for representing temporal changes in values between two points or Visual integration of traffic analysis and social media analysis PVG?S COET INFORMATION TECHNOLOGY 2016-17 11 
+flows. There has been some research on analyzing mobility data and extracting and visualizing important events or mobility patterns. Ferreira et al. provided a query model and a visual environment for exploring human activity patterns in New York City using taxi trip data . Wang et al. extracted and visualized traffic jams and their propagation from data of taxi trips in Beijing . Andrienko et al. extracted and characterized important places from mobility data such as GPS tracks of cars and flight trajectories and visualized them in 3D spatio-temporal space . Unlike these cases, smart card data in our system includes origin-destination (OD) data without trajectory information. We therefore need to speculate the most probable route for each trip from OD data and visualize aggregated passenger behaviors. Tominski et al. showed the usefulness of 3D trajectory bands to visualize trajectory attribute data .In their visualization, attribute data of individual trajectories was visualized as color-coded bands and sets of trajectories were visualized by stacking the bands. Cheng et al. also utilized 3D staked bands to represent overview of spatio-temporal changes in attribute data on a road network . Stacked and color-coded 3D bands are useful for representing spatiotemporal changes in an attribute value on the map, but they cannot represent two or more kinds of attribute values or their scale such as the number of people. Our approach utilizes 2D heatmaps for overviewing temporal changes in flows and 3D animated ribbons for simultaneously visualizing changes in absolute counts such as the number of passengers and relative counts such as the deviation from the average and how these propagate in a complicated network. Visual integration of traffic analysis and social media analysis PVG?S COET INFORMATION TECHNOLOGY 2016-17 12 
+2.4.3 SPATIAL TWEET VISUALIZATION 
+LeadLine detected events from social media data, extracted information about 4 Ws (who, what, when, and where) related to the events, and then visualized the information in coordinated views. SensePlace2 provided an integrated environment for filtering and visualizing space-time-theme information from twitter streams. Their approaches focus on exploring events from social media data without using other data resources. Pan et al. provided a system for traffic anomaly detection from human mobility data and anomaly analysis using social media data. They used term clouds to visualize terms related to the detected anomalies. Although in their approach visualization is only used for showing detected results, our work focus on providing interactive environments for finding anomalies and exploring them in detail by using two forms of data from smart card system and social media. Visual integration of traffic analysis and social media analysis PVG?S COET INFORMATION TECHNOLOGY 2016-17 13 
+3. REQUIREMENTS AND ANALYSIS 
+3.1 HARDWARE REQUIREMENTS: 
+Server: 
+RAM : 8GB RAM 
+Hard disk : 500GB 
+Server operating system : Ubuntu 
+3.2 SOFTWARE REQUIREMENTS: 
+Front End: 
+Developing Tool : Netbeans IDE 7.2 
+Back End: 
+Database : Hive 
+Dataset : 4TB Visual integration of traffic analysis and social media analysis PVG?S COET INFORMATION TECHNOLOGY 2016-17 14 
+4: DESIGN 
+4.1 UML DIAGRAMS: 
+4.1.1 USE CASE DIAGRAM: 
+Fig 6: Use Case Diagram Visual integration of traffic analysis and social media analysis PVG?S COET INFORMATION TECHNOLOGY 2016-17 15 
+4.1.2 CLASS DIAGRAM: 
+Fig 7:Class Diagram for Visual integration of traffic analysis and social media analysis Visual integration of traffic analysis and social media analysis PVG?S COET INFORMATION TECHNOLOGY 2016-17 16 
+4.1.3: STATE DIAGRAM: 
+Fig 8 : StateChart for Visual integration of traffic analysis and social media analysis 
+S 
+S Visual integration of traffic analysis and social media analysis PVG?S COET INFORMATION TECHNOLOGY 2016-17 17 
+4.1.4 ACTIVITY DIAGRAM 
+Fig 9: Activity diagram for Visual integration of traffic analysis and social media analysis Visual integration of traffic analysis and social media analysis PVG?S COET INFORMATION TECHNOLOGY 2016-17 18 
+4.1.5 SEQUENCE DIAGRAM 
+Fig 10.1:Sequence Diagram for Login user Visual integration of traffic analysis and social media analysis PVG?S COET INFORMATION TECHNOLOGY 2016-17 19 
+Fig 10.2: Sequence Diagram for Login unsuccessfull user Visual integration of traffic analysis and social media analysis PVG?S COET INFORMATION TECHNOLOGY 2016-17 20 
+Fig 10.3: Sequence Diagram for add new user Visual integration of traffic analysis and social media analysis PVG?S COET INFORMATION TECHNOLOGY 2016-17 21 
+Fig 10.4: Alternative flow for add new user Visual integration of traffic analysis and social media analysis PVG?S COET INFORMATION TECHNOLOGY 2016-17 22 
+Fig 10.5: Alternative flow for count user Visual integration of traffic analysis and social media analysis PVG?S COET INFORMATION TECHNOLOGY 2016-17 23 
+4.1.5 DEPLOYMENT DIAGRAM 
+Fig 11: Deployment diagram for Visual integration of traffic analysis and social media analysis Visual integration of traffic analysis and social media analysis PVG?S COET INFORMATION TECHNOLOGY 2016-17 24 
+4.1.6 COMPONENT DIAGRAM 
+Fig 12: Component diagram for Visual integration of traffic analysis and social media analysis Visual integration of traffic analysis and social media analysis PVG?S COET INFORMATION TECHNOLOGY 2016-17 25 
+4.2 ENTITY RELATIONSHIP DIAGRAM 
+Fig 13: ER diagram for Visual integration of traffic analysis and social media analysis Visual integration of traffic analysis and social media analysis PVG?S COET INFORMATION TECHNOLOGY 2016-17 26 
+CONCLUSION 
+We proposed a novel visual fusion environment to explore changes in flows of passengers on the Tokyo Metro and their causes and effects by using more than four years? worth of data extracted from the smart card system and Twitter. Our novel approach enables us to extract and visualize 
+? Passenger flows on a complicated metro network from largescale data from the smart card system and 
+? Unusual phenomena and their propagation on a spatio-temporal space Moreover, 
+? Integrated two forms of big-data (data from the smart card system and Twitter) into a visual exploration system to explore causes and/or effects of unusual phenomena. The case studies and reviews by train operating system experts showed the possibilities and usefulness of our system to observe real situations during the events. We plan to provide mechanisms for automatic detection and prediction of events, and prediction and control of passenger flows on wide and complex transportation networks through fusing various kinds of big data streams including train trips information. 
+Visual integration of traffic analysis and social media analysis PVG?S COET INFORMATION TECHNOLOGY 2016-17 27 
+REFERENCES 
+? L. Sun, D.-H. Lee, A. Erath, and X. Huang, “Using smart card data to extract passenger?s spatio-temporal density and train?s trajectory of MRT system,” in Proc. ACM SIGKDD Int. Workshop Urban Comput., 2012, pp. 142–148. 
+? R. Kruger, D. Thom, and T. Ertl, “Visual analysis of movement behavior using web data for context enrichment,” in Proc. IEEE Pacific Vis. Symp., 2014, pp. 193–200. 
+? M.-P. Pelletier, M. Tr_epanier, and C. Morency, “Smart card data use in public transit: A literature review,” Transp. Res. Part C: Emerging Technol., vol. 19, no. 4, pp. 557–568, 2011. 
+? S. Kawamura, Y. Tomita, M. Itoh, D. Yokoyama, M. Toyoda, and M. Kitsuregawa, “An effective use of Tokyo metro passengers flow by visualization of smart card ticket „PASMO? origin-destination data for public transport network to be sustainable,” in Proc.WECC, 2015. 
+

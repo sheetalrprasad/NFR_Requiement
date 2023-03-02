@@ -1,0 +1,528 @@
+
+
+PUNE VIDHYARTHI GRIHA'S
+COLLEGE OF ENGINEERING AND TECHNOLGY, PUNE-09.
+DEPARTMENT OF INFORMATION TECHNOLOGY
+
+A
+PROJECT REPORT
+ON
+
+“PROJECT TRACKING TOOL”
+
+Under the Guidance of
+Prof.N.R.SONAWANE 
+                                                     
+                                            Submitted By
+Prerana Babbar
+Rutvik Dixit
+Gayatri kodag
+Rutuja Rachcha
+Academic Year:  2015 - 2016   
+
+
+
+PUNE VIDHYARTHI GRIHA'S
+COLLEGE OF ENGINEERING AND TECHNOLGY, PUNE-09.
+CERTIFICATE
+
+This is to certify that, the project entitled as
+“PROJECT TRACKING TOOL “
+is a bonafide work done by 
+
+1)Prerana Babbar
+2)Rutvik Dixit
+3)Gayatri Kodag
+4)Rutuja Rachcha
+                Submitted in the partial fulfillment for the award of Third Year Engineering in Information Technology as prescribed by Savitribai Phule Pune University, Pune as a record of students own work carried out under the guidance of Prof. N. R. Sonawane during academic year 2015-2016.
+
+Prof.N.R.Sonawane					  Dr.G.V.Garje                  
+Project  Guide               			H.O.D Comp/IT Departmen
+
+ACKNOWLEDGEMENT
+
+     With immense pleasure, we are presenting this project report as a part of the curriculum of Information Technology. We wish to thank all the people who gave us unending support right from the stage the idea was conceived.
+     We take this opportunity to convey our sincere thanks to our beloved Principal Dr.Y.P.Nerakar for his continual support and encouragement that made this project a great success.
+     We express our profound thanks to our respected   Head of Department	 Dr. G.V.Garje, whose advice and valuable guidance helped us in making this project interesting and successful one.
+     We are also grateful to our Internal guide Prof.N.R.Sonawane, whose valuable guidance helped us in making this project interesting and successful one by providing us with immense support and guidance throughout the project.
+     We also thank Prof. Anil Bhadgale who guided and helped us in preparation of this project.
+     Last but not the least we thank our beloved Parents, Friends and our well   wishers who helped us to do this project by their kind help and assistance.
+     
+1) Prerana Babbar
+         2) Rutvik Dixit
+        3) Gayatri Kodag
+                        4) Rutuja Rachcha
+ABSTRACT
+
+The project tracking system for ‘final year project assignment’ of student of BE. 
+This system will track projects and bring in transparency of the marking system. This will help centralized generation of quick reports (in a few minutes) which presently takes a lots of efforts, money and time. This project will make it easier for the examiner to see the performance for the evaluation and for the project coordinator to track the progress of the each group. This will also help us to know the trends of the previous years’ projects. It tracks the group’s performance for the full year and also stores their data related to them and the project, it also stores data of the faculty.
+    This system will ultimately allow you to better manage resources. This automates many functionalities of the exisiting manual system. One of the main features Project Tracking tool is time tracking for Projects.. Effective time tracking mechanism saves both time and money for the organization
+The system being developed is Project Tracking Tool using MongoDB and Java Application at its front end. It is real time developed software for personal computers in an organization with centralized database an assigned server. It performs Updating of data of a group performance.
+
+INDEX
+Sr.No.TitlePage No1.Introduction62.Feasibility Study83.Requirement Analysis104.MongoDB and Java Application115.Conceptual & Logical Designs146.Database Normalization157.Hardware & Software Requirements178.Graphical User Interface189.Source Code2010.Testing Document2911.Future Enhancement3312.Conclusion3413.Bibliography35
+
+
+
+
+
+
+
+Chapter-1
+1. INTRODUCTION
+	 
+Presently PVG college of Engineering has been keeping all records for the BE project manually for last 3 years. Keeping the physical copy need space. Also, to track the performance of every group and to be able to see the performance after a year was a really tiresome process. The earlier process required human resources to manually keep track of every register. This system will also ensure transparency of how the students are judged.
+
+PURPOSE
+As we know in any technical educational office,  the faculty used to  spare a lot of  time, even after the normal college hours either at home or college in preparation of the project group’s status report and other necessary record. Now with the help of  this system, the faculty can easily prepare a record based on their requirements. Finally, We can say that this system will not only auto-mate the process, but save the valuable time of the students, project coordinator, faculties, which can be well utilized by this institute. This will be an additional advantage and management of manpower based on their free time from his normal duty.
+Because,Technology is to help man.
+
+
+
+
+
+BENEFITS
+
+This system will reduce the complexity of project management.
+By using this system we can easily maintain all the records about students, Projects, Faculty Guiding them.
+It will reduce search time.
+It can be easily handled by the person who have elementary knowledge of computer because it provides a user friendly environment.
+It’s hardware and software configuration is not very costly that means The hardware and software requirement for this software/project are not very costly.
+
+
+
+
+
+
+
+
+
+
+
+     Chapter-2
+2. Feasibility Study
+	Before recommending the new system, it is necessary to investigate whether it is possible as well as feasible to develop the new system. The important outcome of this preliminary investigation is the determination of whether the proposed system is feasible for target user or not. Feasibility & Risk analysis are related in many ways. If project risk is great, the feasibility of producing quality software is required.
+The feasible analysis was carried out which involved following steps:
+Identification of users need.
+Identification of how different tasks are carried out for keeping record of project and student activities.
+Identifying whether the proposed system can meet user’s need.
+And finally proving the system technically, financially & operational feasible.
+
+2.1 Economic Feasibility:
+It includes an evaluation of development cost weight against the ultimate income or benefit derived from the developed system or productThe approximate cost of this project will be definitely less than any other software with this kind of reliability, ease, functionality & feasibility since the application does not require any extra hardware or any supporting software.
+If we consider the cost of Internet and of electricity used while creating the system and the petrol used to travel to know the user’s need that is the only amount that cost us.
+2.2: Technical Feasibility:
+Technical analysis begins with an assessment of the technical viability of proposed system.
+What technologies are required to accomplish system functions and requirements?
+We used Java,MongoDB,Windows operating system,and Internet.
+Which other resources (hardware and software) are available to build the system?
+We used 4GB RAM to work on the system. 
+The system is developed using MongoDB and Java Application(Swing).
+2.2:3Operational Feasibility:
+In this type of feasibility study, the operational implementation of the system is considered. Checking is done regarding whether it is feasible for the user to use the software or will there be any instance from the user.
+	Proposed system is beneficial only if they can turn in to information system that will meet user’s requirement. That is new in the new developing world with the automatic capturing image and automatic saving the data. The users ease with minimum effort to keep the record hence it is operationally feasible.
+
+
+
+
+Chapter-3
+3. Requirement Analysis
+     System analysis basically deals with determination of system requirements. The determination of requirements means studying the existing system and collection details about it to find out what these parameters are.
+     There are three main activities that are performed in requirement analysis.
+> Requirement Anticipation:
+        	It means the study done by the system analyst. In this case system analyst raised the question and applies methods to solve that question based on his/her past experiences.
+> Requirement Investigation:
+                This method is related with finding and investing more features of the system. We have collected information about our system by using fact finding methods like observation and questioning clients.
+> Requirement Specification:
+                 A Requirement Specification is an agreement between the developer and the user. The clients specified their requirements to us and we selected a strategy in which he tries to fulfill their requirements.
+         
+      
+
+
+Chapter 4
+4. MongoDB and Java Application
+
+MongoDB is a cross-platform document-oriented database. Classified as a NoSQL database, MongoDB eschews the traditional table-based relational database structure in favour of JSON-like documents with dynamic schemas, making the integration of data in certain types of applications easier and faster. Released under a combination of the GNU Affero General Public License and the Apache License, MongoDB is free and open-source software.
+	First developed by the software company 10gen (now MongoDB Inc.) in October 2007 as a component of a planned platform as a service product, the company shifted to an open source development model in 2009, with 10gen offering commercial support and other services. Since then, MongoDB has been adopted as backend software by a number of major websites and services, including Brave Collective, Craigslist, eBay, Foursquare, Source Forge, Viacom, and the New York Times, among others. MongoDB is the most popular NoSQL database system.
+
+
+
+
+A JApplication is a swing application that looks and behaves like a JApplet Specializations of this class must implement the init() method. They may also implement the destroy(), start(), and stop() methods.
+Java is a set of several computer software and specifications developed by Sun Microsystems, later acquired by Oracle Corporation, that provides a system for developing application software and deploying it in a cross-platform computing environment. Java is used in a wide variety of computing platforms from embedded devices and mobile phones to enterprise servers and supercomputers. While less common, Java applets run in secure, sandboxed environments to provide many features of native applications and can be embedded in HTML pages.
+Writing in the Java programming language is the primary way to produce code that will be deployed as byte code in a Java Virtual Machine (JVM); byte code compilers are also available for other languages, including Ada, JavaScript, Python, and Ruby. In addition, several languages have been designed to run natively on the JVM, including Scala, Clojure and Groovy. Java syntax borrows heavily from C and C++, but object-oriented features are modeled after Smalltalk and Objective-C. Java eschews certain low-level constructs such as pointers and has a very simple memory model where every object is allocated on the heap and all variables of object types are references. Memory management is handled through integrated automatic garbage collection performed by the JVM.
+On November 13, 2006, Sun Microsystems made the bulk of its implementation of Java available under the GNU General Public License (GPL). 
+	
+
+
+
+SOFTWARE LIFE CYCLE ADOPTED:-
+
+           In order to develop the project “Project Tracking System” we have adopted the iterative enhancement model. This model removes the shortcoming of waterfall model. Since many facts of this system are already known. It is not a new concept and hence no research is required. A working version can be easily created and hence the system can start working. Rest of the functionalities can be implemented in the next iteration and can be delivered later. As the requirement analysis is also not required. It not being a new technology risk involved is also less. So one need not perform detailed risk analysis. If redevelopment staff is less than development can be started with less number of people and in next increments others can be involved. As this model combines the advantage of waterfall model and prototyping, clients are always aware of the product being delivered and can always suggest changes and enhancements and can get them implemented. As less amount of customer communication is required one need not apply spiral model in which all types of analysis is done in detail. As the deadline is affordable one need not to for Rapid Application Development model. Iterative enhancement model is useful when less manpower is available for software development and the release deadlines are specified. It is best suited for in house product development, where it is ensured that the user has something to start with. The complete product is divided into releases and the developer delivers the product release by release.
+
+
+
+Chapter-5
+     5. Conceptual and Logical Designs
+
+     
+                                                                     			      Chapter -6
+6. Database Normalization
+
+
+1.Coordinator Table
+Login-idPassword
+2.Domain
+Name
+3.Faculty
+NamePassword
+4. Faculty_info
+NameExperienceDepartmentDomain 1Domain 2Domain 3
+
+
+5.Group_info
+Group_idPasswordYearDepartment	
+6.Project_info
+Group_idLeaderCounsellorGuideTitleDomainConferenceYear
+7.Student
+PRNNameContact numberE-mailYearDepartmentGroupDesignation
+8.Weekly_Progress_Report
+GroupIDWeek_Start_DateActivityStatusRemarks
+
+
+
+
+
+
+
+
+
+
+
+Chapter -7
+7. Hardware and Software Requirements
+
+6.1 Hardware Requirements:
+* Processor: Pentium III and above
+* Memory(RAM): 500MB RAM(minimum)
+* Input Devices: Keyboard and Mouse.
+* Hard Disk: Minimum 20GB
+6.2 Software Requirements:
+* Any Operating System (Java Code is Cross Platform)
+* Java Connectors
+* Eclipse platform
+* MongoDB
+
+
+
+
+
+
+
+
+
+
+
+     Chapter 8
+8. Graphical User Interface
+
+This chapter documents the current user interface and the various elements needed to fulfil the user requirements.  The images of the user interface pages are included to demonstrate the application’s look and feel. 
+Description of Complete User Interface Specification:
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ Chapter -9
+                                                                                       9. Source Code
+
+Home_Page.java
+
+package proj1;
+
+import java.awt.EventQueue;
+import javax.swing.JFrame;
+import java.awt.Color;
+import javax.swing.JPanel;
+import javax.swing.JLabel;
+import java.awt.Font;
+import javax.swing.SwingConstants;
+import javax.swing.JButton;
+import javax.swing.border.MatteBorder;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+
+public class Home_Page extends JFrame{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private JFrame frame;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					Home_Page window = new Home_Page();
+					window.frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the application.
+	 */
+	public Home_Page() {
+		initialize();
+	}
+
+	/**
+	 * Initialize the contents of the frame.
+	 */
+	private void initialize() {
+		frame = new JFrame();
+		frame.getContentPane().setBackground(new Color(173, 216, 230));
+		frame.getContentPane().setLayout(null);
+		frame.setResizable(false);
+		frame.setVisible(true);
+		
+		JPanel panel = new JPanel();
+		panel.setBorder(new MatteBorder(1, 1, 1, 1, (Color) new Color(0, 0, 0)));
+		panel.setBackground(new Color(100, 149, 237));
+		panel.setBounds(10, 11, 564, 137);
+		frame.getContentPane().add(panel);
+		panel.setLayout(null);
+		
+		JLabel lblProjectTrackingTool = new JLabel("Project Tracking Tool");
+		lblProjectTrackingTool.setHorizontalAlignment(SwingConstants.CENTER);
+		lblProjectTrackingTool.setFont(new Font("Times New Roman", Font.BOLD, 25));
+		lblProjectTrackingTool.setBounds(10, 11, 544, 115);
+		panel.add(lblProjectTrackingTool);
+		
+		JPanel panel_1 = new JPanel();
+		panel_1.setBorder(new MatteBorder(1, 1, 1, 1, (Color) new Color(0, 0, 0)));
+		panel_1.setBackground(new Color(100, 149, 237));
+		panel_1.setBounds(10, 159, 272, 381);
+		frame.getContentPane().add(panel_1);
+		panel_1.setLayout(null);
+		
+		JLabel lblLogin = new JLabel("Login:");
+		lblLogin.setHorizontalAlignment(SwingConstants.CENTER);
+		lblLogin.setFont(new Font("Times New Roman", Font.PLAIN, 17));
+		lblLogin.setBounds(10, 11, 143, 62);
+		panel_1.add(lblLogin);
+		
+		JButton btnProjectGroup = new JButton("Project Group");
+		btnProjectGroup.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				frame.dispose();
+				Stud_Login stud_Login = new Stud_Login();
+				stud_Login.setVisible(true);
+			}
+		});
+		btnProjectGroup.setFont(new Font("Times New Roman", Font.PLAIN, 14));
+		btnProjectGroup.setBackground(new Color(65, 105, 225));
+		btnProjectGroup.setBounds(48, 84, 175, 62);
+		panel_1.add(btnProjectGroup);
+		
+		JButton btnCounsellor = new JButton("Counsellor");
+		btnCounsellor.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				frame.dispose();
+				Cnslr_Login cnslr_Login = new Cnslr_Login();
+				cnslr_Login.setVisible(true);
+			}
+		});
+		btnCounsellor.setFont(new Font("Times New Roman", Font.PLAIN, 14));
+		btnCounsellor.setBackground(new Color(65, 105, 225));
+		btnCounsellor.setBounds(48, 157, 175, 62);
+		panel_1.add(btnCounsellor);
+		
+		JButton btnProjectGuide = new JButton("Project Guide");
+		btnProjectGuide.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				frame.dispose();
+				Guide_Login guide_Login = new Guide_Login();
+				guide_Login.setVisible(true);
+			}
+		});
+		btnProjectGuide.setFont(new Font("Times New Roman", Font.PLAIN, 14));
+		btnProjectGuide.setBackground(new Color(65, 105, 225));
+		btnProjectGuide.setBounds(48, 230, 175, 62);
+		panel_1.add(btnProjectGuide);
+		
+		JButton btnProjectCoordinator = new JButton("Project Coordinator");
+		btnProjectCoordinator.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				frame.dispose();
+				Coord_Login coord_Login = new Coord_Login();
+				coord_Login.setVisible(true);
+			}
+		});
+		btnProjectCoordinator.setFont(new Font("Times New Roman", Font.PLAIN, 14));
+		btnProjectCoordinator.setBackground(new Color(65, 105, 225));
+		btnProjectCoordinator.setBounds(48, 303, 175, 62);
+		panel_1.add(btnProjectCoordinator);
+		
+		JPanel panel_2 = new JPanel();
+		panel_2.setBorder(new MatteBorder(1, 1, 1, 1, (Color) new Color(0, 0, 0)));
+		panel_2.setBackground(new Color(100, 149, 237));
+		panel_2.setBounds(290, 159, 284, 137);
+		frame.getContentPane().add(panel_2);
+		panel_2.setLayout(null);
+		
+		JLabel lblSignUp = new JLabel("Sign up:");
+		lblSignUp.setHorizontalAlignment(SwingConstants.CENTER);
+		lblSignUp.setFont(new Font("Times New Roman", Font.PLAIN, 16));
+		lblSignUp.setBounds(10, 0, 136, 43);
+		panel_2.add(lblSignUp);
+		
+		JButton button_3 = new JButton("Project Group");
+		button_3.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				frame.dispose();
+				Sign_Up sign_Up = new Sign_Up();
+				sign_Up.setVisible(true);
+			}
+		});
+		button_3.setFont(new Font("Times New Roman", Font.PLAIN, 14));
+		button_3.setBounds(51, 50, 175, 62);
+		panel_2.add(button_3);
+		
+		JPanel panel_3 = new JPanel();
+		panel_3.setBorder(new MatteBorder(1, 1, 1, 1, (Color) new Color(0, 0, 0)));
+		panel_3.setBackground(new Color(100, 149, 237));
+		panel_3.setBounds(292, 307, 282, 233);
+		frame.getContentPane().add(panel_3);
+		panel_3.setLayout(null);
+		
+		JLabel lblAProjectBy = new JLabel("A project by:");
+		lblAProjectBy.setFont(new Font("Times New Roman", Font.PLAIN, 15));
+		lblAProjectBy.setBounds(33, 11, 239, 42);
+		panel_3.add(lblAProjectBy);
+		
+		JLabel lblNewLabel = new JLabel("Rutvik Dixit");
+		lblNewLabel.setFont(new Font("Times New Roman", Font.BOLD, 17));
+		lblNewLabel.setBounds(43, 61, 199, 28);
+		panel_3.add(lblNewLabel);
+		
+		JLabel lblGayatriKodag = new JLabel("Gayatri Kodag");
+		lblGayatriKodag.setFont(new Font("Times New Roman", Font.BOLD, 17));
+		lblGayatriKodag.setBounds(43, 100, 199, 28);
+		panel_3.add(lblGayatriKodag);
+		
+		JLabel lblPreranaBabbar = new JLabel("Prerana Babbar");
+		lblPreranaBabbar.setFont(new Font("Times New Roman", Font.BOLD, 17));
+		lblPreranaBabbar.setBounds(43, 139, 199, 28);
+		panel_3.add(lblPreranaBabbar);
+		
+		JLabel lblRutujaRachcha = new JLabel("Rutuja Rachcha");
+		lblRutujaRachcha.setFont(new Font("Times New Roman", Font.BOLD, 17));
+		lblRutujaRachcha.setBounds(43, 177, 199, 28);
+		panel_3.add(lblRutujaRachcha);
+		frame.setBounds(100, 100, 600, 600);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE)
+}
+
+Chapter -10
+                                        					10. Testing
+
+10.1 Introduction:
+	The Testing phase forms an important part of the software development life cycle. Any software product has to be tested thoroughly before it is delivered to the end customer. Well tested software with limited features is certainly better than the one having many features with only a few of them working. This document provides a general overview of the testing strategy adopted for testing our product.
+10.2 Goals and Objectives:
+	The software testing involves verification and validation of the software produced. Testing is a process of executing of program with the intent of finding an error.	A good test is one where there is high probability of finding an error.	A successful test is one which uncovers and as yet undiscovered errors. Our objective of testing is systematically uncovering different classes of errors and to do so with minimum efforts and amount of time and effort. The data collected in the test provides a good indication of the software reliability and some indication of software quality as a whole. The results of testing will not only help to know which parts of system are working below average but also helps to make the system more user friendly. Testing is considered as an unavoidable part of any responsible effort to develop a software system.
+
+
+
+10.3 Test Plan:
+Testing Strategy
+	A good testing strategy is one using which a lot of errors can be easily found. The testing which is to be carried out is divided into number of modules for a proper judgment of the quality of the software. The testing strategy mainly carried out was Module Testing.
+	Test cases are plotted considering the above categories and correct functionality of various parts of code is ensured.
+Unit Testing
+	This involves testing of individual modules. Here we have tested Individual modules written for various operations,
+	Module for HomePage(s)
+	Module for SignUpPage
+	Module for LoginPage(s)
+
+
+
+
+Integration Testing
+	The system as a whole is tested here. The system is said to be operating correctly if it passes these tests. After the different modules have been developed and tackled, all the modules are integrated and tested during the Integration testing.
+TEST CASE TEMPLATE
+A test case can have the following elements. Note, however, that normally a test management tool is used by companies and the format is determined by the tool used.
+Test Case SummaryThe summary / objective of the test case.PrerequisitesAny prerequisites or preconditions that must be fulfilled prior to executing the test.Test DataThe test data, or links to the test data, that are to be used while conducting the test.Expected ResultThe expected result of the test.Actual ResultThe actual result of the test; to be filled after executing the test.StatusPass or Fail. Other statuses can be ‘Not Executed’ if testing is not performed and ‘Blocked’ if testing is blocked.
+TEST CASE EXAMPLE / TEST CASE SAMPLE
+Test Case SummaryTo verify that a Faculty although given a username password can login if is assigned to a Group PrerequisitesLogin should be done by a faculty member.Test Procedure1.Enter the username and password of  Faculty.
+2.Click on Login ButtonTest DataUsername and Password of FacultyExpected ResultFaculty should be logged in.Actual ResultOnly the Faculty which  has been assigned to a group as a Counsellor/Guide or is the Coordinator logs in.StatusFail.
+
+
+
+
+
+Chapter -11
+11. Future Enhancement
+
+This project can be made Web Based. The scope can also be increased to be used at University Level with more functionality. One of the functionality could be a process that finds if a similar kind of BE project has been made before. This project can also be applied at different levels and different kinds of institutes since almost everywhere project tracking is existingly manual .This project has a really big scope.
+
+
+
+
+
+
+
+
+
+
+
+
+Chapter -12
+12. Conclusion
+
+Thus, considering our system, we conclude that using our system, we can successfully use it to keep a track of BE projects. We can successfully register project groups and login using the generated IDs. We can also perform other activities such as submitting synopses, and finalizing titles, keeping track of student progress, and generating project title list. We have also implemented modules for addition and deletion of faculty and project domains.
+The system can be effectively used for managing final year projects and keeping track of student progress.
+
+
+
+
+
+
+
+
+Chapter -13
+13. References
+
+> MongoDB: The Definitive Guide, 2nd Edition by Kristina Chodorow
+> Java The Complete Reference,Eight Edition by Herbert Schildt
+> Software Engineering by Roger Pressman
+> www.wikipedia.org
+> www.youtube.com
+
+
+
+
+
+
+1
+
+

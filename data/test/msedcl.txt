@@ -1,0 +1,1102 @@
+
+
+PUNE VIDHYARTHI GRIHA'S
+COLLEGE OF ENGINEERING AND TECHNOLGY, PUNE-09.
+DEPARTMENT OF INFORMATION TECHNOLOGY
+
+A
+
+PROJECT REPORT
+ON
+
+“MSEDCL’S DATA GATHERING AND ANALYSIS”
+
+
+Under the Guidance of
+Prof.N.R.SONAWANE
+
+Submitted By
+Chaudhari Ashok
+SukhadeveShiril
+KudaleAkshay
+
+Academic Year:2015 - 2016
+
+PUNE VIDHYARTHI GRIHA'S
+COLLEGE OF ENGINEERING AND TECHNOLGY, PUNE-09.
+CERTIFICATE
+
+This is to certify that, the project entitled as
+“MSEDCL’S DATA GATHERINGAND ANALYSIS”
+
+Is a bonafide work done by
+
+1)Chaudhari Ashok
+2)SukhadeveShiril
+3)KudaleAkshay
+
+                Submitted in the partial fulfillment for the award of Third Year Engineering in Information Technology as prescribed by Savitribai Phule Pune University, Pune as a record of students own work carried out under the guidance of Prof. N. R. Sonawane during academic year 2015-2016.
+
+								
+					
+
+
+Prof.N.R.Sonawane					Dr.G.V.Garje
+Project  Guide						H.O.D Comp/IT Department
+
+ACKNOWLEDGEMENT
+
+      With immense pleasure, we are presenting this project report as a part of the curriculum of Information Technology. We wish to thank all the people who gave us unending support right from the stage the idea was conceived.
+      We take this opportunity to convey our sincere thanks to our beloved Principal Dr.Y.P.Nerakar for his continual support and encouragement that made this project a great success.
+      We express our profound thanks to our respected Head of Department Dr. G.V.Garje, whose advice and valuable guidance helped us in making this project interesting and successful one.
+      We are also grateful to our Internal guide Prof.N.R.Sonawane, whose valuable guidance helped us in making this project interesting and successful one by providing us with immense support and guidance throughout the project.
+      We also thank all those who have directly or indirectly guided and helped us in preparation of this project.
+      Last but not the least we thank our beloved Parents, Friends and our well wishers who helped us to do this project by their kind help and assistance.
+      
+      
+      
+      
+      
+      
+1) Chaudhari Ashok
+2) SukhadeveShiril
+3) KudaleAkshay
+
+
+
+ABSTRACT
+
+MSEDCL is very big organization, the existing system do not provide the facility to analyze the overall distribution and consumption of the distributed electricity andtherefore we design exclusive consumer’s data management and analysis systems that will adapt to their managerial requirements. This is designed to assist in strategic planning of generation of electricity, overall flow of distributed electricity and proper management of available data.This systemwill help MSEDCLto manage their flow of electricity and find out their losses at different levels of distribution. It will also help to maintain and update available dataat large scale with simple technique.
+      The main goal of our project is to give quick understanding to consumer and executive about theirconsumption, providing alternate solutions to MSEDCL for reduction in losses and show distinct consumption patterns of their usage.
+       One of themain features inMSEDCL’s Data Analysis system is graphical analyses reports. Effective graphical reports saves both time and money of MSEDCL and also it gives them quick understanding about electricity distribution.
+      This system namely MSEDCL’s Data gathering and AnalysisSystem is developed using MongoDB and PHP. The good UI is an important part of the development experience so PHP gives us the best user interface along with help of AJAX.PHP provides a dynamic front-end UI for a web site and it also handle some complex work very efficiently that’s why mongoDB and PHP combination is better than any other front and back end. As we use PHP, our system need not require installing any additional drivers and plug-ins.It will worksmoothly over any server install machines.
+			
+
+
+
+
+INDEX
+
+
+Sr.No.TitlePage No1.Introduction62.Feasibility Study83.Requirement Analysis104.MongoDB and PHP115.Conceptual & Logical Designs136.Data flow diagram167.Database Normalization178.Tables in database.239.Hardware & Software Requirements2710.Graphical User Interface2811.Analysis3612.Source Code4113.Testing Document5214.Future Enhancement5515.Conclusion5616.Bibliography57
+		
+
+
+
+Chapter-1
+1. INTRODUCTION
+MSEDCL is very big organization, the existing system do not provide the facility to analyze the overall distribution and consumption of the distributed electricity and therefore we design exclusive consumer’s data management and analysis systems that will adapt to their managerial requirements. This is designed to assist in strategic planning of generation of electricity, overall flow of distributed electricity and proper management of available data. This system will help MSEDCL to manage their flow of electricity and find out their losses at different levels of distribution. It will also help to maintain and update available data at large scale with simple technique.
+
+PURPOSE OF THIS SYSTEM
+
+	As we know in any office, the manager of office or executive used to spare lot of time even after the normal office hours either at home or office for preparation of daily/weekly report and other necessary record. If executive wants to give some special report or a presentation then he has to spend much more time for analysis and study of available data rather than the study of actual presentation. Now with the help of our data analysis system,the executive of MSEDCL has the information on hisfinger tips and can easily prepare a record based on their requirements apart from daily/weekly report.  Finally, we can say that this system will not only auto-mate the process but save the valuable time, which can be well utilized by MSEDCL. This will prove to be an additional advantage of analysis system.
+
+
+BENEFITS OF THIS SYSTEM:-
+                                 
+This system will reduce the complexity of data management.
+* By using this system we can easily maintain all the records about Consumers.
+* It will reduce search time.
+* It can be easily handled by the person who have authorized log in permission and elementary knowledge of computer because it provides a user friendly environment.
+* Graphical reports which gives better and quick understanding.
+* Overall details about the Consumers.
+* Total distribution of electricity with proper usage.
+* As the software’s used by this system are commonly open source so there is no additional cost to implement this system.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Chapter-2
+2. Feasibility Study
+	Before recommending the new system, it is necessary to investigate whether it is possible as well as feasible to develop the new system. The important outcome of this preliminary investigation is the determination of whether the proposed system is feasible for target user or not. Feasibility & risk analysis are related in many ways. If project risk is great, the feasibility of producing quality software is required.
+The feasible analysis was carried out which involved following steps:
+* Identification of servers user need.
+* Identification of how different tasks are carried out for keeping record of client user activities.
+* Identifying whether the proposed system can meet user’s need.
+* And finally proving the system technically, financially & operational feasible.
+
+2.1 Economic Feasibility:
+      It includes an evaluation of development cost weight against the ultimate income or benefit derived from the developed system or product.
+The approximate cost of this project will be definitely less than any other software with this kind of reliability, ease, functionality & feasibility since the application does not require any extra hardware or any supporting software.
+2.2: Technical Feasibility:
+      Technical analysis begins with an assessment of the technical viability of proposed system.
+What technologies are required to accomplish system functions and requirements?
+Which other resources (hardware and software) are available to build the system?
+The system is developed using MongoDB and PHP front end.
+2.3: Operational Feasibility:
+      In this type of feasibility study, the operational implementation of the system is considered. Checking is done regarding whether it is feasible for the user to use the software or will there be any instance from the user.
+	Proposed system is beneficial only if they can turn in to information system that will meet user’s requirement. That is new in the new developing world with the automatic capturing image and automatic saving the data. The users ease with minimum effort to keep the record hence it is operationally feasible.
+
+     
+       
+       
+       
+       
+		
+
+
+
+
+
+
+
+
+
+
+Chapter-3
+3. Requirement Analysis
+      System analysis basically deals with determination of system requirements. The determination of requirements means studying the existing system and collection details about it to find out what these parameters are.
+There are three main activities that are performed in requirement analysis.
+> Requirement Anticipation:
+        First of all we meet to MR.KHAIRNAR sir(then head of ITDepartment of MSEDCL) and discussed all the problems faced by MSEDCL while maintaining and arranging the available data. After complete study and as per his suggestion asanexpert and based on his past working experiences in IT department of MSEDCL we gathered our requirements for the project. After studied every aspect of the project we got so many requirements which are necessary for the project, 
+
+> Requirement Investigation:
+         This method is related with finding and investing more features of the system. We have collected information about our system by using fact finding methods like observation and questioning clients.
+> Requirement Specification:
+Following are the basic requirements for the project:
+1. Graphical analysis report on the consumption and consumers of a BU.
+2. Graphical analysis report on the consumption of various PC’s of a BU.
+3. Graphical analysis report on the DTC and Route data.
+4. Graphical analysis report on seasonal consumption of a consumer.
+5. Data handling of a Consumer.
+
+
+Chapter-4
+4. MongoDB and PHP
+
+MongoDB is a cross-platform document-orienteddatabaseand classified as a NoSQL database, MongoDB eschews the traditional table-based relational database structure in favour of JSON-like documents with dynamic schemas, making the integration of data in certain types of applications easier and faster. Released under a combination of the GNU Affero General Public License and the Apache License, MongoDB is free and open-source software.
+	First developed by the software company 10gen (now MongoDB Inc.) in October 2007 as a component of a planned platform as a service product, the company shifted to an open source development model in 2009, with 10gen offering commercial support and other services. Since then, MongoDB has been adopted as backend software by a number of major websites and services, including Brave Collective, Craigslist, eBay, Foursquare, Source Forge, Viacom, and the New York Times, among others. MongoDB is the most popular NoSQLdatabase system.
+PHP started out as a small open source project that evolved as more and more people found out how useful it was. RasmusLerdorf unleashed the first version of PHP way back in 1994. PHP is a recursive acronym for "PHP: Hypertext Preprocessor". PHP is a server side scripting language that is embedded in HTML. It is used to manage dynamic content, databases, session tracking, even build entire e-commerce sites.  It is integrated with a number of popular databases, including MySQL, PostgreSQL, Oracle, Sybase, Informix, and Microsoft SQL Server. PHP is pleasingly zippy in its execution, especially when compiled as an Apache module on the UNIX side. The MongoDB server, once started, executes even very complex queries with huge result sets in record-setting time. PHP supports a large number of major protocols such as POP3, IMAP, and LDAP. PHP4 added support for Java and distributed object architectures (COM and CORBA), making n-tier development a possibility for the first time. PHP is forgiving: PHP language tries to be as forgiving as possible. PHP Syntax is C-Like. 
+SOFTWARE LIFECYCLEADOPTED:-
+
+            In order to develop the project “MSEDCL’s Data gathering and Analysis”we have adopted the iterative enhancement model. This model removes the shortcoming of waterfall model. Since many facts of this system are already known. It is not a new concept and hence no research is required. A working version can be easily created and hence the system can start working. Rest of the functionalities can be implemented in the next iteration and can be delivered later.In this first of all we concentrate on the back end of project, using various techniques we fixed theschema of project and then move on to the front end with PHP. It not being a new technology risk involved is also less. So one need not perform detailed risk analysis. If redevelopment staff is less than development can be started with less number of people and in next increments others can be involved. As this model combines the advantage of waterfall model and prototyping, clients are always aware of the product being delivered and can always suggest changes and enhancements and can get them implemented. As less amount of customer communication is required one need not apply spiral model in which all types of analysis is done in detail. Iterative enhancement model is useful when less manpower is available for software development and the release deadlines are specified. It is best suited for in house product development, where it is ensured that the user has something to start with. The complete product is divided into releases and the developer delivers the product release by release.
+
+
+
+
+
+
+
+
+
+Chapter-5
+5. Conceptual and Logical Designs
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Chapter-6
+6. Data flow diagram
+
+
+
+Chapter-7
+7. Database Normalization
+
+
+	For this project first of all we have to collect all the information about consumers under MSEDCL.As our project has certain deadline and consumers under MSEDCL is so large in number for our project so we decided to concentrates on one specific area and study allthe consumption patterns of all the consumers in that specific area for the specific time period with available data.
+	MSEDCL gave us permission to work on BU number 4597which is included in Shivajinagar sub-division. So, now we have data of consumers of Shivajinagar sub-division.
+	IT department of MSEDCL provided us with Oracle data dump which was having 661 tables contains various parameters of  various entities in the above sighted logical design  such as information about bill, mapping of available DTC’s,information about consumers and meter details and much more.
+	These all tables were having redundancies and lacked all the features of a good database.To work with that so much unsorted and redundant data is not feasible that’s why we had to normalize given data and make it suitable for our project. The unnecessary and unwanted data was removed from the given data-dump provided by MSEDCL.
+	We had to create various databases to remove unwanted tables. Some databases were created to export various tables and views that were created after performing various types of joins on various tables.
+	We create new database and insert the tables which are necessary and important for our study and analysis. The tables involve in our database are as follows-
+The new accepted tables are as follows:
+1. ACTION_REASON
+2. ACTION_TABLE
+3. ACTIVITY_TYPE
+4. ADJUSTMENT_TYPE
+5. BILL_INFO
+6. BILLING_UNIT_MASTER
+7. BULT
+8. CMSTAB
+9. CMSTAB_INFO
+10. CMSTAB_NEW
+11. CNTCONS3
+12. COMPLAINT_STATUS
+13. COMPLAINT_SUBTYPE
+14. CONSUMER_MASTER
+15. DANGER_LIST
+16. DCCONNLOAD
+17. DIS_CON_IND
+18. DIS_TAG
+19. DISC_TAG_MASTER
+20. DISTRICT
+21. DTC_AREA_INCHARGE02
+22. DTC_BU_MAPPING
+23. DTC_COMM_EFFI_02
+24. DTC_CONS_DETAIL
+25. DTC_MASTER
+26. DTC_METER_MASTER
+27. DTC_METER_MASTER_37
+28. DTC_METER_REPLACEMENT
+29. DTC_PC
+30. DTC_TYPES
+31. ELEC_DUTY
+32. ELECTRICITY_DUTY_CODE_MASTER
+33. FEEDER_DTC_MASTER
+34. FEEDER_INPUT_DETAILS
+35. FEEDER_METER_MASTER
+36. FEEDER_TYPES
+37. HK_HTMIS_HISTORY
+38. INDUSTRIAL_CATEGORY
+39. MAIN_COMPLAINT_TYPE
+40. MAPPED_DTC_CONSUMER
+41. MAPPING_ALL_BU
+42. MAPPING_CONSUMER_MASTER
+43. MAPPING_DTC_MASTER
+44. MAPPING_FEEDER_MASTER
+45. METER_BRAND
+46. METER_ID
+47. METER_PHASE
+48. METER_REPLACEMENT_REASONS
+49. METER_STATUS
+50. MTR_REPL_INFO
+51. REVENUE_CODE
+52. SECTION_OFFICE
+53. TARIFF_DESCR
+54. WEB_DTC_METER_MASTER
+
+
+Mainly we require the information about consumer, his name, consumption till date, meter type and his route from station to consumer meter. We collect all these required attributes in our new database from these selected tables by different joins by using consumer number as primary key. We collect personal information about consumer such as his name, meter number, address, and contact info from as table Consumer.
+
+
+
+Consumer table contain the following attributes-
+ZONE
+DIVISION
+SUBDIVISION
+CIRCLE
+BU
+PC
+SECTION_CODE
+ROUTE
+DTC_CODE
+POLE
+CONSUMER_NUMBER
+OLD_CONS_NUM
+CONSUMER_NAME
+METER_ADDRESS_L1
+METER_ADDRESS_L2
+METER_ADDRESS_L3
+METER_PIN_CODE
+DISTRICT
+CONSUMER_TYPE
+URBAN_RURAL_FLAG
+METER_NUMBER1
+METER_NUMBER2
+INSTALLATION_NUMBER
+MTR1_PHASE
+MTR2_PHASE
+MTR_DIGIT1
+MTR_DIGIT2
+MTR_CODE1
+MTR_CODE2
+MTR_BRAND1
+MTR_BRAND2
+METER_SATATUS_01
+METER_STATUS_02
+DISCONN_TAG
+TAMPER_METER_FLAG
+MTR_FAULTY_01
+MTR_FAULTY_02
+LOCK_SINCE
+FAULTY_SINCE
+TARIFF_CODE
+OLD_TARIFF_CODE
+REV_CAT
+DUTY_CODE
+SANCTIONED_LOAD_KW
+CONNECTED_LOAD_KW
+SANCTIONED_DEMAND_KVA
+CONTRACT_DEMAND_KVA
+SANCTION_LOAD
+CONN_LOAD
+DEMAND_RECORDED
+NIGHT_DEMAND_KVA
+MAX_DEMAND_KVA
+PREV_RD_MTH
+PREV_READ1
+PREV_READ2
+BILL_MTH
+CUR_READING1
+NETBILL_AMT
+HIST_BILLMTH_01
+HIST_UNITS_01
+HIST_NETBILL_01
+HIST_BILLMTH_02
+HIST_UNITS_02
+HIST_NETBILL_02
+HIST_BILLMTH_03
+HIST_UNITS_03
+HIST_NETBILL_03
+HIST_BILLMTH_04
+HIST_UNITS_04
+HIST_NETBILL_04
+HIST_BILLMTH_05
+HIST_UNITS_05
+HIST_NETBILL_05
+HIST_BILLMTH_06
+HIST_UNITS_06
+HIST_NETBILL_06
+HIST_BILLMTH_07
+HIST_UNITS_07
+HIST_NETBILL_07
+HIST_BILLMTH_08
+HIST_UNITS_08
+HIST_NETBILL_08
+HIST_BILLMTH_09
+HIST_UNITS_09
+HIST_NETBILL_09
+HIST_BILLMTH_10
+HIST_UNITS_10
+HIST_NETBILL_10
+HIST_BILLMTH_11
+HIST_UNITS_11
+HIST_NETBILL_11
+HIST_BILLMTH_12
+HIST_UNITS_12
+HIST_NETBILL_12
+
+	All these attributes gives us the information about consumer and his usages. This table contains the bill history, faulty meter numbers, its type, meter type, consumer information and his route.
+	We had shown our database to Mr. Chavan sir (head of IT department of MSEDCL) and as they suggest we again deleted some unnecessary attributes which are not recently used in MSEDCL'S database.
+	 Mr. Chavan sir also gave us some suggestions about this table, our database schema was column oriented that means we added bill months, bill amount and units consumed in the next new columns as it comes to database so he suggest us that, this type of insertion method is not feasible as data going to increase in future at each time we have to add new 3 columns. So he suggests that make schema row oriented and each time when data have to insert add new row to database, in this way we not have to change our schema each time. We makes all the changes and finally we segregates our database and makes only 4 tables which we are using for our project as database.
+	Finally our project uses only 4 tables and these are the tables we used in the project-
+	1. CONSUMERS
+	2. BILLS
+	3. DTC
+	4. BU
+      In the first table ‘CONSUMERS’ we collect all the information about consumers of BU 4597.This table contain attributes of consumer which gives us all the information about the consumer and his consumption. It gives us all the information about meter of consumer and status if any abnormalities occurs.
+	After finalize our schema of consumer database we meet to Mr. Chavan sir (head of IT department of MSEDCL).He check the schema and gave us some suggestions. According to him all the fields contains suffix 02 are not used today in working, so we can delete those unnecessary fields from the database schema and as they suggest we removed that all the fields and finally our normalize, necessary, required database is ready. 
+	We put all the information about the bill in the separate new table BILLS. Bills table contains all the information about the consumer’s consumptions. This table contains following attributes-
+	1. Consumer_Number
+	2. Bill_Month
+	3. Net_Bill
+	4. Bill_Unit
+
+	From table bills we can study all types of analyses about consumer’sconsumption. We can see his annual consumption,his total usages and his overall unit demand.This table was created as a result of 3rdlevel of Normalization on table consumer.
+      In the table DTC we collect all the information about DTCs of BU 4597.This table contain attributes of DTC which gives us all the information about the DTCs and their consumption. It gives us all the information about DTC meters,their primary and secondary voltageand meter status if any abnormalities occurs.
+
+
+
+
+
+
+
+Chapter -8
+8. Tables in Database.
+1. Consumer Table:
+
+ATTRIBUTESDATATYPESBUIntCIRCLEIntCONNECTED_LOAD_KWIntCONN_LOADIntCONSUMER_NAMEvarcharCONSUMER_NUMBERIntCONSUMER_TYPEIntCONTRACT_DEMAND_KVAIntDEMAND_RECORDEDIntDISCONN_TAGIntDISTRIC0IntDIVISIONIntDTC_CODEIntDUTY_CODEIntFAULTY_SINCEdate INSTALLATION_NUMBERIntLOCK_SINCEdateMAX_DEMAND_KVAIntMETER_ADDRESS_L1varcharMETER_ADDRESS_L2varcharMETER_ADDRESS_L3varcharMETER_NUMBER1IntMETER_NUMBER2IntMETER_PIN_CODEIntMETER_STATUS_01IntMETER_STATUS_02IntMTR1_PHASEIntMTR2_PHASEIntMTR_BRAND1IntMTR_BRAND2IntMTR_CODE1IntMTR_CODE2IntMTR_DIGIT1IntMTR_DIGIT2IntMTR_FAULTY_01IntMTR_FAULTY_02IntNIGHT_DEMAND_KVAIntOLD_CONS_NUMIntPCIntPOLEIntREV_CATIntROUTEIntSANCTIONED_DEMAND_KVAIntSANCTIONED_LOAD_KWIntSANCTION_LOADIntSECTION_CODEIntSUBDIVISIONIntTAMPER_METER_FLAGIntTARIFF_CODEInt
+2. DTC Tables:
+
+ATTRIBUTESDATATYPESCIRCLEIntDIVIntSUBDIVIntBUIntPCIntFED_NOIntFEEDER_NAMEvarcharDTC_CATEGORYIntCC_CODEIntDTC_CODEIntDTC_NAMEvarcharDTC_TYPEIntMASTER_DTC_PHASEIntDTC_AREA_INCHARGEIntNEAREST_CONS_NOIntRESIDENTIAL_CONSIntCOMMERCIAL_CONSIntINDUSTRIAL_CONSIntOTHER_CONSIntDTC_CONSUMER_COUNTIntDTC_CAPACITYIntDTC_PRIMARY_VOLTAGEIntDTC_SECONDARY_VOLTAGEIntDTC_ACTUAL_LOSSIntDTC_PERCENT_LOSSfloatMETER_NOIntMETER_BRANDIntNO_OF_DIGIntMETER_STATUSIntMTR_CODE_AIntMTR_CODE_CIntMTR_CODE_DIntMTR_CODE_EInt3. Bills:
+
+ATTRIBUTESDATATYPECONSUMER_NUMBERIntBILL_MTHIntBILL_UNITSIntNET_BILLInt
+4. BU:
+ATTRIBUTESDATATYPESBU_NUMBERIntBU_NAMEVarchar
+5. Circle:
+ATTRIBTUESDATATYPESCIRCLE_NOIntCIRCLE_NAMEvarchar
+6. MeterStatus:
+ATTRIBTUESDATATYPESMETER_STATUS IntDESCRIPTION varchar
+7. Login Detail:
+ATTRIBUTESDATATYPEID IntNAME varcharADDRESS1	varcharADDRESS2	varcharADDRESS3	varcharPINCODE		IntDEPARTMENTvarcharDESIGNATION	varcharEMAIL		varcharPASSWORD	varchar
+
+Chapter-9
+9. Hardware and Software Requirements
+
+7.1 Hardware Requirements:
+* Processor: Pentium III and above
+* Memory(RAM): 512MB RAM(minimum)
+* Input Devices: Keyboard or Mouse.
+* Hard Disk: Minimum 200 MB(Varies according to Database Size).
+7.2 Software Requirements:
+* PHP + MongoDB connector
+* MongoDB server
+* Xampp server/lamp /apache 2
+* JavaScript supported browser.
+
+
+Chapter-10
+10. Graphical User Interface
+
+This chapter documents the current user interface and the various elements needed to fulfil the user requirements.  The images of the user interface pages are included to demonstrate the application’s look and feel. 
+Description of Complete User Interface Specification: 
+The Login page: 
+The main screen will contain the login page (See Figure). The login page consists of Username, password and the login button. It consists of two text boxes ID and Password. There is also a submit button with the value login. 
+
+If Log in ID and Password is incorrect then system show error message and user automatically redirect to main log in page. Without authentication nobody can access the system. User must be logged in to access the database.
+
+With a correct and authenticate log in ID and Password user can log in to system. Aftersuccessful log in system shows ‘WELCOME’ message with username. Now user is successfully logged in and he can access whole functionality of the system.
+
+Our system mainly designed for generating various types of analysis reports. Once user logged in successfully then he is able to see all the reports, analysis  and graphs generated by system with available data.Mainly we gives analysis on consumption of consumers,PCs and BUs over the year.Also we generate the reports which gives information to MSEDCLthat how many consumers are live and dead in specific area.
+This page is mainly designed to generate graphical reports of PCs and their consumption with available data. This pie chart gives correct figure about Pc-wise total consumption. 
+
+This is same report of PC and their consumption with the use of area graph.With the help of this analysis we get clear idea that which PC’s consumption is more in one year.This analysis is mainly for comparison of PC’s consumption.
+
+
+
+This gives Basic information about the PC.It shows overall details about the specific selected PC.
+
+
+If user want to see the status of the BU then system provide facility to check BU-wise analysis.This provide overall consumption status of BU with a graphical representation.
+
+
+
+
+
+
+We provide a facility to add new connection details in the system.This page will help to executive in adding new connection details in the database.
+
+Here all the information about consumer connection have to fill up in three different stages.
+
+
+
+
+Many times because of specific reason MSEDCL have to update or modify the available data.For that we offer a facility to update the data.For doing any change in the consumer’s detailsfirst of all executive have to enter correct consumer number.
+
+
+
+
+If because of technical or any other reason any consumer’s connection is disconnected and MSEDCL want to delete his information then our system provide them facility to delete consumer’s connection details from the system.
+
+Personal information page will display all the available information of consumer in tabular form.
+
+Seasonal consumption will display seasonal consumption of the consumer.
+
+
+
+
+
+
+
+
+Chapter-11
+11.Analysis
+
+      We collect all the required attributes for the project and arrange them in our database and from that we can perform numbers of analysis for the consumers.
+	From table consumer we can get all types of analyses about consumer’s consumption. We can see his annual consumption, his total usages and his overall units demand. 
+		We can get analysis from given data of consumers. Those are as follows:-
+1. Monthly consumption of consumer.
+2. Seasonable consumption of consumer.
+3. BU wise consumption of latest month.
+4. Total consumers in a BU.
+5. Number of consumers in different BU.
+6. Live and Dead consumers in BU.
+7. Number of Routes in a BU.
+8. Number of PC in a BU.
+9. Number of consumers having 1 & 3-phase connection in BU.
+10. Number of Consumers in BU having meters with different meter digits.
+11. Number of faulty and normal meters in a BU.
+12. PC wise consumption of latest month.
+13. Total consumers in a PC.
+14. Number of consumers in different PC.
+15. Live and Dead consumers in PC.
+16. Number of consumers having 1 & 3-phase connection in PC.
+17. Number of Consumers in PC having meters with different meter digits.
+18. Number of faulty and normal meters in a PC.
+19. Number of Routes in PC.
+20. Live and Dead consumers in Route.
+21. Number of Consumers in Route having meters with different meter digits
+22. Number of faulty and normal meters in a Route.
+23. Number of Poles in Routes.
+24. Number of consumers in Routes.
+25. Number of consumers having 1 & 3-phase connection in Route.
+All the Analysis in detail are as follows-
+1. Monthly consumption of consumer-
+		This analysis show units consumed by consumers by each month. This helps to draw relationship between units consumed in different month and help in study why units consumed are different and reasons behind it.
+
+2. Seasonable consumption of consumer-
+      This analysis show units consumed by consumers by Season. This helps to draw relationship between units consumed in different seasons and help in study why units consumed are different and reasons behind it.
+3. BU wise consumption of latest month-
+	In this analysis we gives total overall consumption of BU till date. This analysis gives us correct figure that how much units are consumed by that specific BU.
+	This help MSEDCL to findhow much units consumed in specific BU and based on that they can decided or changes their revenue category and tariff code for that BU.
+4. Total consumers in a BU-
+		 In this analysis we calculate total numbers of consumers in BU. This can gives us accurate figure that actually how much consumers are connect to BU and is there any need to make changes in  revenue category and tariff code for consumers which help in giving efficient service to consumers from MSEDCL.
+    5. Number of consumers in different BU-
+      This analysis gives us relationship between different BU and this gives us comparison between numbers of consumers in different BU.
+6. Live and Dead consumers in BU-
+      Many times meters are disconnected due to some reason. We don’t know how much meters in our BU are not working or disconnected from MSEDCL’S connection.
+      This analysis helps us in understating relationship between Dead and Live meters in given BU. This can help to calculate number of meters installed but not working.
+7. Number of Routes in a BU-
+      For convenience of mapping consumers BU are divided in small area called ROUTE. This analysis gives us total numbers of consumers in Routes. From this analysis we can get numbers of consumers in routes. This can gives strength of different Routes of BU.
+8. Number of PC in a BU-
+      For convenience of mapping consumers BU are divided in small area called PC. This analysis gives us total numbers of consumers in PC. From this analysis we can get numbers of consumers in PC. This can gives strength of different PC of BU.
+      
+
+   9. Number of consumers having 1 & 3-phase connection in BU-
+      This analysis gives us correct figure about how much connections are THREE phase and how much connections are ONE phase in specific BU.
+      By using this analysis we can make provision for tariff code of THREE phase and ONE phase connection for that BU
+10. Number of Consumers in BU having meters with different meter digits-
+      This analyses use to show how much consumers are using meters with different meter digits in BU. This analyses help to calculate efficiency of each meter having different types of digits.
+11. Number of faulty and normal meters in a BU-
+      This analysis show us that how much connections are faulty in specific BU. By using this analysis we can help to count total numbers of faulty consumers and normal meters in BU.
+   12. PC wise consumption of latest month-
+	In this analysis we gives Total overall consumption of PC till date. This analysis gives us correct figure that how much units are consumed by that specific PC.
+	This help MSEDCL to find how much units consumed in specific PC and based on that they can decided or changes their revenue category and tariff code for that PC.
+   13. Total consumers in a PC- 
+	In this analysis we calculate total numbers of consumers in PC. This can gives us accurate figure that actually how much consumers are connect to specific PC and is there any need to make changes in  revenue category and tariff code for that specific PC which help in giving efficient service to consumers from MSEDCL.
+
+14. Number of consumers in different PC-
+      In this analysis we calculate total numbers of consumers in different PC. This can gives us accurate figure that actually how much consumers are connect to different PC and is there any need to make changes in  revenue category and tariff code for different PC which help in giving efficient service to consumers from MSEDCL.
+15. Live and Dead consumers in PC-
+      Many times meters are disconnected due to some reason. We don’t know how much meters in our PC are not working or disconnected from MSEDCL’S connection.
+      This analysis helps us in understating relationship between dead and live meters in given PC. This can help to calculate number of meters installed but not working.
+16. Number of consumers having 1 & 3-phase connection in PC-
+      This analysis gives us correct figure about how much connections are THREE phase and how much connections are ONE phase in specific PC. By using this analysis we can make provision for tariff code of THREE phase and ONE phase connection for that PC.
+17. Number of Consumers in PC having meters with different meter digits-
+      This analyses use to show how much consumers are using meters with different meter digits in BU. This analyses help to calculate efficiency of each meter having different types of digits.
+   18. Number of faulty and normal meters in a PC-
+      This analysis show us that how much connections are faulty in specific PC. By using this analysis we can help to count total numbers of faulty and normal meters in PC.
+   19. Number of Routes in PC-
+      In this analysis we calculate total numbers of routes in PC. This can gives us accurate figure that actually how much routes are connect to BU and is there any need to make changes in  revenue category and tariff code for consumers which help in giving efficient service to consumers from MSEDCL.
+   20. Live and Dead consumers in Route-
+      Many times meters are disconnected due to some reason. We don’t know how much meters in our Route are not working or disconnected from MSEDCL’S connection.
+      This analysis helps us in understating relationship between dead and live meters in given Route. This can help to calculate number of meters installed but not working.
+21. Number of Consumers in Route having meters with different meter digits-
+      This analyses use to show how much consumers are using meters with different meter digits in Route. This analysis help to calculate efficiency of each meter having different types of digits.
+   22. Number of faulty and normal meters in a Route-
+      This analysis show us that how much connections are faulty in specific Route. By using this analysis we can help to count total numbers of faulty and normal meters in Route.
+23. Number of Poles in Routes-
+		This analysis gives us total number of poles in given Route. This analysis help in mapping consumers from different poles in given Route.
+24. Number of consumers in Routes-
+	This analysis gives us total number of consumers in Routes. This help in mapping consumers from different Routes. This gives us Route-wise analysis.
+25. Number of consumers having 1 & 3-phase connection in Route.
+      This analysis gives us correct figure about how much connections are THREE phase and how much connections are ONE phase in specific Routes. By using this analysis we can make provision for tariff code of THREE phase and ONE phase connection for that PC.
+
+
+
+
+
+
+
+
+
+
+
+Chapter-12
+12. Source Code
+
+1. Source Code of BU Monthly Consumption:
+<html>
+<head>
+<title> BU <?php echo  $_POST['BU'];?> Monthly Consumption   </title>
+</head>
+<body>
+<?php include 'header.php'?>
+<div class="Containts">
+<?php
+// connect to mongodb
+//$m is already delcared in header.php
+//$m = new MongoClient();
+$db = $m->mseb;
+//Execute the function that removes the temporary collections created by mapReduce
+$response = $db->execute('
+function f() {
+var names = db.getCollectionNames();
+for(var i = 0; i <names.length; i++){
+if(names[i].indexOf("mr.") == 0){
+db[names[i]].drop();
+}
+}
+}
+');
+//Getting BU Details
+$collection = $db->Consumer;
+$cursor = $collection->find( array( 'BU' =>intval($_POST['BU']) ) )->limit(1);
+//Defining Map and Reduce functions
+$mapBU = new MongoCode(
+"function(){
+var Output = {
+BU: this.BU,
+Consumer_Number: this.CONSUMER_NUMBER,
+Bills : [],
+BillIndex : [],
+BillMonth : []
+}
+if(this.BU==" . intval($_POST['BU']) ."  ){
+emit(this.CONSUMER_NUMBER, Output);
+}
+}"
+);
+$mapBills = new MongoCode(
+"function(){
+var Output = {
+BU: -1,
+Consumer_Number: this.CONSUMER_NUMBER,
+Bills : [this.BILL_UNITS],
+BillIndex : [ (this.BILL_MTH %100)%12 ],
+BillMonth : [this.BILL_MTH]
+}
+if(this.BILL_MTH> 0){
+emit(this.CONSUMER_NUMBER, Output);
+}
+}"
+);
+$Reduce = new MongoCode(
+"function(key, Values){
+var Result = {
+BU: -1,
+Consumer_Number: 0,
+Bills : [],
+BillIndex : [],
+BillMonth : []
+}
+Values.forEach(function(V){
+Result.Consumer_Number = V.Consumer_Number;
+if( V.BU !== -1 ){ Result.BU = V.BU; }
+V.Bills.forEach(function(Bill){ Result.Bills.push( Bill ); } );
+V.BillIndex.forEach(function(Bill){ Result.BillIndex.push( Bill ); } );
+V.BillMonth.forEach(function(BillM){ Result.BillMonth.push( BillM ); } );
+});
+return Result;
+}"
+);
+
+$mapBill = new MongoCode(
+"function(){
+var Output = {
+BU :this.value.BU,
+Bills : [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+BillMonth : [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+}
+for(varcnt=0; cnt<this.value.BillIndex.length; cnt++){
+if(this.value.BillMonth[cnt] > 1406){
+Output.Bills[ ( this.value.BillIndex[cnt] +5)%12 ] = this.value.Bills[cnt];
+Output.BillMonth[ ( this.value.BillIndex[cnt] +5)%12] =
+this.value.BillMonth[cnt];
+}
+}
+emit(this.value.BU, Output )
+}"
+);
+
+$ReduceBills = new MongoCode(
+"function(key, Values){
+var Result = {
+BU: -1,
+Bills : [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+BillMonth : [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+}
+Values.forEach(function(V){
+if( V.BU !== -1 ){ Result.BU = V.BU; }
+varcnt=0;
+V.Bills.forEach(function(Bill){ 
+Result.Bills[cnt] += Bill ;
+if(V.BillMonth[cnt] > 0){ 
+Result.BillMonth[cnt] = V.BillMonth[cnt];
+}
+cnt++;
+} );
+});
+return Result;
+}"
+);
+
+$ResBU = $db->command(
+array(
+"mapreduce" => "Consumer",
+"map" => $mapBU,
+"reduce" => $Reduce,
+"out" => "BUConsume_Temp"
+)
+);
+
+$ResBill = $db->command(
+array(
+"mapreduce" => "Bills",
+"map" => $mapBills,
+"reduce" => $Reduce,
+"out" => array("reduce" => "BUConsume_Temp")
+)
+);
+
+$ResBill = $db->command(
+array(
+"mapreduce" => "BUConsume_Temp",
+"map" => $mapBill,
+"reduce" => $ReduceBills,
+"out" => "BUConsume_Monthly_Temp"
+)
+);
+
+//Selecting required BU
+$cursor5 = $db->selectCollection("BUConsume_Monthly_Temp")->findOne( 
+array('_id' =>intval($_POST['BU'])) );
+//Storing Month Names into array
+$Month = array("","JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT",
+"NOV","DEC");
+//Converting integral month into Month Name for display
+$BMonth=array();//JAN 15
+$Year = ""; // 15
+foreach ($cursor5['value']['BillMonth'] as $document) 
+{
+$mth = fmod(intval($document), 100); 
+$Year = floor(intval($document)/100);
+array_push($BMonth,($Month[$mth] . " " . $Year));
+}
+?>
+<script>
+//Storing Line graph data of Month VS Consumption
+varLineData = {
+labels : [
+<?php
+for($cnt=11; $cnt>= 0; $cnt--)
+echo  "\"" . $BMonth[$cnt] . "\" , ";
+?>
+],
+datasets : [
+{
+fillColor : "rgba(151,187,205,0.5)",
+strokeColor : "rgba(151,187,205,0.8)",
+highlightFill : "rgba(151,187,205,0.75)",
+highlightStroke : "rgba(151,187,205,1)",
+data : [
+<?php
+for($cnt=11; $cnt>= 0; $cnt--)
+echo  "\"" . $cursor5['value']['Bills'][$cnt] . "\" , ";
+?>
+]
+}
+]
+
+};
+
+window.onload = function(){
+//Drawing X-axis and Y-axis Labels of Graph
+var canvas = document.getElementById("Pattern1");
+drawCTX(canvas, "Month", "Consumption(in kW)");
+varctx = document.getElementById("LineGraph").getContext("2d");
+myLine = new Chart(ctx).Line(LineData, {
+responsive : false,
+customTooltips : function(tooltip) {CustomTooltip(tooltip);}
+});
+functionCustomTooltip(tooltip){
+// Tooltip Element
+vartooltipEl = $('#chartjs-tooltip');
+    // Hide if no tooltip
+if (!tooltip) {
+tooltipEl.css({opacity: 0});
+return;
+}
+varStr = tooltip.text.split(": ");
+varinnHTML = "Month : " + Str[0] + "<br>Consumption : " + Str[1] + " kW"; 
+tooltipEl.removeClass('above below');
+tooltipEl.addClass(tooltip.yAlign);
+        // Set Text
+tooltipEl.html(innHTML);
+        // Find Y Location on page
+var top;
+if (tooltip.yAlign == 'above')
+top = tooltip.y - tooltip.caretHeight - tooltip.caretPadding;
+else
+top = tooltip.y + tooltip.caretHeight + tooltip.caretPadding;
+        // Display, position, and set styles for font
+tooltipEl.css({
+opacity: 1,
+left: tooltip.chart.canvas.offsetLeft + tooltip.x + 'px',
+top: tooltip.chart.canvas.offsetTop + top + 'px',
+fontFamily: tooltip.fontFamily,
+fontSize: tooltip.fontSize,
+fontStyle: tooltip.fontStyle,
+});
+}
+}
+</script>
+<h2><u> Basic Information </u></h2>
+<table border=2>
+<?php
+foreach ($cursor as $document) 
+{
+echo "<tr><th> Division </th><td>" . $document['DIVISION'] . "</td></tr>";
+echo "<tr><th> Sub-Division </th><td>" . $document['SUBDIVISION'] . "</td></tr>";
+$cur = $db->Circle->findOne( array('CIRCLE_NO' => $document['CIRCLE'] ) ); 
+echo "<tr><th> Circle</th><td>" . $document['CIRCLE'] . " -  " . $cur['CIRCLE_NAME'] 
+. "</td></tr>";
+$cur = $db->BU->findOne( array('BU_NUMBER' => $document['BU'] ) ); 
+echo "<tr><th> BU </th><td>" . $document['BU'] . " -  " . $cur['BU_NAME'] . "</td>
+</tr>";
+break;
+}
+?>
+</table>
+<br><br>
+<div id="chartjs-tooltip"></div>
+<div class="graph" style="float:none;">
+<center><h1><u> Monthly Consumption </u></h1></center>
+<table border=2>
+<tr><th>Month</th><th>Consumption</th></tr>
+<?php
+for($cnt=11; $cnt>= 0; $cnt--)
+{
+echo  "<tr><th>" . $BMonth[$cnt] . " </th><td align=center> " . 
+$cursor5['value']['Bills'][$cnt] . "kW</td></tr>";
+}
+?>
+</table>
+<br><br>
+<div class="LGraph">
+<canvas class="Notation" id="Pattern1"   height="500" width="650" ></canvas>
+<canvas id="LineGraph" class="SGraph"  height="450" width="600"></canvas>
+</div>
+<br><br>
+</div>
+<br><br>
+<form name="ShowDetail" method="post" action="ShowBUDetail.php">
+<input type="hidden" name="BU" value=<?php echo $_POST['BU'];?>>
+<input type='submit' value='Back to details' class='Submit'>
+</form>
+<br><br>
+</div>
+<?php
+$db->selectCollection("BUConsume_Temp")->drop();
+$db->selectCollection("BUConsume_Monthly_Temp")->drop();
+?>
+<?php include 'footer.php'?>
+</body>
+</html>
+
+2.Source Code of Search Consumer Details:
+<html>
+<head>
+<title> Search Consumer Details </title>
+</head>
+<body>
+<?php include 'header.php'?>
+<script>
+functionShowDetail(str)
+{
+if(str=="")
+{
+document.getElementById("txtHint").innerHTML = "";
+return;
+}
+else
+{
+if (window.XMLHttpRequest) 
+{
+// code for IE7+, Firefox, Chrome, Opera, Safari
+xmlhttp = new XMLHttpRequest();
+}
+else
+{
+// code for IE6, IE5
+xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+}
+xmlhttp.onreadystatechange = function()
+{
+if (xmlhttp.readyState == 4 &&xmlhttp.status == 200) 
+{
+document.getElementById("txtHint").innerHTML = xmlhttp.responseText;
+}
+}
+xmlhttp.open("POST","ShowConsumerDetail.php",true);
+xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+xmlhttp.send("Consumer_Number="+str);
+}
+}
+</script>
+<div class='containts'>
+<center>
+<form method="get" action="ShowConsumerDetails.php">
+<h1>Searching Consumer Details</h1><br>
+<br>
+<br>
+<table>
+<tr>
+<th>Enter consumer Number </th>
+<td><input type="text" name="Consumer_Number" class="myForm-input" 
+placeholder="Consumer Number" onkeyup = "ShowDetail(this.value)"></td>
+</tr>
+</table>
+<br>
+<br>
+<div id="txtHint"><b></b></div>
+<br>
+<input type="submit" value="Get Details" class="Submit" style="width:250px">
+</form>
+</center>
+</div>
+<?php include 'footer.php'?>
+</body>
+
+3.Sorce Code of Log in:
+<!DocType HTML>
+<html>
+<head>
+<title>MahaVitran Officer Login </title>
+<link rel="shortcut icon" type="image/x-icon" href="Images/logo.ico" />
+<link href="CSS/Form.css" rel="stylesheet" type="text/css" />
+</head>
+<body bgcolor="#fff" background="">
+<center>
+<br><br>
+<imgsrc= "Images/dicomlogo.png" alt="MAHADISCOM LOGO" title="MAHADISCOM
+LOGO">
+<br><br>
+<div class="FormChild1" style=" width:30%; padding:auto ">
+<form action="LoginCheck.php" class="myForm" method="post">
+<br>
+<h1>Login</h1>
+<input type="text"     name="UserID" class="myForm-input" placeholder="Officer ID"
+required>
+<input type="password" name="Password" class="myForm-input" placeholder="Password"
+required>
+<input type="submit" value="Login" class="myForm-submit">
+<br>
+</form>
+</div>
+</center>
+</body>
+</html>
+
+4.Source Code of Authenticator:
+<?php
+functionCheckLogin()
+{
+Session_start();
+if(isset($_SESSION['UserName']))
+{
+if( (time() - $_SESSION['StartTime']) <= (15 * 60) ) //Session Kept for 15 minutes
+{
+$_SESSION['StartTime'] = time();
+return true;
+}
+else
+{
+Session_unset();
+Session_destroy();
+return false;
+}
+}
+return false;
+}
+
+function Authenticate()
+{
+if(CheckLogin() == false )
+{
+header('Location: Login.php');
+}
+}
+
+
+
+
+Chapter -13
+13. Testing
+
+10.1 Introduction:
+	The Testing phase forms an important part of the software development life cycle. Any software product has to be tested thoroughly before it is delivered to the end customer. Well tested software with limited features is certainly better than the one having many features with only a few of them working. This document provides a general overview of the testing strategy adopted for testing our product.
+10.2 Goals and Objectives:
+	The software testing involves verification and validation of the software produced. Testing is a process of executing of program with the intent of finding an error.	A good test is one where there is high probability of finding an error.	A successful test is one which uncovers and as yet undiscovered errors.Our objective of testing is systematically uncovering different classes of errors and to do so with minimum efforts and amount of time and effort. The data collected in the test provides a good indication of the software reliability and some indication of software quality as a whole. The results of testing will not only help to know which parts of system are working below average but also helps to make the system more user friendly. Testing is considered as an unavoidable part of any responsible effort to develop a software system.
+10.3 Test Plan:
+Testing Strategy
+	A good testing strategy is one using which a lot of errors can be easily found. The testing which is to be carried out is divided into number of modules for a proper judgment of the quality of the software. The testing strategy mainly carried out was Module Testing.
+	Test cases are plotted considering the above categories and correct functionality of various parts of code is ensured.
+Unit Testing
+	This involves testing of individual modules. Here we have tested Individual modules written for various operations.
+1. Module for Authenticate Login
+2. Module for Insert consumer details 
+3. Module for Disconnection wizard
+4. Module for Search consumer
+5. Module for Show personal details
+Integration Testing
+	The system as a whole is tested here. The system is said to be operating correctly if it passes these tests. After the different modules have been developed and tackled, all the modules are integrated and tested during the Integration testing.
+1.TEST CASE FOR FORM SUBMITION:
+Test Case Summary For inserting or updating consumer's information consumer name must be text value. Other attributes such as DTC code, route, and PC must be numeric value.Prerequisites1. User is authorized.
+2. Consumer number must be correct.Test Procedure1. Validate consumer number.
+2. Enter the value in the field.Test Data1. Enter consumer name, consumer type, address, meter phase should be text value.
+2. Enter division, sub-division, circle, BU, PC, route, pole should be numeric value.
+3. Enter meter number, installation number, meter digit, meter code, brand, status, tariff code, revenue category, duty code should be numeric value.Expected Result1. Consumer name, consumer type, address, meter phase should be text value.
+2. Division, sub-division, circle, BU, PC, route, pole should be numeric value.
+3. Meter number, installation number, meter digit, meter code, brand, status, tariff code, revenue category, duty code should be numeric value.Actual Result1. If the specified quantity is valid, the form will be submitted.
+2. If the specified quantity from above is invalid, then background color become red that means it shows errorand expected values not inserted.Status Form submitted if all test cases pass otherwise error occurs.
+2. TEST CASE FOR USER LOGIN:
+Test Case Summary For accessing this system user must be authenticate.Prerequisites1. User is authorized.
+2. Log in ID and Password must be valid.Test Procedure1. Enter the ID and Password.
+2. Validate ID and Password.Test Data1. Validate entered ID and Password.Expected Result1. Entered User ID and Password should be correct and authenticated.Actual Result1. Correct ID and PasswordStatusControl transfers to main page if ID and Password are validate and authenticate otherwise system restrict user to access system facilities
+
+
+
+
+
+
+
+
+Chapter -14
+14. Future Enhancement
+
+There will be large scope for future enhancement of this system. Now, we have to insert a data into database, In future if we get minute by minute or hour by hour data direct from meter then this system will be proven much more efficiently. There will be no need to waste time for insertion of data into the database.
+	In future if MSEDCL replace all meters by RF meter then it will prove so much efficient and convenient to fetch data from meter to our system servers using various automated drones and radio frequencies.We can improve our system to national scale so that various cities that are being developed across the nation can have these facilities reducing the funds wasted to gather this data are not wasted. Our schema is flexible that means our system can be modify easily according to requirements.
+	In short,in future if our system modify it automatically collect readings from meters then save it to the database to appropriate consumer, after storing data it calculate bills and give it as a result.This will save time and money of MSEDCL which is wasted over taking manual photo reading, collecting data, insertion of data into database and finally calculate bills.
+
+
+Chapter -15
+15. Conclusion
+
+      As, considering our system, we conclude that using our system we can maintain all the records and perform operations like Inserting of data, Updating our data, perform search operation, display all the require analysis with graphical representation. The system can be effectively used by MSEDCL.
+      When our system starts,it performs so many different types of tasks,analysis and operations accessing the database defined by the creator and can perform updating and deletion in the database easily and effectively reflect it. Our system fulfill all the requirements define by the MSEDCL and provide all the facility to maintain the available database
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Chapter -16
+16. Bibliography 
+
+> The Definitive Guide, 2nd Edition by Kristina Chodorow
+> PHP.net
+> Software Engineering by Roger Pressman.
+> W3 Schools.com
+> kituprajapati10.blogspot.in
+> Big Data and Analysis book
+> Oracle.com
+
+
+
+
+
+
+1
+
+
